@@ -14,7 +14,6 @@ import uk from "./locales/uk-UA"
 import ru from "./locales/ru-RU"
 import ko from "./locales/ko-KR"
 import zh from "./locales/zh-CN"
-import zhTw from "./locales/zh-TW"
 import vi from "./locales/vi-VN"
 import pt from "./locales/pt-BR"
 import hu from "./locales/hu-HU"
@@ -60,7 +59,6 @@ export const TRANSLATIONS = {
   "ru-RU": ru,
   "ko-KR": ko,
   "zh-CN": zh,
-  "zh-TW": zhTw,
   "vi-VN": vi,
   "pt-BR": pt,
   "hu-HU": hu,

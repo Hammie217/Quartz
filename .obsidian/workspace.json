@@ -1,0 +1,189 @@
+{
+  "main": {
+    "id": "00a70514ac81c437",
+    "type": "split",
+    "children": [
+      {
+        "id": "b5ad503894f1a446",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "db86cf7349bf8a86",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "700270592cea0a77",
+    "type": "split",
+    "children": [
+      {
+        "id": "c6a0c5dd95036a02",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "571f601ff42ee11f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "26b223e1629d3e56",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "283aa20707808e2c",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "db9c274b213bc78d",
+    "type": "split",
+    "children": [
+      {
+        "id": "d2953683ee77fbf6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7e5217424d50c366",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "260a35ef538bd47f",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "7eb25ca0510ffe40",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "613c81c248dbe18d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {},
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "571f601ff42ee11f",
+  "lastOpenFiles": [
+    "content/Notes/Pharma/pyrogens.md",
+    "content/Notes/Pharma/particle size.md",
+    "content/Notes/Pharma/Wet Bead Mill.md",
+    "content/Notes/Pharma/Vials.md",
+    "content/Notes/Pharma/Thawing.md",
+    "content/Notes/Pharma/Syringes.md",
+    "content/Notes/Pharma/Secondary Manufacturing.md",
+    "content/Notes/Pharma/Primary Manufacturing.md",
+    "content/Notes/Pharma/Power Pack.md",
+    "content/Notes/Pharma/Pooling.md",
+    "content/Notes/Pharma/Pharmaceutical Manufacture.md",
+    "content/Notes/Pharma/Passive Thaw.md",
+    "content/Notes/Pharma/Needle.md",
+    "content/Notes/Pharma/Milling.md",
+    "content/Notes/Pharma/Manufacturing.md",
+    "content/Notes/Pharma/Frozen chicken.md",
+    "content/Notes/Pharma/Formulation.md",
+    "content/Notes/Pharma/Forced Thaw.md",
+    "content/Notes/Pharma/Endotoxins.md",
+    "content/Notes/Pharma/Dispensing.md",
+    "content/Notes/Pharma/Depyrogenation Oven.md",
+    "content/Notes/Pharma/Cold chain.md",
+    "content/Notes/Pharma/Bulk Drug Substance.md",
+    "content/Notes/Pharma/Bulk Drug Product.md",
+    "content/Notes/Pharma/Buffer.md",
+    "content/Notes/Pharma/Body.md",
+    "content/Notes/Pharma",
+    "content/Notes",
+    "content"
+  ]
+}

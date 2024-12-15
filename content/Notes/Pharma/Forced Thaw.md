@@ -1,0 +1,1 @@
+Forced thawing is a controlled process for melting/[[Thawing]] [[Active Pharmaceutical Ingredient]], typically a bag of product is lightly clamped between two metal plates, these metal plates are lightly heated usually through a liquid acting as a heat exchanger for the product. This allows more control and reproducibility over the thawing of a product.

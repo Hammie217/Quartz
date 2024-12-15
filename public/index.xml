@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+    <channel>
+      <title>Hamish Sams</title>
+      <link>https://quartz.jzhao.xyz</link>
+      <description>Last 10 notes on Hamish Sams</description>
+      <generator>Quartz -- quartz.jzhao.xyz</generator>
+      <item>
+    <title>index</title>
+    <link>https://quartz.jzhao.xyz/</link>
+    <guid>https://quartz.jzhao.xyz/</guid>
+    <description>Welcome to my website, I’ve made many generations of my website over the last few years and it’s always been sentimental to me, if not useful, to retain my old site for all, usually me, ...</description>
+    <pubDate>Sat, 14 Dec 2024 23:17:27 GMT</pubDate>
+  </item><item>
+    <title>Assembly</title>
+    <link>https://quartz.jzhao.xyz/Notes/Pharma/Assembly</link>
+    <guid>https://quartz.jzhao.xyz/Notes/Pharma/Assembly</guid>
+    <description>Assembly is the process of assembling a device, for injectable devices this this is commonly Autoinjectors. Assembly can be a very complex process due to many complex parts that can have no visual indication of correct installation.</description>
+    <pubDate>Fri, 20 Sep 2024 17:19:10 GMT</pubDate>
+  </item><item>
+    <title>Autoinjectors</title>
+    <link>https://quartz.jzhao.xyz/Notes/Pharma/Autoinjectors</link>
+    <guid>https://quartz.jzhao.xyz/Notes/Pharma/Autoinjectors</guid>
+    <description>An autoinjector is a type of single use device used to deliver drugs to a patient. These devices are designed to be simple so that complex medicines that previously would require a healthcare professional to administer, such as Vials products, can be self administered saving time of both the healthcare team and patient.</description>
+    <pubDate>Fri, 20 Sep 2024 17:14:09 GMT</pubDate>
+  </item><item>
+    <title>Power Pack</title>
+    <link>https://quartz.jzhao.xyz/Notes/Pharma/Power-Pack</link>
+    <guid>https://quartz.jzhao.xyz/Notes/Pharma/Power-Pack</guid>
+    <description>A power pack is a term used to describe the force acting part of Autoinjectors these powerpacks are the active part that allows the medicine to be delieved, as such the reliability of ...</description>
+    <pubDate>Fri, 20 Sep 2024 17:11:53 GMT</pubDate>
+  </item><item>
+    <title>Needle</title>
+    <link>https://quartz.jzhao.xyz/Notes/Pharma/Needle</link>
+    <guid>https://quartz.jzhao.xyz/Notes/Pharma/Needle</guid>
+    <description>The needle of Syringes, is a hollow metal tube connected to the Body that is used to inject into the body. Before use a needle will have some level of Needle Shield to protect the needle from both sterility issues and physical damage.</description>
+    <pubDate>Thu, 19 Sep 2024 18:41:36 GMT</pubDate>
+  </item><item>
+    <title>Body</title>
+    <link>https://quartz.jzhao.xyz/Notes/Pharma/Body</link>
+    <guid>https://quartz.jzhao.xyz/Notes/Pharma/Body</guid>
+    <description>The body of Syringes, commonly know as the Barrel, is the glass section of a syringe that contains the liquid Bulk Drug Product and Stopper and also mounts into the Needle directly. ...</description>
+    <pubDate>Thu, 19 Sep 2024 18:37:55 GMT</pubDate>
+  </item><item>
+    <title>Syringes</title>
+    <link>https://quartz.jzhao.xyz/Notes/Pharma/Syringes</link>
+    <guid>https://quartz.jzhao.xyz/Notes/Pharma/Syringes</guid>
+    <description>Syringes are a dose form similar to Vials but with the needle attached directly for ease of use. Syringes are also commonly used in Autoinjectors. Syringes are almost always Sterile either directly filled under aseptic conditions or sterilised after filling throughTerminal Sterilisation.</description>
+    <pubDate>Thu, 19 Sep 2024 18:35:40 GMT</pubDate>
+  </item><item>
+    <title>Vials</title>
+    <link>https://quartz.jzhao.xyz/Notes/Pharma/Vials</link>
+    <guid>https://quartz.jzhao.xyz/Notes/Pharma/Vials</guid>
+    <description>Vials are a dose form commonly used for supply to healthcare professionals for delivery to the patient, vials are almost always Sterile either directly filled under aseptic conditions ...</description>
+    <pubDate>Thu, 19 Sep 2024 18:31:11 GMT</pubDate>
+  </item><item>
+    <title>Secondary Manufacturing</title>
+    <link>https://quartz.jzhao.xyz/Notes/Pharma/Secondary-Manufacturing</link>
+    <guid>https://quartz.jzhao.xyz/Notes/Pharma/Secondary-Manufacturing</guid>
+    <description>Secondary manufacturing, sometimes called Fill &amp; Finish in steriles, is the process of taking raw Active Pharmaceutical Ingredient or Bulk Drug Substance and transforming ...</description>
+    <pubDate>Thu, 19 Sep 2024 18:21:47 GMT</pubDate>
+  </item><item>
+    <title>Manufacturing</title>
+    <link>https://quartz.jzhao.xyz/Notes/Pharma/Manufacturing</link>
+    <guid>https://quartz.jzhao.xyz/Notes/Pharma/Manufacturing</guid>
+    <description>Manufacturing pharmaceutical products can change massively depending on the material properties of the Active Pharmaceutical Ingredient, some common manufacturing processes/Unit ...</description>
+    <pubDate>Thu, 19 Sep 2024 18:18:36 GMT</pubDate>
+  </item>
+    </channel>
+  </rss>

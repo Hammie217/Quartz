@@ -1,0 +1,1 @@
+A power pack is a term used to describe the force acting part of [[Autoinjectors]] these powerpacks are the active part that allows the medicine to be delieved, as such the reliability of these devices must be high and ensure the drug is delivered in the right way. 

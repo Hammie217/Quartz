@@ -38,7 +38,7 @@ export default ((opts?: Partial<TagContentOptions>) => {
         ? fileData.description
         : htmlToJsx(fileData.filePath!, tree)
     const cssClasses: string[] = fileData.frontmatter?.cssclasses ?? []
-    const classes = cssClasses.join(" ")
+    const classes = ["popover-hint", ...cssClasses].join(" ")
     if (tag === "/") {
       const tags = [
         ...new Set(
@@ -50,8 +50,8 @@ export default ((opts?: Partial<TagContentOptions>) => {
         tagItemMap.set(tag, allPagesWithTag(tag))
       }
       return (
-        <div class="popover-hint">
-          <article class={classes}>
+        <div class={classes}>
+          <article>
             <p>{content}</p>
           </article>
           <p>{i18n(cfg.locale).pages.tagContent.totalTags({ count: tags.length })}</p>

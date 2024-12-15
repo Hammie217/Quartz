@@ -1,0 +1,3 @@
+Secondary manufacturing, sometimes called Fill & Finish in steriles, is the process of taking raw [[Active Pharmaceutical Ingredient]] or [[Bulk Drug Substance]] and transforming this into its final form ready for sale. 
+For liquid products ([[Vials]], [[Syringes]], [[Dermatalogicals]] and [[Inhalations]]) this is typically: [[Manufacturing]] a [[Bulk Drug Product]],  [[Filling]] the product into its dose form such as [[Vials]] or [[Syringes]], [[Lyophilization]] if required, [[Assembly]] if required, then [[Packing]] the product. 
+For [[Oral Solid Dose]] products this is typically: [[Manufacturing]], [[Tablet Pressing]], [[Coating]], [[Packing]].

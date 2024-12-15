@@ -1,0 +1,195 @@
+{
+  "main": {
+    "id": "9c782fb3c38c1bb8",
+    "type": "split",
+    "children": [
+      {
+        "id": "9d79c45511677689",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8cc55196b290a798",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a2f3ed7639aeb8f7",
+    "type": "split",
+    "children": [
+      {
+        "id": "4bf3894c8c6993a2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f63d8c32f3441f68",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "95873de899702de3",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "d4b895945f813f30",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "1f553aa0879a5a1a",
+    "type": "split",
+    "children": [
+      {
+        "id": "f7550822f9f4fad3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f5f3a84d848422d0",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "index.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for index"
+            }
+          },
+          {
+            "id": "089cc7008824d66b",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "index.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from index"
+            }
+          },
+          {
+            "id": "68ce63247d2269e0",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "2bb96ac5c07ec3af",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "index.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of index"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "8cc55196b290a798",
+  "lastOpenFiles": [
+    "index.md",
+    "Notes/Pharma/Manufacturing.md",
+    "Reordings",
+    "Posts",
+    "Notes",
+    "Notes/Pharma/Body.md",
+    "Notes/Pharma/Active Pharmaceutical Ingredient.md",
+    "Notes/Pharma",
+    "Notes/Pharma/Assembly.md",
+    "Untitled.canvas",
+    "31 Front Street.m4a",
+    "Notes/Pharma/Secondary Manufacturing.md",
+    "Notes/Pharma/Autoinjectors.md",
+    "Notes/Pharma/Power Pack.md",
+    "Notes/Pharma/Syringes.md",
+    "Notes/Pharma/Needle.md",
+    "Notes/Pharma/Vials.md",
+    "Notes/Pharma/Milling.md",
+    "Notes/Pharma/Formulation.md",
+    "Notes/Pharma/Pooling.md",
+    "Notes/Pharma/Thawing.md",
+    "Notes/Pharma/Dispensing.md",
+    "Notes/Pharma/Pharmaceutical Manufacture.md",
+    "Notes/Pharma/Bulk Drug Product.md",
+    "Notes/Pharma/Buffer.md",
+    "Notes/Pharma/pyrogens.md",
+    "Notes/Pharma/Endotoxins.md",
+    "Notes/Pharma/Depyrogenation Oven.md",
+    "Notes/Pharma/Bulk Drug Substance.md",
+    "Notes/Pharma/Cold chain.md",
+    "Notes/Pharma/particle size.md"
+  ]
+}

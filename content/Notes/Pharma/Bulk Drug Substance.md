@@ -1,0 +1,1 @@
+BDS or Bulk Drug Substance is typically another name for [[Active Pharmaceutical Ingredient]], it is the drug product before it has been made up into [[Bulk Drug Substance]]. 

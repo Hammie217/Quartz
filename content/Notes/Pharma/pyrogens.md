@@ -1,0 +1,1 @@
+Pyrogens are fever causing substances, in most cases in pharmaceuticals these are [[Endotoxins]].

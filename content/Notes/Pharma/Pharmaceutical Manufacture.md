@@ -1,0 +1,1 @@
+Pharma manufacturing chain is usually split into to distinct sections. [[Primary Manufacturing]] and [[Secondary Manufacturing]].

@@ -1,0 +1,1 @@
+Endotoxins are sections of outer wall of [[Gram-Negative Bacteria]] which are [[pyrogens]]. Endotoxins are typically generated as part of [[Sterilisation]] where bacteria is broken down leaving the cell wall endotoxins behind. 

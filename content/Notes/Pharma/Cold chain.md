@@ -1,0 +1,1 @@
+Cold chain products are products where temperature plays a role in the stability of the product. As such the duration the products are out of a cold storage must be tracked as a [[Critical Process Parameter]]. This is commonly implemented as a manual check but in more digital factories entry and exit events are tracked through [[RFID]] or [[RTLS]] systems.

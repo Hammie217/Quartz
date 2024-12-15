@@ -114,14 +114,3 @@ afterBody: [
   }),
 ],
 ```
-
-#### Conditionally display comments
-
-Quartz can conditionally display the comment box based on a field `comments` in the frontmatter. By default, all pages will display comments, to disable it for a specific page, set `comments` to `false`.
-
-```
----
-title: Comments disabled here!
-comments: false
----
-```
