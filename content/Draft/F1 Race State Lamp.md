@@ -1,4 +1,15 @@
-Currently using [Wokwi](https://wokwi.com/projects/new/esp32) for development using the openF1 API: https://openf1.org/?shell#introduction
+#F1 
+
+Recently I found out that there is an open source API project on [Github]( https://openf1.org/?shell#introduction): and it instantly made me think of all the opportunities available to create F1 themed projects based on real F1 data. As part of the API it even allows reading this data in real time from the telemetry system, many people use this for analytics to see how cars and drivers compare but my mind instantly went elsewhere, what if I could mix my electronics, software and data analytics knowledge together to make physical hardware that reacts based on the race such as:
+- A desk monitor to track your favourite car or team during the race
+- An LED strip to show the car positions on track
+- An LED strip to show your favourite driver segment times (Red, Yellow, Green, Purple)
+- Among many other things
+
+Or the one I started working on: An F1 Lamp that changes based on the race state (Flags)
+
+To start testing if I could get this working without purchasing any hardware I found a very cool online tool [Wokwi](https://wokwi.com/projects/new/esp32) which allows you to 
+
 
 Wonder if I could work with someone like: https://www.etsy.com/uk/shop/DimensionalDesignsUK and sell an integrated light?
 
@@ -16,7 +27,7 @@ Wonder if I could work with someone like: https://www.etsy.com/uk/shop/Dimension
 //wifi details
 
 #define WIFI_SSID "Wokwi-GUEST"
-
+ 
 #define WIFI_PASSWORD ""
 
   
