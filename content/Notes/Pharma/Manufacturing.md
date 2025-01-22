@@ -7,4 +7,4 @@ Manufacturing pharmaceutical products can change massively depending on the mate
 - [[Milling]]
 - [[Granulation]]
 - [[Micronising]]
-- [[Fluidised Bed]]
+- [[Fluidised Bed]] Drying

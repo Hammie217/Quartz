@@ -14,58 +14,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Pharma/Active Pharmaceutical Ingredient.md",
+                "file": "Granulation.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Active Pharmaceutical Ingredient"
-            }
-          },
-          {
-            "id": "f9ea3c65403cc60e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notes/Pharma/Secondary Manufacturing.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Secondary Manufacturing"
-            }
-          },
-          {
-            "id": "51228c296ceb7506",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notes/Pharma/Manufacturing.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Manufacturing"
-            }
-          },
-          {
-            "id": "0849607b7c94b40b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Oral Solid Dose.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Oral Solid Dose"
+              "title": "Granulation"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       },
       {
         "id": "335e72e42766e001",
@@ -223,15 +180,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9a71acf544685aea",
+  "active": "8cc55196b290a798",
   "lastOpenFiles": [
-    "Oral Solid Dose.md",
-    "Notes/Pharma/Secondary Manufacturing.md",
-    "Notes/Pharma/Pharmaceutical Manufacture.md",
-    "Fluidised Bed.md",
+    "Dry Granulation.md",
+    "Granulation.md",
+    "Wet Granulation.md",
+    "Blending.md",
     "Notes/Pharma/Manufacturing.md",
-    "Tablet Pressing.md",
+    "Notes/Pharma/Formulation.md",
+    "Notes/Pharma/Secondary Manufacturing.md",
     "Notes/Pharma/Active Pharmaceutical Ingredient.md",
+    "Fluidised Bed.md",
+    "Notes/Pharma/Pooling.md",
+    "Oral Solid Dose.md",
+    "Notes/Pharma/Pharmaceutical Manufacture.md",
+    "Tablet Pressing.md",
     "index.md",
     "Posts/Lego F1 car.md",
     "Posts/F1 Strategy Analytics.md",
@@ -265,12 +228,6 @@
     "Notes/Pharma/Needle.md",
     "Notes/Pharma/Vials.md",
     "Notes/Pharma/Milling.md",
-    "Notes/Pharma/Formulation.md",
-    "Notes/Pharma/Pooling.md",
-    "Notes/Pharma/Thawing.md",
-    "Notes/Pharma/Dispensing.md",
-    "Notes/Pharma/Bulk Drug Product.md",
-    "Notes/Pharma/Buffer.md",
-    "Notes/Pharma/pyrogens.md"
+    "Notes/Pharma/Thawing.md"
   ]
 }
