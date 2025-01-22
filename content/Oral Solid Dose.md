@@ -1,0 +1,1 @@
+Oral Solid Dose is the process of creating tablets. OSD is created using either a wet or dry process that follow a fairly similar process, typically  [[Granulation]], [[Fluidised Bed]] drying(If wet), [[Blending]], [[Compression]], [[Coating]],[[Blister Packing]]

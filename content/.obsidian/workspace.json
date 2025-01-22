@@ -21,8 +21,51 @@
               "icon": "lucide-file",
               "title": "Active Pharmaceutical Ingredient"
             }
+          },
+          {
+            "id": "f9ea3c65403cc60e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notes/Pharma/Secondary Manufacturing.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Secondary Manufacturing"
+            }
+          },
+          {
+            "id": "51228c296ceb7506",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notes/Pharma/Manufacturing.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Manufacturing"
+            }
+          },
+          {
+            "id": "0849607b7c94b40b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Oral Solid Dose.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Oral Solid Dose"
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       },
       {
         "id": "335e72e42766e001",
@@ -180,11 +223,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8cc55196b290a798",
+  "active": "9a71acf544685aea",
   "lastOpenFiles": [
+    "Oral Solid Dose.md",
+    "Notes/Pharma/Secondary Manufacturing.md",
+    "Notes/Pharma/Pharmaceutical Manufacture.md",
+    "Fluidised Bed.md",
+    "Notes/Pharma/Manufacturing.md",
+    "Tablet Pressing.md",
+    "Notes/Pharma/Active Pharmaceutical Ingredient.md",
     "index.md",
     "Posts/Lego F1 car.md",
-    "Notes/Pharma/Active Pharmaceutical Ingredient.md",
     "Posts/F1 Strategy Analytics.md",
     "Draft/F1 Race State Lamp.md",
     "Posts/Assets/Pasted image 20241217215746.png",
@@ -202,7 +251,6 @@
     "Posts",
     "Recordings",
     "Posts",
-    "Notes/Pharma/Manufacturing.md",
     "Reordings",
     "Posts",
     "Notes",
@@ -211,7 +259,6 @@
     "Notes/Pharma/Assembly.md",
     "Untitled.canvas",
     "31 Front Street.m4a",
-    "Notes/Pharma/Secondary Manufacturing.md",
     "Notes/Pharma/Autoinjectors.md",
     "Notes/Pharma/Power Pack.md",
     "Notes/Pharma/Syringes.md",
@@ -222,11 +269,8 @@
     "Notes/Pharma/Pooling.md",
     "Notes/Pharma/Thawing.md",
     "Notes/Pharma/Dispensing.md",
-    "Notes/Pharma/Pharmaceutical Manufacture.md",
     "Notes/Pharma/Bulk Drug Product.md",
     "Notes/Pharma/Buffer.md",
-    "Notes/Pharma/pyrogens.md",
-    "Notes/Pharma/Endotoxins.md",
-    "Notes/Pharma/Depyrogenation Oven.md"
+    "Notes/Pharma/pyrogens.md"
   ]
 }
