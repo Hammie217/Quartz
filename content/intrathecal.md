@@ -1,0 +1,1 @@
+Intrathecal is a delivery method of a drug straight into the spinal canal. As such [[aseptic]] and [[Depyrogenation]] is of increased importance.

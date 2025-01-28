@@ -1,0 +1,3 @@
+Moist heat sterilisation (Or steam sterilisation), is the process of using [[Dry steam]] in [[Sterilisation]].
+The condensation of steam into water releases a large amount of energy at the contact point (usually walls of a pipe) causing [[Sterilisation]] . This water vapour then acts as a barrier to further condensation on the system surfaces, as such [[Steam Traps]] are used to drain water but leave steam in the system.
+Although moist heat sterilisation does help with [[Depyrogenation]], due to the presence of moisture it does not excel and is not commonly classed as a [[Depyrogenation]] process.

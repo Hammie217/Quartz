@@ -1,0 +1,1 @@
+A puck loader is a piece of equipment that loads parts into a [[Puck]]. 

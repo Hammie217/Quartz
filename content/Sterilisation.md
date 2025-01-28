@@ -1,0 +1,2 @@
+Sterilisation is the process of removing viable microorganisms, it s key to note sterilisation does not intrinsically mean [[pyrogen free]].
+Sterilisation is commonly completed through an [[Autoclave]] or [[Sterilisation In Place]].

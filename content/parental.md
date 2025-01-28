@@ -1,0 +1,1 @@
+Parental drug delivery is the process of delivering a drug through other means than the typical digestive tract. Aka [[Vials]], [[Syringes]] that are injected into the bloodstream.

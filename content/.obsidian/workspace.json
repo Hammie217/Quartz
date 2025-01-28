@@ -4,33 +4,31 @@
     "type": "split",
     "children": [
       {
-        "id": "9d79c45511677689",
+        "id": "739b53499d3db5f4",
         "type": "tabs",
-        "dimension": 69.7653429602888,
         "children": [
           {
-            "id": "8cc55196b290a798",
+            "id": "c6b8de0da234744e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Granulation.md",
+                "file": "Packing.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Granulation"
+              "title": "Packing"
             }
           }
         ]
       },
       {
-        "id": "335e72e42766e001",
+        "id": "ba39b08c2fb1fbb0",
         "type": "tabs",
-        "dimension": 30.234657039711195,
         "children": [
           {
-            "id": "9a71acf544685aea",
+            "id": "7c54696972b89d31",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -180,25 +178,35 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8cc55196b290a798",
+  "active": "c6b8de0da234744e",
   "lastOpenFiles": [
-    "Dry Granulation.md",
-    "Granulation.md",
-    "Wet Granulation.md",
-    "Blending.md",
-    "Notes/Pharma/Manufacturing.md",
-    "Notes/Pharma/Formulation.md",
+    "Labeller.md",
+    "Serialisation.md",
+    "Packing.md",
+    "Optical Character Verification.md",
+    "Tamper Evident Label.md",
+    "Notes/Pharma/Syringes.md",
+    "Notes/Pharma/Vials.md",
+    "Puck Loader.md",
+    "Puck.md",
+    "Tray Unloader.md",
     "Notes/Pharma/Secondary Manufacturing.md",
-    "Notes/Pharma/Active Pharmaceutical Ingredient.md",
-    "Fluidised Bed.md",
-    "Notes/Pharma/Pooling.md",
-    "Oral Solid Dose.md",
-    "Notes/Pharma/Pharmaceutical Manufacture.md",
-    "Tablet Pressing.md",
-    "index.md",
-    "Posts/Lego F1 car.md",
-    "Posts/F1 Strategy Analytics.md",
-    "Draft/F1 Race State Lamp.md",
+    "Sterilisation.md",
+    "Sterilisation In Place.md",
+    "Moist heat sterilisation.md",
+    "Depyrogenation.md",
+    "Dry Heat.md",
+    "Notes/Pharma/Frozen chicken.md",
+    "Notes/Pharma/Passive Thaw.md",
+    "intrathecal.md",
+    "pyrogen free.md",
+    "Notes/Pharma/Endotoxins.md",
+    "lethality.md",
+    "F0 Value.md",
+    "worst case.md",
+    "Clean In Place.md",
+    "drainable.md",
+    "Website Drawings-2.jpg",
     "Posts/Assets/Pasted image 20241217215746.png",
     "Posts/Assets/IMG_3622.jpg",
     "Posts/Assets/newplot.png",
@@ -209,7 +217,6 @@
     "Posts/Assets/newplot (2).png",
     "Posts/Assets/newplot (1).png",
     "Posts/Assets/IMG_3630.jpg",
-    "Posts/Assets/IMG_3629.jpg",
     "Draft",
     "Posts",
     "Recordings",
@@ -217,17 +224,8 @@
     "Reordings",
     "Posts",
     "Notes",
-    "Notes/Pharma/Body.md",
     "Notes/Pharma",
-    "Notes/Pharma/Assembly.md",
     "Untitled.canvas",
-    "31 Front Street.m4a",
-    "Notes/Pharma/Autoinjectors.md",
-    "Notes/Pharma/Power Pack.md",
-    "Notes/Pharma/Syringes.md",
-    "Notes/Pharma/Needle.md",
-    "Notes/Pharma/Vials.md",
-    "Notes/Pharma/Milling.md",
-    "Notes/Pharma/Thawing.md"
+    "31 Front Street.m4a"
   ]
 }

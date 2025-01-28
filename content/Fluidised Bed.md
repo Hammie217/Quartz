@@ -1,2 +1,0 @@
-A Fluidised bed is a piece of equipment that makes use of fluidisation to perform some process on particulates. Most commonly a fluid bed dryer which is used in [[Oral Solid Dose]] [[Manufacturing]] to dry wet granules. 
-Fluidised bed technology can also be used in [[Pharmaceutical Manufacture]] using [[Water For Injection]] or [[Purified Water]] as a fluidisation medium to act as a [[Clean In Place]] process for [[Beads]], the same fluidisation process can be used with dry heat to dry the medium before[[Terminal Sterilisation]].

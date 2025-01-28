@@ -1,0 +1,2 @@
+A monograph in a pharmaceutical setting is a document that set the requirements/expectations for certain key components such as [[Water For Injection]] and [[Purified Water]].
+Monographs ensure everyone is speaking the same language and there is no ambiguity around suitability as long as monograph requirements are met.

@@ -1,0 +1,3 @@
+Sterilisation in place (most commonly called SIP) is the process of automated [[Sterilisation]] whilst a system is in place.
+SIP almost always functions through [[Moist heat sterilisation]], as such it is key to ensure [[Steam Traps]] are in place at all [[drainable]] points. 
+SIP requires a certain temperature to be reached throughout the system for a certain time to reach a [[lethality]], to ensure the whole system is up to temperature a [[worst case]] reading is taken.
