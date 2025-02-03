@@ -6,7 +6,7 @@ aliases:
 date: "2025-02-03"
 description: Hamish's website
 modified: 2025-02-3 21:56:05 GMT
-title: Aaron's notes
+title: Hamish's notes
 ---
 
 
