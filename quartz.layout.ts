@@ -6,7 +6,21 @@ import { SimpleSlug } from "./quartz/util/path"
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
-  afterBody: [],
+  afterBody: [
+    Component.Comments({
+      provider: 'giscus',
+      options: {
+        // from data-repo
+        repo: 'Hammie217/Quartz',
+        // from data-repo-id
+        repoId: 'R_kgDONeCq0Q',
+        // from data-category
+        category: 'Announcements',
+        // from data-category-id
+        categoryId: 'DIC_kwDONeCq0c4Cmn9J',
+      }
+    }),
+  ],
   footer: Component.Footer({
     links: {
       LinkedIn: "https://www.linkedin.com/in/hamish-sams-2ba767153/",
