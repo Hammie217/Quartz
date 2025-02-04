@@ -1,3 +1,3 @@
 Hello everyone, this section of my website is dedicated to my "Second Brain" style website that can hopefully be used as a lookup for all to use and learn as much as you like about any topics I know about.
 
-At the moment I'm focusing on my experience in the [Pharmaceutical](/Pharma/) Industry. If you'd like to start reading it might be good to start at [[Secondary Manufacturing]] but the benefit of this approach is you can start or end anywhere.
+At the moment I'm focusing on my experience in the [Pharmaceutical](/Notes/Pharma/) Industry. If you'd like to start reading it might be good to start at [[Secondary Manufacturing]] but the benefit of this approach is you can start or end anywhere.

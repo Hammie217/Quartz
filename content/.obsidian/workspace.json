@@ -45,10 +45,14 @@
             "id": "7c54696972b89d31",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Notes/Notes.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Notes"
             }
           }
         ]
@@ -194,10 +198,12 @@
   },
   "active": "c6b8de0da234744e",
   "lastOpenFiles": [
-    "Recordings/Recordings.md",
+    "Posts.md",
     "_index.md",
-    "Recordings",
     "Notes/Notes.md",
+    "Pharma.md",
+    "Recordings/Recordings.md",
+    "Recordings",
     "Notes/Pharma/Active Pharmaceutical Ingredient.md",
     "index.md",
     "Notes/Pharma/Blowdown.md",
@@ -220,8 +226,6 @@
     "Notes/Pharma/Dry Heat.md",
     "Notes/Pharma/Frozen chicken.md",
     "Notes/Pharma/Passive Thaw.md",
-    "Notes/Pharma/intrathecal.md",
-    "Notes/Pharma/pyrogen free.md",
     "Posts/Assets/Pasted image 20241217215746.png",
     "Posts/Assets/IMG_3622.jpg",
     "Posts/Assets/newplot.png",
