@@ -13,12 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Pharma/Active Pharmaceutical Ingredient.md",
+                "file": "_index.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "_index"
+            }
+          },
+          {
+            "id": "d7809fde3c1efe96",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notes/Notes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Active Pharmaceutical Ingredient"
+              "title": "Notes"
             }
           }
         ]
@@ -180,9 +194,12 @@
   },
   "active": "c6b8de0da234744e",
   "lastOpenFiles": [
-    "index.md",
+    "Recordings/Recordings.md",
     "_index.md",
+    "Recordings",
+    "Notes/Notes.md",
     "Notes/Pharma/Active Pharmaceutical Ingredient.md",
+    "index.md",
     "Notes/Pharma/Blowdown.md",
     "Notes/Pharma/Website Drawings-2.jpg",
     "Notes/Pharma/Packing.md",
@@ -205,8 +222,6 @@
     "Notes/Pharma/Passive Thaw.md",
     "Notes/Pharma/intrathecal.md",
     "Notes/Pharma/pyrogen free.md",
-    "Notes/Pharma/Endotoxins.md",
-    "Notes/Pharma/lethality.md",
     "Posts/Assets/Pasted image 20241217215746.png",
     "Posts/Assets/IMG_3622.jpg",
     "Posts/Assets/newplot.png",
@@ -225,7 +240,6 @@
     "Posts",
     "Notes",
     "Notes/Pharma",
-    "Untitled.canvas",
-    "31 Front Street.m4a"
+    "Untitled.canvas"
   ]
 }

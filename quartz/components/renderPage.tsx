@@ -58,6 +58,7 @@ export function pageResources(
   }
 }
 
+
 export function renderPage(
   cfg: GlobalConfiguration,
   slug: FullSlug,
