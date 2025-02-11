@@ -1,0 +1,1 @@
+Kube Scheduler is the default scheduler component of [[Kubernetes]] [[Control Plane]] that monitors load on the [[Pods]] and selects which node they should run on.

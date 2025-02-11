@@ -4,40 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "739b53499d3db5f4",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "c6b8de0da234744e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_index.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "_index"
-            }
-          },
-          {
-            "id": "d7809fde3c1efe96",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notes/Notes.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Notes"
-            }
-          }
-        ]
-      },
-      {
         "id": "ba39b08c2fb1fbb0",
         "type": "tabs",
         "children": [
@@ -47,12 +13,42 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Notes.md",
+                "file": "Posts/Kubernetes Case Study.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Notes"
+              "title": "Kubernetes Case Study"
+            }
+          },
+          {
+            "id": "6366b5a28eebe5b4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notes/Digital/Containerisation/Control Plane.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Control Plane"
+            }
+          }
+        ]
+      },
+      {
+        "id": "d0b8679612e65445",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fbcdf52696c0b2bc",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -127,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Posts/F1 Race State Lamp.md",
+                "file": "Posts/Kubernetes Case Study.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +133,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for F1 Race State Lamp"
+              "title": "Backlinks for Kubernetes Case Study"
             }
           },
           {
@@ -196,54 +192,54 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c6b8de0da234744e",
+  "active": "f63d8c32f3441f68",
   "lastOpenFiles": [
-    "Posts.md",
-    "_index.md",
-    "Notes/Notes.md",
-    "Pharma.md",
-    "Recordings/Recordings.md",
-    "Recordings",
-    "Notes/Pharma/Active Pharmaceutical Ingredient.md",
-    "index.md",
-    "Notes/Pharma/Blowdown.md",
-    "Notes/Pharma/Website Drawings-2.jpg",
-    "Notes/Pharma/Packing.md",
-    "Notes/Pharma/Labeller.md",
-    "Notes/Pharma/Serialisation.md",
-    "Notes/Pharma/Optical Character Verification.md",
-    "Notes/Pharma/Tamper Evident Label.md",
-    "Notes/Pharma/Syringes.md",
-    "Notes/Pharma/Vials.md",
-    "Notes/Pharma/Puck Loader.md",
-    "Notes/Pharma/Puck.md",
-    "Notes/Pharma/Tray Unloader.md",
+    "Notes/Digital/Containerisation/Autoscaling.md",
+    "Posts/Kubernetes Case Study.md",
+    "Notes/Digital/Containerisation/etcd.md",
+    "Notes/Digital/Containerisation/kubeadm.md",
+    "Notes/Digital/Containerisation/Ephemeral.md",
+    "Notes/Digital/Containerisation/Stateful Set.md",
+    "Notes/Digital/Containerisation/Persistent Volume Claim.md",
+    "Notes/Digital/Containerisation/Pods.md",
+    "Notes/Digital/Containerisation/Veritcal Pod Autoscaling.md",
+    "Notes/Digital/Containerisation/Horizontal Pod Autoscaling.md",
+    "Notes/Digital/Containerisation/kube-controller-manager.md",
+    "Notes/Digital/Containerisation/kube-scheduler.md",
+    "Notes/Digital/Containerisation/kube-apiserver.md",
+    "Notes/Digital/Containerisation/Nodes.md",
+    "Notes/Digital/Containerisation/kubelet.md",
+    "Notes/Digital/Containerisation/kube-proxy.md",
+    "Notes/Digital/Containerisation/Control Plane.md",
     "Notes/Pharma/Secondary Manufacturing.md",
-    "Notes/Pharma/Sterilisation.md",
-    "Notes/Pharma/Sterilisation In Place.md",
-    "Notes/Pharma/Moist heat sterilisation.md",
-    "Notes/Pharma/Depyrogenation.md",
-    "Notes/Pharma/Dry Heat.md",
-    "Notes/Pharma/Frozen chicken.md",
-    "Notes/Pharma/Passive Thaw.md",
+    "Notes/Pharma/Coating.md",
+    "Draft/F1 Race State Lamp.md",
+    "Notes/Notes.md",
+    "Notes/Digital/CICD.md",
+    "Draft/CICD in Pharmaceutical Environment.md",
+    "CI/CD.md",
+    "CI",
+    "Notes/Digital/Containerisation/Website Drawings-6.jpg",
+    "Notes/Digital/Containerisation/Website Drawings-5 2.jpg",
+    "Notes/Digital/Containerisation/Website Drawings-4.jpg",
+    "Notes/Digital/Containerisation/Website Drawings-5.jpg",
+    "Notes/Digital/Containerisation/Proxy.md",
+    "Notes/Digital/Containerisation/Kubernetes services.md",
+    "Notes/Pharma/Website Drawings-3 1.jpg",
+    "Notes/Digital/Containerisation",
+    "Notes/Digital",
+    "Notes/Pharma/Website Drawings-3.jpg",
+    "Recordings",
+    "Notes/Pharma/Website Drawings-2.jpg",
     "Posts/Assets/Pasted image 20241217215746.png",
     "Posts/Assets/IMG_3622.jpg",
     "Posts/Assets/newplot.png",
-    "Posts/Assets/IMG_3628.jpg",
     "Posts/Assets",
-    "Posts/Assets/newplot (5).png",
-    "Posts/Assets/newplot (3).png",
-    "Posts/Assets/newplot (2).png",
-    "Posts/Assets/newplot (1).png",
-    "Posts/Assets/IMG_3630.jpg",
     "Draft",
     "Posts",
     "Recordings",
     "Posts",
     "Reordings",
-    "Posts",
-    "Notes",
-    "Notes/Pharma",
     "Untitled.canvas"
   ]
 }

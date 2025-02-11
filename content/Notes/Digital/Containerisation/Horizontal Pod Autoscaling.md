@@ -1,0 +1,1 @@
+HPA is the process of spinning up new pods as required to meet demand in [[Kubernetes]] for [[Autoscaling]].

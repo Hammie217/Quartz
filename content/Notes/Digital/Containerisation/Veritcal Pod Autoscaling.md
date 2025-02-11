@@ -1,0 +1,1 @@
+VPA is the process of updating resources aligned to [[Pods]] automatically based on load in [[Kubernetes]] for [[Autoscaling]].

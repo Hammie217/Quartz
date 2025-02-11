@@ -1,0 +1,1 @@
+A stateful set in [[Kubernetes]] ensures that when pods are spun up/down they are unique by applying an identifier to their names. Each time one of these [[Pods]] is created it links to its identifier and can be linked to a [[Persistent Volume Claim]] where its data resides whether the pod is running or not.

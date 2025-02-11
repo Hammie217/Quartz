@@ -1,0 +1,1 @@
+Friability is the tedancy of a substance to break into smaller pieces. Friability is a key property of [[Oral Solid Dose]] drugs especially when going through a [[Coating]] process to prevent formed drugs breaking off pieces (typically small chips)

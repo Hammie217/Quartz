@@ -1,0 +1,1 @@
+A container runtime is a piece of software that allows for the creation and running of [[Container]] based on [[Container Image]].

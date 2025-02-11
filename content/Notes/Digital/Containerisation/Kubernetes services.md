@@ -1,0 +1,3 @@
+Kubernetes services (or just called services in the kubernetes world) are an abstraction to allow exposing static endpoints for consumption whilst [[Pods]] in kubernetes are constantly changing.
+
+For example a pod might be hosting a database at 1.2.3.4:1000 today and at 4.3.2.1:1000 tomorrow, services allow you to specify an endpoint myservice:80 that the kubernetes [[Proxy]] can then re-direct to the appropriate [[Pods]].

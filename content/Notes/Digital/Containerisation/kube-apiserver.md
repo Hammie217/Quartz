@@ -1,0 +1,1 @@
+Kube-apiserver is the default [[Application Programming Interface]] used in the [[Kubernetes]] [[Control Plane]] to manage all interactions.

@@ -1,0 +1,1 @@
+Continuous Integration and Continuous Deployment is the process of automating the compilation, testing and deployment of code into a production system. 

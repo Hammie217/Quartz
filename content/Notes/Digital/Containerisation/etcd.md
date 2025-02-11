@@ -1,0 +1,1 @@
+etcd is a [[High Availability]] key-value store used by [[Kubernetes]] for storing information and configuration.
