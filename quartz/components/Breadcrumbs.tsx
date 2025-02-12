@@ -86,7 +86,7 @@ export default ((opts?: Partial<BreadcrumbOptions>) => {
       const isTagPath = slugParts[0] === "tags"
 
       // full path until current part
-      let currentPath = ""
+      let currentPath = "Quartz/"
 
       for (let i = 0; i < slugParts.length - 1; i++) {
         let curPathSegment = slugParts[i]
