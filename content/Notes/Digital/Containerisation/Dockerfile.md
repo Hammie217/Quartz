@@ -1,0 +1,1 @@
+A dockerfile is a file that describes how to make a [[Docker]] [[Container Image]]. 

@@ -1,0 +1,1 @@
+A Manifest file in [[Kubernetes]] is a descriptor file that defines the kubernetes objects to be created and how they should be managed by kubernetes.

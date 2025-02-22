@@ -1,0 +1,1 @@
+A stack is a dedicated section of [[LIFO]] memory. Stacks are very common in programming as a method used to implement things like Undo functionality (remember order of actions and undo latest first) or recursive functions where each function must remember where it must return to.

@@ -1,0 +1,1 @@
+Message Queuing Telemetry Transport is a protocol implementation of [[PubSub]] with low overheads it is commonly implemented in IoT applications in conjunction with a [[Message Broker]] to distribute readings.

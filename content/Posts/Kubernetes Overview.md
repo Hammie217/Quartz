@@ -1,5 +1,5 @@
 #### What is it
-Kubernetes (k8s) is a system for container orchestration. Kubernetes is not a [[Container Runtime]] such as [[Docker]]. Kubernetes sits above and manages those containers.
+[[Kubernetes]] (k8s) is a system for container orchestration. Kubernetes is not a [[Container Runtime]] such as [[Docker]]. Kubernetes sits above and manages those containers.
 
 
 #### Why is it useful
@@ -87,6 +87,14 @@ A [[High Availability]] etcd can be run in two different modes:
 2. External - etcd runs on separate nodes
 
 There are lots of reasons to pick either but the core difference is stacked requires less control nodes but has less redundancy in case of failure.
+
+######  Other elements
+As you may have realised by reading about the [[Control Plane]] and [[Nodes]] sections, there is a requirement to define your workloads running on your cluster. There are a few ways [[Kubernetes]] and [[Docker]] require you to do this.
+
+1. To create a [[Container]] you need a [[Container Image]] which is the executable package run on the [[Container Runtime]]. [[Container Image]]s are most commonly created using a [[Dockerfile]] that describes how the image is built.
+2. Once you have a [[Container Image]] to run, you then need to describe to [[Kubernetes]] how this is to be managed typically through a YAML [[Manifest]] file. There is a system commonly deployed alongside [[Kubernetes]] to help manage these [[Manifest]] files called [[Helm]] which allows you to create, store and manage [[Helmcharts]].
+
+Different cloud providers manage these in different ways, for example Azure has a Azure Container Registry (ACR) that manages both container images and [[Helmcharts]] and any [[Open Container Initiative]] Artifacts.
 
 
 #### What if my application is stateful
