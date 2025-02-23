@@ -27,7 +27,7 @@ A final thing to note that is not shown in the design above is that continually 
 
 One of the requirements for this system for this process are the ability to add and remove beads from the chamber. The added complexity for this is that addition must be possible in a sterile manner.
 
-![[Pasted image 20250222124303.png]]
+![[Pasted image 20250222124303.png |500]]
 
 Continuing on from the previous design, to add beads into the system we can use a separate sterile canister to drop beads into the chamber using the exisiting product loop piping. This requires either a bead sterilisation process adding onto the mill or more commonly a sterile to sterile connection (such as a split butterfly valve) to attach and drop pre-sterilised beads into the sterilised mill. To remove beads is a more complex operation requiring a low point in the chamber to remove beads through, a valve to open and close this is required, again this needs to have a very small dead leg. This valve opens to a separate canister filled with water that recirculates through the product loop to drain out the beads left in the system at the end of a batch.
 
