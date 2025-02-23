@@ -14,6 +14,8 @@ My current site architecture is to focus on three distinct areas:
 - [Recordings](/Recordings/Recordings.md) - (Hopefully) A set of videos explaining commonly asked topics in depth
 - [Posts](/Posts/) - A space for more in depth writing about individual projects, events, thoughts etc...
 
+![[Pasted image 20250223212004.png]]
+
 
 ### Welcome to my website! 
 For those that know me and have used my site previously know i've made many generations of my website. Usually I re-do my website every other year or so due to some new technology or flash design but this time I wanted to make a platform where I focus on the content and making something useful, so apologies to anyone expecting something new and flashy. 
