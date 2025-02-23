@@ -4,80 +4,43 @@
     "type": "split",
     "children": [
       {
-        "id": "ba39b08c2fb1fbb0",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "7c54696972b89d31",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Draft/Writing Ideas.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Writing Ideas"
-            }
-          },
-          {
-            "id": "f2973d51aa6507f9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Draft/My kubernetes architecture.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "My kubernetes architecture"
-            }
-          },
-          {
-            "id": "7b98f7c26e36089b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notes/Digital/AMQP.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "AMQP"
-            }
-          },
-          {
-            "id": "bce66e07cc3964fa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notes/Digital/Idempotent.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Idempotent"
-            }
-          }
-        ],
-        "currentTab": 3
-      },
-      {
         "id": "d0b8679612e65445",
         "type": "tabs",
+        "dimension": 38.22992700729927,
         "children": [
           {
             "id": "fbcdf52696c0b2bc",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Notes/Pharma/Aseptic.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Aseptic"
+            }
+          }
+        ]
+      },
+      {
+        "id": "7559d143fbcbb3ed",
+        "type": "tabs",
+        "dimension": 61.77007299270073,
+        "children": [
+          {
+            "id": "dbd8636ec62aadb6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notes/Pharma/Bander.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Bander"
             }
           }
         ]
@@ -152,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Digital/Idempotent.md",
+                "file": "Notes/Pharma/Bander.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -162,7 +125,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Idempotent"
+              "title": "Backlinks for Bander"
             }
           },
           {
@@ -223,17 +186,33 @@
   },
   "active": "f63d8c32f3441f68",
   "lastOpenFiles": [
-    "Notes/Digital/Idempotent.md",
-    "Notes/Digital/AMQP.md",
-    "Notes/Digital/MQTT.md",
+    "Notes/Pharma/Packing.md",
+    "Notes/Pharma/Casepacker.md",
+    "Notes/Pharma/Bander.md",
+    "Notes/Pharma/Aseptic.md",
+    "Notes/Pharma/Pallet Wrapper.md",
+    "Notes/Pharma/Pallet.md",
+    "Notes/Pharma/Pallet Stacker.md",
+    "Notes/Pharma/Palletiser.md",
+    "Notes/Pharma/Pallet Transfer.md",
+    "Notes/Pharma/Sterilisation.md",
+    "Notes/Pharma/Case.md",
+    "Notes/Pharma/Leaflet.md",
     "Draft/My kubernetes architecture.md",
-    "Draft/Containerised Tag Poller.md",
-    "Posts/Designing a Wet Bead Mill.md",
-    "Posts/Assets/Pasted image 20250222124230.png",
-    "Notes/Digital/FIFO.md",
-    "Notes/Digital/RabbitMQ.md",
     "Draft/Writing Ideas.md",
-    "Posts/Pharmaceutical Filling techniques.md",
+    "Notes/Pharma/Cartonner.md",
+    "Notes/Pharma/Carton.md",
+    "Notes/Pharma/Labeller.md",
+    "Notes/Pharma/Checkweigher.md",
+    "Notes/Pharma/Puck Loader.md",
+    "Notes/Pharma/Heat Sealer.md",
+    "Notes/Pharma/Puck Unloader.md",
+    "Notes/Pharma/worst case.md",
+    "Notes/Digital/AMQP.md",
+    "Notes/Digital/Idempotent.md",
+    "Notes/Digital/MQTT.md",
+    "Draft/Containerised Tag Poller.md",
+    "Posts/Assets/Pasted image 20250222124230.png",
     "Posts/Assets/Pasted image 20250222124717.png",
     "Posts/Assets/Pasted image 20250222124820.png",
     "Posts/Assets/Pasted image 20250222124808.png",
@@ -242,22 +221,6 @@
     "Posts/Assets/Pasted image 20250222124303.png",
     "Posts/Assets/Pasted image 20250222124255.png",
     "Posts/Assets/Pasted image 20250222124244.png",
-    "Notes/Digital/PubSub.md",
-    "Notes/Digital/Message Broker.md",
-    "Notes/Digital/Queue.md",
-    "Notes/Digital/LIFO.md",
-    "Notes/Digital/Stack.md",
-    "Posts/Kubernetes Overview.md",
-    "Notes/Digital/Containerisation/Kubernetes.md",
-    "Notes/Digital/Containerisation/Horizontal Pod Autoscaling.md",
-    "Notes/Digital/Open Container Initiative.md",
-    "Notes/Digital/Application Programming Interface.md",
-    "Notes/Digital/Containerisation/Helm.md",
-    "_index.md",
-    "Draft/F1 Race State Lamp.md",
-    "Notes/Digital/Containerisation/Helmcharts.md",
-    "Notes/Digital/Containerisation/Manifest.md",
-    "Notes/Digital/Containerisation/Dockerfile.md",
     "CI",
     "Notes/Digital/Containerisation/Website Drawings-6.jpg",
     "Notes/Digital/Containerisation",

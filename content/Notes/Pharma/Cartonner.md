@@ -1,0 +1,3 @@
+A cartonner is a piece of equipment designed to put a product into a [[Carton]] as you would purchase off the shelf at a pharmacy.
+Cartonners most commonly pack products into a [[Carton]] with a [[Leaflet]]. 
+As packaging processes are moving into the digital world a QR code on the carton with the same information is becoming more accepted, this allows manufacturers to reduce waste, reduce processing cost and allow patients access to a dynamic product information system.

@@ -1,2 +1,2 @@
-Water for Injection (WFI) is water that meets the requirements for [[Purified Water]] as well as being [[pyrogen free]]. Water For Injection must be used for [[aseptic]] products and [[Clean In Place]] for [[Product Contact]] parts.
+Water for Injection (WFI) is water that meets the requirements for [[Purified Water]] as well as being [[pyrogen free]]. Water For Injection must be used for [[Aseptic]] products and [[Clean In Place]] for [[Product Contact]] parts.
 It is a registered [[Monograph]], most prominently in the [[United States Pharmacopeia.

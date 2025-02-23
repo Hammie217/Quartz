@@ -1,0 +1,2 @@
+A Carton is simply a container for sale of a product on the market, carton artwork is strictly regulated to ensure information is present and clear to prevent consumer confusion.
+In an automated process Cartons are formed and packed using a [[Cartonner]].

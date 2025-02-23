@@ -1,0 +1,1 @@
+A Puck Unloader is a piece of equipment that completes the opposite operation of a [[Puck Loader]]. Typically made of a [[Robotic Arm]] to transport objects such as [[Autoinjectors]] out of [[Puck]]s into a downstream process such as a [[Heat Sealer]] or in a blister-free line straight to a [[Cartonner]].
