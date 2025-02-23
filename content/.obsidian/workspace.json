@@ -35,12 +35,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Pharma/Bander.md",
+                "file": "_index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Bander"
+              "title": "_index"
             }
           }
         ]
@@ -74,7 +74,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "intrat",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -115,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Pharma/Bander.md",
+                "file": "_index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Bander"
+              "title": "Backlinks for _index"
             }
           },
           {
@@ -184,11 +184,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f63d8c32f3441f68",
+  "active": "dbd8636ec62aadb6",
   "lastOpenFiles": [
+    "Notes/Notes.md",
+    "_index.md",
+    "Recordings/Recordings.md",
+    "Posts/Designing a Wet Bead Mill.md",
+    "Notes/Pharma/intrathecal.md",
+    "Notes/Pharma/Bander.md",
     "Notes/Pharma/Packing.md",
     "Notes/Pharma/Casepacker.md",
-    "Notes/Pharma/Bander.md",
     "Notes/Pharma/Aseptic.md",
     "Notes/Pharma/Pallet Wrapper.md",
     "Notes/Pharma/Pallet.md",
@@ -207,11 +212,6 @@
     "Notes/Pharma/Puck Loader.md",
     "Notes/Pharma/Heat Sealer.md",
     "Notes/Pharma/Puck Unloader.md",
-    "Notes/Pharma/worst case.md",
-    "Notes/Digital/AMQP.md",
-    "Notes/Digital/Idempotent.md",
-    "Notes/Digital/MQTT.md",
-    "Draft/Containerised Tag Poller.md",
     "Posts/Assets/Pasted image 20250222124230.png",
     "Posts/Assets/Pasted image 20250222124717.png",
     "Posts/Assets/Pasted image 20250222124820.png",
