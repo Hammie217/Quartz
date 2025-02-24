@@ -11,14 +11,12 @@
             "id": "fbcdf52696c0b2bc",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "_index.md",
-                "mode": "source",
-                "source": false
+                "file": "Pasted image 20250223212004.png"
               },
-              "icon": "lucide-file",
-              "title": "_index"
+              "icon": "lucide-image",
+              "title": "Pasted image 20250223212004"
             }
           }
         ]
@@ -93,7 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_index.md",
+                "file": "Pasted image 20250223212004.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +101,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for _index"
+              "title": "Backlinks for Pasted image 20250223212004"
             }
           },
           {
@@ -164,9 +162,9 @@
   },
   "active": "fbcdf52696c0b2bc",
   "lastOpenFiles": [
+    "_index.md",
     "Pasted image 20250223212004.png",
     "Posts/Assets/Pasted image 20250223210849.png",
-    "_index.md",
     "Posts/Designing a Wet Bead Mill.md",
     "Posts/Pharmaceutical Filling techniques.md",
     "Posts/Assets/Screenshot 2025-02-23 at 21.07.46.png",
@@ -199,7 +197,6 @@
     "Posts/Assets/Pasted image 20250222124808.png",
     "Posts/Assets/Pasted image 20250222124319.png",
     "Posts/Assets/Pasted image 20250222124312.png",
-    "Posts/Assets/Pasted image 20250222124303.png",
     "CI",
     "Notes/Digital/Containerisation",
     "Notes/Digital",
