@@ -11,12 +11,48 @@
             "id": "fbcdf52696c0b2bc",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Pasted image 20250223212004.png"
+                "file": "Draft/Writing Ideas.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20250223212004"
+              "icon": "lucide-file",
+              "title": "Writing Ideas"
+            }
+          },
+          {
+            "id": "3a2bd58c7be3e3a6",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Notes/Untitled.canvas",
+                "viewState": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 0
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "Untitled"
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "0d2f075d75dfc6d7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cfe43622aaae6f62",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -50,7 +86,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "intrat",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -91,7 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pasted image 20250223212004.png",
+                "file": "Notes/Untitled.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,7 +137,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Pasted image 20250223212004"
+              "title": "Backlinks for Untitled"
             }
           },
           {
@@ -160,37 +196,39 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "fbcdf52696c0b2bc",
+  "active": "f63d8c32f3441f68",
   "lastOpenFiles": [
-    "_index.md",
+    "Draft/3D Printing in Manufacturing.md",
+    "Draft/Writing Ideas.md",
+    "Posts/Kubernetes Overview.md",
+    "Notes/Untitled.canvas",
+    "Notes/Pharma/ISA88.md",
+    "Notes/Pharma/Procedure.md",
+    "Notes/Pharma/Unit.md",
+    "Notes/Pharma/Phase.md",
+    "Notes/Pharma/Control Module.md",
     "Pasted image 20250223212004.png",
+    "Notes/Pharma/Operation.md",
+    "Notes/Pharma/Unit Procedure.md",
+    "Notes/Pharma/Process Cell.md",
+    "Notes/Pharma/Equipment Module.md",
+    "Notes/Pharma/RFID.md",
+    "Notes/Digital/Debezium.md",
+    "Notes/Digital/Kafka Connect.md",
+    "Notes/Digital/Kafka.md",
+    "Notes/Digital/Message Broker.md",
+    "Notes/Pharma/Continuous Process Verification.md",
+    "Notes/Pharma/Critical Material Attribute.md",
+    "Notes/Pharma/Critical Quality Attribute.md",
+    "Notes/Pharma/Critical Process Parameter.md",
+    "Notes/Pharma/Cold chain.md",
+    "Notes/Pharma/RTLS.md",
+    "Draft/My kubernetes architecture.md",
+    "_index.md",
     "Posts/Assets/Pasted image 20250223210849.png",
     "Posts/Designing a Wet Bead Mill.md",
-    "Posts/Pharmaceutical Filling techniques.md",
     "Posts/Assets/Screenshot 2025-02-23 at 21.07.46.png",
     "Posts/Assets/Screenshot 2025-02-23 at 21.07.56.png",
-    "Notes/Notes.md",
-    "Recordings/Recordings.md",
-    "Notes/Pharma/intrathecal.md",
-    "Notes/Pharma/Bander.md",
-    "Notes/Pharma/Packing.md",
-    "Notes/Pharma/Casepacker.md",
-    "Notes/Pharma/Aseptic.md",
-    "Notes/Pharma/Pallet Wrapper.md",
-    "Notes/Pharma/Pallet.md",
-    "Notes/Pharma/Pallet Stacker.md",
-    "Notes/Pharma/Palletiser.md",
-    "Notes/Pharma/Pallet Transfer.md",
-    "Notes/Pharma/Sterilisation.md",
-    "Notes/Pharma/Case.md",
-    "Notes/Pharma/Leaflet.md",
-    "Draft/My kubernetes architecture.md",
-    "Draft/Writing Ideas.md",
-    "Notes/Pharma/Cartonner.md",
-    "Notes/Pharma/Carton.md",
-    "Notes/Pharma/Labeller.md",
-    "Notes/Pharma/Checkweigher.md",
-    "Notes/Pharma/Puck Loader.md",
     "Posts/Assets/Pasted image 20250222124230.png",
     "Posts/Assets/Pasted image 20250222124717.png",
     "Posts/Assets/Pasted image 20250222124820.png",
@@ -206,7 +244,6 @@
     "Posts",
     "Recordings",
     "Posts",
-    "Reordings",
-    "Untitled.canvas"
+    "Reordings"
   ]
 }

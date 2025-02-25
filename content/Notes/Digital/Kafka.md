@@ -1,0 +1,3 @@
+Kafka is a [[PubSub]] platform used to stream high volumes of data using [[Topic]]s. Kafka is designed to be fault tolerant and scalable through the use of a platform like [[Kubernetes]]. 
+
+Kafka can handle very large quantities of real time data making it a great tool for transmitting data from the shop floor to higher level systems making use of [[Kafka Connect]] to interface with different systems.

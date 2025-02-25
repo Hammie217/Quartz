@@ -1,0 +1,1 @@
+A Phase is an [[ISA88]] defined structure and is the lowest level in the Procedural Model. A Phase defines a set of steps required to run as part of an [[Operation]].

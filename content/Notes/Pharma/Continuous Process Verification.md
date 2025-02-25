@@ -1,0 +1,3 @@
+Continuous Process Verification (CPV), is a process required in pharmaceutical manufacturing to monitor all [[Critical Quality Attribute]]s, [[Critical Process Parameter]]s and [[Critical Material Attribute]]s.
+CPV requires these datapoints must be collected, stored and monitored throughout manufactured batches including statistical analysis on this data.
+CPV helps to detect individual out of specification batches, step changes in output (pointing to possible manufacturing changes or supplied material changes), gradual changes (pointing to degradation of process).
