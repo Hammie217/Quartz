@@ -1,3 +1,5 @@
+import exp from "constants"
+
 export { FrontMatter } from "./frontmatter"
 export { GitHubFlavoredMarkdown } from "./gfm"
 export { Citations } from "./citations"
@@ -11,3 +13,4 @@ export { SyntaxHighlighting } from "./syntax"
 export { TableOfContents } from "./toc"
 export { HardLineBreaks } from "./linebreaks"
 export { RoamFlavoredMarkdown } from "./roam"
+export { CenterImages } from "./centerImages"
