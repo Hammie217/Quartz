@@ -11,14 +11,12 @@
             "id": "fbcdf52696c0b2bc",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Draft/Writing Ideas.md",
-                "mode": "source",
-                "source": false
+                "file": "Posts/Assets/Pasted image 20250226215122.png"
               },
-              "icon": "lucide-file",
-              "title": "Writing Ideas"
+              "icon": "lucide-image",
+              "title": "Pasted image 20250226215122"
             }
           },
           {
@@ -36,23 +34,6 @@
               },
               "icon": "lucide-layout-dashboard",
               "title": "Untitled"
-            }
-          }
-        ],
-        "currentTab": 1
-      },
-      {
-        "id": "0d2f075d75dfc6d7",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "cfe43622aaae6f62",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
             }
           }
         ]
@@ -127,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Untitled.canvas",
+                "file": "Posts/Assets/Pasted image 20250226215122.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +118,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Untitled"
+              "title": "Backlinks for Pasted image 20250226215122"
             }
           },
           {
@@ -198,16 +179,19 @@
   },
   "active": "f63d8c32f3441f68",
   "lastOpenFiles": [
-    "Draft/3D Printing in Manufacturing.md",
+    "Pasted image 20250223212004.png",
+    "Posts/Assets/Pasted image 20250226215122.png",
+    "Posts/How 3D Printing is Transforming Manufacturing Sites.md",
+    "Posts/Assets/Pasted image 20250226203425.png",
+    "Posts/Assets/Pasted image 20250226202747.png",
+    "Notes/Untitled.canvas",
     "Draft/Writing Ideas.md",
     "Posts/Kubernetes Overview.md",
-    "Notes/Untitled.canvas",
     "Notes/Pharma/ISA88.md",
     "Notes/Pharma/Procedure.md",
     "Notes/Pharma/Unit.md",
     "Notes/Pharma/Phase.md",
     "Notes/Pharma/Control Module.md",
-    "Pasted image 20250223212004.png",
     "Notes/Pharma/Operation.md",
     "Notes/Pharma/Unit Procedure.md",
     "Notes/Pharma/Process Cell.md",
@@ -226,15 +210,11 @@
     "Draft/My kubernetes architecture.md",
     "_index.md",
     "Posts/Assets/Pasted image 20250223210849.png",
-    "Posts/Designing a Wet Bead Mill.md",
     "Posts/Assets/Screenshot 2025-02-23 at 21.07.46.png",
     "Posts/Assets/Screenshot 2025-02-23 at 21.07.56.png",
     "Posts/Assets/Pasted image 20250222124230.png",
     "Posts/Assets/Pasted image 20250222124717.png",
     "Posts/Assets/Pasted image 20250222124820.png",
-    "Posts/Assets/Pasted image 20250222124808.png",
-    "Posts/Assets/Pasted image 20250222124319.png",
-    "Posts/Assets/Pasted image 20250222124312.png",
     "CI",
     "Notes/Digital/Containerisation",
     "Notes/Digital",
