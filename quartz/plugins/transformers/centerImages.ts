@@ -1,48 +1,33 @@
 import { QuartzTransformerPlugin } from "../types"
 import { visit } from "unist-util-visit"
-import { Element } from "hast"
+import { Root as HTMLRoot, Element } from "hast"
 
 export const CenterImages: QuartzTransformerPlugin = () => {
   return {
     name: "CenterImages",
     markdownPlugins() {
-      return []
+      return []  // No markdown transformation needed
     },
     htmlPlugins() {
       return [
-        [
-          (tree) => {
+        () => {
+          return (tree: HTMLRoot, file) => {
+            // Traverse the HTML tree and directly modify image tags
             visit(tree, "element", (node: Element) => {
-              // Ensure the node is valid and has the expected structure
-              if (node && node.tagName === "img") {
-                // Ensure the className property is an array
-                if (!Array.isArray(node.properties.className)) {
-                  node.properties.className = []
-                }
+              if (node.tagName === "img") {
+                if (!node.properties) node.properties = {};
 
-                // Add the "centered-image" class to the array of class names
-                node.properties.className.push("centered-image")
+                // Add inline styles to center the image and limit its width
+                node.properties.style = node.properties.style || "";  // Ensure style exists
+                node.properties.style += "display: block; margin-left: auto; margin-right: auto; height: auto;";
+
               }
-            })
-          },
-        ],
+            });
+
+            return tree;
+          }
+        },
       ]
-    },
-    externalResources() {
-      return {
-        css: [
-          {
-            // Custom CSS to center images
-            content: `
-              .centered-image {
-                display: block;
-                margin-left: auto;
-                margin-right: auto;
-              }
-            `,
-          },
-        ],
-      }
-    },
+    }
   }
 }

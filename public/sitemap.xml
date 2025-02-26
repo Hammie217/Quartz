@@ -1,4 +1,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"><url>
+    <loc>https://hammie217.github.io/Quartz/Notes/Digital/AMQP</loc>
+    <lastmod>2025-02-22T14:26:18.000Z</lastmod>
+  </url><url>
     <loc>https://hammie217.github.io/Quartz/Notes/Digital/Application-Programming-Interface</loc>
     <lastmod>2025-02-11T23:39:51.000Z</lastmod>
   </url><url>
@@ -23,14 +26,23 @@
     <loc>https://hammie217.github.io/Quartz/Notes/Digital/Containerisation/Docker</loc>
     <lastmod>2025-02-11T23:39:51.000Z</lastmod>
   </url><url>
+    <loc>https://hammie217.github.io/Quartz/Notes/Digital/Containerisation/Dockerfile</loc>
+    <lastmod>2025-02-22T14:26:18.000Z</lastmod>
+  </url><url>
     <loc>https://hammie217.github.io/Quartz/Notes/Digital/Containerisation/Ephemeral</loc>
     <lastmod>2025-02-11T23:39:51.000Z</lastmod>
+  </url><url>
+    <loc>https://hammie217.github.io/Quartz/Notes/Digital/Containerisation/Helm</loc>
+    <lastmod>2025-02-22T14:26:18.000Z</lastmod>
+  </url><url>
+    <loc>https://hammie217.github.io/Quartz/Notes/Digital/Containerisation/Helmcharts</loc>
+    <lastmod>2025-02-22T14:26:18.000Z</lastmod>
   </url><url>
     <loc>https://hammie217.github.io/Quartz/Notes/Digital/Containerisation/High-Availability</loc>
     <lastmod>2025-02-11T23:39:51.000Z</lastmod>
   </url><url>
     <loc>https://hammie217.github.io/Quartz/Notes/Digital/Containerisation/Horizontal-Pod-Autoscaling</loc>
-    <lastmod>2025-02-11T23:39:51.000Z</lastmod>
+    <lastmod>2025-02-22T14:26:18.000Z</lastmod>
   </url><url>
     <loc>https://hammie217.github.io/Quartz/Notes/Digital/Containerisation/Image-Repository</loc>
     <lastmod>2025-02-11T23:39:51.000Z</lastmod>
@@ -41,11 +53,14 @@
     <loc>https://hammie217.github.io/Quartz/Notes/Digital/Containerisation/Kubernetes</loc>
     <lastmod>2025-02-11T23:39:51.000Z</lastmod>
   </url><url>
+    <loc>https://hammie217.github.io/Quartz/Notes/Digital/Containerisation/Manifest</loc>
+    <lastmod>2025-02-22T14:26:18.000Z</lastmod>
+  </url><url>
     <loc>https://hammie217.github.io/Quartz/Notes/Digital/Containerisation/Microservices</loc>
     <lastmod>2025-02-11T23:39:51.000Z</lastmod>
   </url><url>
     <loc>https://hammie217.github.io/Quartz/Notes/Digital/Containerisation/Nodes</loc>
-    <lastmod>2025-02-11T23:39:51.000Z</lastmod>
+    <lastmod>2025-02-22T14:26:18.000Z</lastmod>
   </url><url>
     <loc>https://hammie217.github.io/Quartz/Notes/Digital/Containerisation/Persistent-Volume-Claim</loc>
     <lastmod>2025-02-11T23:39:51.000Z</lastmod>
@@ -83,17 +98,62 @@
     <loc>https://hammie217.github.io/Quartz/Notes/Digital/Containerisation/kubelet</loc>
     <lastmod>2025-02-11T23:39:51.000Z</lastmod>
   </url><url>
+    <loc>https://hammie217.github.io/Quartz/Notes/Digital/Debezium</loc>
+    <lastmod>2025-02-25T22:29:05.000Z</lastmod>
+  </url><url>
+    <loc>https://hammie217.github.io/Quartz/Notes/Digital/FIFO</loc>
+    <lastmod>2025-02-22T14:26:18.000Z</lastmod>
+  </url><url>
+    <loc>https://hammie217.github.io/Quartz/Notes/Digital/Idempotent</loc>
+    <lastmod>2025-02-22T14:26:18.000Z</lastmod>
+  </url><url>
+    <loc>https://hammie217.github.io/Quartz/Notes/Digital/Kafka-Connect</loc>
+    <lastmod>2025-02-25T22:29:05.000Z</lastmod>
+  </url><url>
+    <loc>https://hammie217.github.io/Quartz/Notes/Digital/Kafka</loc>
+    <lastmod>2025-02-25T22:29:05.000Z</lastmod>
+  </url><url>
+    <loc>https://hammie217.github.io/Quartz/Notes/Digital/LIFO</loc>
+    <lastmod>2025-02-22T14:26:18.000Z</lastmod>
+  </url><url>
+    <loc>https://hammie217.github.io/Quartz/Notes/Digital/MQTT</loc>
+    <lastmod>2025-02-22T14:26:18.000Z</lastmod>
+  </url><url>
+    <loc>https://hammie217.github.io/Quartz/Notes/Digital/Message-Broker</loc>
+    <lastmod>2025-02-25T22:29:05.000Z</lastmod>
+  </url><url>
+    <loc>https://hammie217.github.io/Quartz/Notes/Digital/Open-Container-Initiative</loc>
+    <lastmod>2025-02-22T14:26:18.000Z</lastmod>
+  </url><url>
+    <loc>https://hammie217.github.io/Quartz/Notes/Digital/PubSub</loc>
+    <lastmod>2025-02-22T14:26:18.000Z</lastmod>
+  </url><url>
+    <loc>https://hammie217.github.io/Quartz/Notes/Digital/Queue</loc>
+    <lastmod>2025-02-22T14:26:18.000Z</lastmod>
+  </url><url>
+    <loc>https://hammie217.github.io/Quartz/Notes/Digital/RabbitMQ</loc>
+    <lastmod>2025-02-22T14:26:18.000Z</lastmod>
+  </url><url>
+    <loc>https://hammie217.github.io/Quartz/Notes/Digital/Stack</loc>
+    <lastmod>2025-02-22T14:26:18.000Z</lastmod>
+  </url><url>
     <loc>https://hammie217.github.io/Quartz/Notes/Notes</loc>
-    <lastmod>2025-02-04T09:38:09.000Z</lastmod>
+    <lastmod>2025-02-23T21:00:57.000Z</lastmod>
   </url><url>
     <loc>https://hammie217.github.io/Quartz/Notes/Pharma/Active-Pharmaceutical-Ingredient</loc>
     <lastmod>2024-12-15T22:04:56.000Z</lastmod>
+  </url><url>
+    <loc>https://hammie217.github.io/Quartz/Notes/Pharma/Aseptic</loc>
+    <lastmod>2025-02-23T18:28:40.000Z</lastmod>
   </url><url>
     <loc>https://hammie217.github.io/Quartz/Notes/Pharma/Assembly</loc>
     <lastmod>2024-12-15T22:04:56.000Z</lastmod>
   </url><url>
     <loc>https://hammie217.github.io/Quartz/Notes/Pharma/Autoinjectors</loc>
     <lastmod>2024-12-15T22:04:56.000Z</lastmod>
+  </url><url>
+    <loc>https://hammie217.github.io/Quartz/Notes/Pharma/Bander</loc>
+    <lastmod>2025-02-23T18:28:40.000Z</lastmod>
   </url><url>
     <loc>https://hammie217.github.io/Quartz/Notes/Pharma/Beads</loc>
     <lastmod>2024-12-15T22:04:56.000Z</lastmod>
@@ -116,6 +176,21 @@
     <loc>https://hammie217.github.io/Quartz/Notes/Pharma/Bulk-Drug-Substance</loc>
     <lastmod>2024-12-15T22:04:56.000Z</lastmod>
   </url><url>
+    <loc>https://hammie217.github.io/Quartz/Notes/Pharma/Carton</loc>
+    <lastmod>2025-02-23T18:28:40.000Z</lastmod>
+  </url><url>
+    <loc>https://hammie217.github.io/Quartz/Notes/Pharma/Cartonner</loc>
+    <lastmod>2025-02-23T18:28:40.000Z</lastmod>
+  </url><url>
+    <loc>https://hammie217.github.io/Quartz/Notes/Pharma/Case</loc>
+    <lastmod>2025-02-23T18:28:40.000Z</lastmod>
+  </url><url>
+    <loc>https://hammie217.github.io/Quartz/Notes/Pharma/Casepacker</loc>
+    <lastmod>2025-02-23T18:28:40.000Z</lastmod>
+  </url><url>
+    <loc>https://hammie217.github.io/Quartz/Notes/Pharma/Checkweigher</loc>
+    <lastmod>2025-02-23T18:28:40.000Z</lastmod>
+  </url><url>
     <loc>https://hammie217.github.io/Quartz/Notes/Pharma/Clean-In-Place</loc>
     <lastmod>2025-01-28T23:01:43.000Z</lastmod>
   </url><url>
@@ -127,6 +202,21 @@
   </url><url>
     <loc>https://hammie217.github.io/Quartz/Notes/Pharma/Cold-chain</loc>
     <lastmod>2024-12-15T22:04:56.000Z</lastmod>
+  </url><url>
+    <loc>https://hammie217.github.io/Quartz/Notes/Pharma/Continuous-Process-Verification</loc>
+    <lastmod>2025-02-25T22:29:05.000Z</lastmod>
+  </url><url>
+    <loc>https://hammie217.github.io/Quartz/Notes/Pharma/Control-Module</loc>
+    <lastmod>2025-02-25T22:29:05.000Z</lastmod>
+  </url><url>
+    <loc>https://hammie217.github.io/Quartz/Notes/Pharma/Critical-Material-Attribute</loc>
+    <lastmod>2025-02-25T22:29:05.000Z</lastmod>
+  </url><url>
+    <loc>https://hammie217.github.io/Quartz/Notes/Pharma/Critical-Process-Parameter</loc>
+    <lastmod>2025-02-25T22:29:05.000Z</lastmod>
+  </url><url>
+    <loc>https://hammie217.github.io/Quartz/Notes/Pharma/Critical-Quality-Attribute</loc>
+    <lastmod>2025-02-25T22:29:05.000Z</lastmod>
   </url><url>
     <loc>https://hammie217.github.io/Quartz/Notes/Pharma/Depyrogenation-Oven</loc>
     <lastmod>2024-12-15T22:04:56.000Z</lastmod>
@@ -145,6 +235,9 @@
   </url><url>
     <loc>https://hammie217.github.io/Quartz/Notes/Pharma/Endotoxins</loc>
     <lastmod>2024-12-15T22:04:56.000Z</lastmod>
+  </url><url>
+    <loc>https://hammie217.github.io/Quartz/Notes/Pharma/Equipment-Module</loc>
+    <lastmod>2025-02-25T22:29:05.000Z</lastmod>
   </url><url>
     <loc>https://hammie217.github.io/Quartz/Notes/Pharma/F0-Value</loc>
     <lastmod>2025-01-28T23:01:43.000Z</lastmod>
@@ -167,8 +260,17 @@
     <loc>https://hammie217.github.io/Quartz/Notes/Pharma/Granulation</loc>
     <lastmod>2025-01-28T22:21:20.000Z</lastmod>
   </url><url>
+    <loc>https://hammie217.github.io/Quartz/Notes/Pharma/Heat-Sealer</loc>
+    <lastmod>2025-02-23T18:28:40.000Z</lastmod>
+  </url><url>
+    <loc>https://hammie217.github.io/Quartz/Notes/Pharma/ISA88</loc>
+    <lastmod>2025-02-25T22:29:05.000Z</lastmod>
+  </url><url>
     <loc>https://hammie217.github.io/Quartz/Notes/Pharma/Labeller</loc>
     <lastmod>2025-01-28T23:01:43.000Z</lastmod>
+  </url><url>
+    <loc>https://hammie217.github.io/Quartz/Notes/Pharma/Leaflet</loc>
+    <lastmod>2025-02-23T18:28:40.000Z</lastmod>
   </url><url>
     <loc>https://hammie217.github.io/Quartz/Notes/Pharma/Manufacturing</loc>
     <lastmod>2025-01-22T22:59:07.000Z</lastmod>
@@ -185,6 +287,9 @@
     <loc>https://hammie217.github.io/Quartz/Notes/Pharma/Needle</loc>
     <lastmod>2024-12-15T22:04:56.000Z</lastmod>
   </url><url>
+    <loc>https://hammie217.github.io/Quartz/Notes/Pharma/Operation</loc>
+    <lastmod>2025-02-25T22:29:05.000Z</lastmod>
+  </url><url>
     <loc>https://hammie217.github.io/Quartz/Notes/Pharma/Optical-Character-Verification</loc>
     <lastmod>2025-01-28T23:01:43.000Z</lastmod>
   </url><url>
@@ -192,13 +297,31 @@
     <lastmod>2025-01-28T22:21:20.000Z</lastmod>
   </url><url>
     <loc>https://hammie217.github.io/Quartz/Notes/Pharma/Packing</loc>
-    <lastmod>2025-01-28T23:01:43.000Z</lastmod>
+    <lastmod>2025-02-23T18:28:40.000Z</lastmod>
+  </url><url>
+    <loc>https://hammie217.github.io/Quartz/Notes/Pharma/Pallet-Stacker</loc>
+    <lastmod>2025-02-23T18:28:40.000Z</lastmod>
+  </url><url>
+    <loc>https://hammie217.github.io/Quartz/Notes/Pharma/Pallet-Transfer</loc>
+    <lastmod>2025-02-23T18:28:40.000Z</lastmod>
+  </url><url>
+    <loc>https://hammie217.github.io/Quartz/Notes/Pharma/Pallet-Wrapper</loc>
+    <lastmod>2025-02-23T18:28:40.000Z</lastmod>
+  </url><url>
+    <loc>https://hammie217.github.io/Quartz/Notes/Pharma/Pallet</loc>
+    <lastmod>2025-02-23T18:28:40.000Z</lastmod>
+  </url><url>
+    <loc>https://hammie217.github.io/Quartz/Notes/Pharma/Palletiser</loc>
+    <lastmod>2025-02-23T18:28:40.000Z</lastmod>
   </url><url>
     <loc>https://hammie217.github.io/Quartz/Notes/Pharma/Passive-Thaw</loc>
     <lastmod>2024-12-15T22:04:56.000Z</lastmod>
   </url><url>
     <loc>https://hammie217.github.io/Quartz/Notes/Pharma/Pharmaceutical-Manufacture</loc>
     <lastmod>2024-12-15T22:04:56.000Z</lastmod>
+  </url><url>
+    <loc>https://hammie217.github.io/Quartz/Notes/Pharma/Phase</loc>
+    <lastmod>2025-02-25T22:29:05.000Z</lastmod>
   </url><url>
     <loc>https://hammie217.github.io/Quartz/Notes/Pharma/Pooling</loc>
     <lastmod>2024-12-15T22:04:56.000Z</lastmod>
@@ -209,14 +332,29 @@
     <loc>https://hammie217.github.io/Quartz/Notes/Pharma/Primary-Manufacturing</loc>
     <lastmod>2024-12-15T22:04:56.000Z</lastmod>
   </url><url>
+    <loc>https://hammie217.github.io/Quartz/Notes/Pharma/Procedure</loc>
+    <lastmod>2025-02-25T22:29:05.000Z</lastmod>
+  </url><url>
+    <loc>https://hammie217.github.io/Quartz/Notes/Pharma/Process-Cell</loc>
+    <lastmod>2025-02-25T22:29:05.000Z</lastmod>
+  </url><url>
     <loc>https://hammie217.github.io/Quartz/Notes/Pharma/Puck-Loader</loc>
     <lastmod>2025-01-28T23:01:43.000Z</lastmod>
+  </url><url>
+    <loc>https://hammie217.github.io/Quartz/Notes/Pharma/Puck-Unloader</loc>
+    <lastmod>2025-02-23T18:28:40.000Z</lastmod>
   </url><url>
     <loc>https://hammie217.github.io/Quartz/Notes/Pharma/Puck</loc>
     <lastmod>2025-01-28T23:01:43.000Z</lastmod>
   </url><url>
     <loc>https://hammie217.github.io/Quartz/Notes/Pharma/Purified-Water</loc>
     <lastmod>2025-01-28T23:01:43.000Z</lastmod>
+  </url><url>
+    <loc>https://hammie217.github.io/Quartz/Notes/Pharma/RFID</loc>
+    <lastmod>2025-02-25T22:29:05.000Z</lastmod>
+  </url><url>
+    <loc>https://hammie217.github.io/Quartz/Notes/Pharma/RTLS</loc>
+    <lastmod>2025-02-25T22:29:05.000Z</lastmod>
   </url><url>
     <loc>https://hammie217.github.io/Quartz/Notes/Pharma/Secondary-Manufacturing</loc>
     <lastmod>2025-01-28T22:21:20.000Z</lastmod>
@@ -231,7 +369,7 @@
     <lastmod>2025-01-28T23:01:43.000Z</lastmod>
   </url><url>
     <loc>https://hammie217.github.io/Quartz/Notes/Pharma/Syringes</loc>
-    <lastmod>2024-12-15T22:04:56.000Z</lastmod>
+    <lastmod>2025-02-23T18:28:40.000Z</lastmod>
   </url><url>
     <loc>https://hammie217.github.io/Quartz/Notes/Pharma/Tablet-Pressing</loc>
     <lastmod>2025-01-28T22:21:20.000Z</lastmod>
@@ -248,11 +386,17 @@
     <loc>https://hammie217.github.io/Quartz/Notes/Pharma/Tray-Unloader</loc>
     <lastmod>2025-01-28T23:01:43.000Z</lastmod>
   </url><url>
+    <loc>https://hammie217.github.io/Quartz/Notes/Pharma/Unit-Procedure</loc>
+    <lastmod>2025-02-25T22:29:05.000Z</lastmod>
+  </url><url>
+    <loc>https://hammie217.github.io/Quartz/Notes/Pharma/Unit</loc>
+    <lastmod>2025-02-25T22:29:05.000Z</lastmod>
+  </url><url>
     <loc>https://hammie217.github.io/Quartz/Notes/Pharma/Vials</loc>
-    <lastmod>2024-12-15T22:04:56.000Z</lastmod>
+    <lastmod>2025-02-23T18:28:40.000Z</lastmod>
   </url><url>
     <loc>https://hammie217.github.io/Quartz/Notes/Pharma/Water-For-Injection</loc>
-    <lastmod>2025-01-28T23:01:43.000Z</lastmod>
+    <lastmod>2025-02-23T18:28:40.000Z</lastmod>
   </url><url>
     <loc>https://hammie217.github.io/Quartz/Notes/Pharma/Wet-Bead-Mill</loc>
     <lastmod>2024-12-15T22:04:56.000Z</lastmod>
@@ -264,7 +408,7 @@
     <lastmod>2025-01-28T23:01:43.000Z</lastmod>
   </url><url>
     <loc>https://hammie217.github.io/Quartz/Notes/Pharma/intrathecal</loc>
-    <lastmod>2025-01-28T23:01:43.000Z</lastmod>
+    <lastmod>2025-02-23T18:28:40.000Z</lastmod>
   </url><url>
     <loc>https://hammie217.github.io/Quartz/Notes/Pharma/lethality</loc>
     <lastmod>2025-01-28T23:01:43.000Z</lastmod>
@@ -284,18 +428,27 @@
     <loc>https://hammie217.github.io/Quartz/Notes/Pharma/worst-case</loc>
     <lastmod>2025-01-28T23:01:43.000Z</lastmod>
   </url><url>
+    <loc>https://hammie217.github.io/Quartz/Posts/Designing-a-Wet-Bead-Mill</loc>
+    <lastmod>2025-02-23T21:16:37.000Z</lastmod>
+  </url><url>
     <loc>https://hammie217.github.io/Quartz/Posts/F1-Strategy-Analytics</loc>
     <lastmod>2025-01-12T22:07:15.000Z</lastmod>
   </url><url>
-    <loc>https://hammie217.github.io/Quartz/Posts/Kubernetes-Case-Study</loc>
-    <lastmod>2025-02-11T23:39:51.000Z</lastmod>
+    <loc>https://hammie217.github.io/Quartz/Posts/How-3D-Printing-is-Transforming-Manufacturing-Sites</loc>
+    <lastmod>2025-02-26T21:52:06.000Z</lastmod>
+  </url><url>
+    <loc>https://hammie217.github.io/Quartz/Posts/Kubernetes-Overview</loc>
+    <lastmod>2025-02-22T14:26:18.000Z</lastmod>
   </url><url>
     <loc>https://hammie217.github.io/Quartz/Posts/Lego-F1-car</loc>
     <lastmod>2024-12-17T22:12:00.000Z</lastmod>
+  </url><url>
+    <loc>https://hammie217.github.io/Quartz/Posts/Pharmaceutical-Filling-techniques</loc>
+    <lastmod>2025-02-23T21:15:23.000Z</lastmod>
   </url><url>
     <loc>https://hammie217.github.io/Quartz/Recordings/Recordings</loc>
     <lastmod>2025-02-04T09:35:20.000Z</lastmod>
   </url><url>
     <loc>https://hammie217.github.io/Quartz/</loc>
-    <lastmod>2025-02-04T09:35:20.000Z</lastmod>
+    <lastmod>2025-02-23T21:20:33.000Z</lastmod>
   </url></urlset>

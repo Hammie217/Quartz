@@ -11,12 +11,14 @@
             "id": "fbcdf52696c0b2bc",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Posts/Assets/Pasted image 20250226215122.png"
+                "file": "Notes/Digital/AMQP.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20250226215122"
+              "icon": "lucide-file",
+              "title": "AMQP"
             }
           },
           {
@@ -108,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Posts/Assets/Pasted image 20250226215122.png",
+                "file": "Notes/Digital/AMQP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +120,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Pasted image 20250226215122"
+              "title": "Backlinks for AMQP"
             }
           },
           {
@@ -177,10 +179,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f63d8c32f3441f68",
+  "active": "fbcdf52696c0b2bc",
   "lastOpenFiles": [
-    "Pasted image 20250223212004.png",
     "Posts/Assets/Pasted image 20250226215122.png",
+    "Pasted image 20250223212004.png",
     "Posts/How 3D Printing is Transforming Manufacturing Sites.md",
     "Posts/Assets/Pasted image 20250226203425.png",
     "Posts/Assets/Pasted image 20250226202747.png",

@@ -6,65 +6,65 @@
       <description>Last 10 notes on Hamish Sams</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>Application Programming Interface</title>
-    <link>https://hammie217.github.io/Quartz/Notes/Digital/Application-Programming-Interface</link>
-    <guid>https://hammie217.github.io/Quartz/Notes/Digital/Application-Programming-Interface</guid>
-    <description>An Application Programming Interface or API is an interface layer presented by a system to allow other systems to communicate easily. An API allows systems to be integrated easily through a standard interface whilst allowing the API host to maintain ownership under the hood of how requests are processed.</description>
-    <pubDate>Tue, 11 Feb 2025 23:39:51 GMT</pubDate>
+    <title>How 3D Printing is Transforming Manufacturing Sites</title>
+    <link>https://hammie217.github.io/Quartz/Posts/How-3D-Printing-is-Transforming-Manufacturing-Sites</link>
+    <guid>https://hammie217.github.io/Quartz/Posts/How-3D-Printing-is-Transforming-Manufacturing-Sites</guid>
+    <description>3DPrinting Introduction Over the past few years, 3D printing has evolved from a futuristic concept to an accessible, everyday tool. What was once confined to research labs is now widely available, with cutting-edge printers costing less than £1,000 and software so intuitive that anyone with a computer and a mouse can use it.</description>
+    <pubDate>Wed, 26 Feb 2025 21:52:06 GMT</pubDate>
   </item><item>
-    <title>CICD</title>
-    <link>https://hammie217.github.io/Quartz/Notes/Digital/CICD</link>
-    <guid>https://hammie217.github.io/Quartz/Notes/Digital/CICD</guid>
-    <description>Continuous Integration and Continuous Deployment is the process of automating the compilation, testing and deployment of code into a production system. ...</description>
-    <pubDate>Tue, 11 Feb 2025 23:39:51 GMT</pubDate>
+    <title>Debezium</title>
+    <link>https://hammie217.github.io/Quartz/Notes/Digital/Debezium</link>
+    <guid>https://hammie217.github.io/Quartz/Notes/Digital/Debezium</guid>
+    <description>Debezium is a Kafka Connect connector that uses database Change Data Capture (CDC) logs to detect changes to SQL tables in real time and stream changes up to a Kafka instance. ...</description>
+    <pubDate>Tue, 25 Feb 2025 22:29:05 GMT</pubDate>
   </item><item>
-    <title>Autoscaling</title>
-    <link>https://hammie217.github.io/Quartz/Notes/Digital/Containerisation/Autoscaling</link>
-    <guid>https://hammie217.github.io/Quartz/Notes/Digital/Containerisation/Autoscaling</guid>
-    <description>Autoscaling is a process in Kubernetes that allows Pods and Nodes to be automatically scaled to manage changing demand. Pods autoscaling is managed in the kube-controller-manager where resources are monitored on loop to detect if thresholds are met and need scaling.</description>
-    <pubDate>Tue, 11 Feb 2025 23:39:51 GMT</pubDate>
+    <title>Kafka Connect</title>
+    <link>https://hammie217.github.io/Quartz/Notes/Digital/Kafka-Connect</link>
+    <guid>https://hammie217.github.io/Quartz/Notes/Digital/Kafka-Connect</guid>
+    <description>Kafka connect is a tool that allows deployment of connectors to interface different systems with a Kafka Message Broker. For example Debezium could be used to replicate shop floor databases in real time into Kafka to be consumed.</description>
+    <pubDate>Tue, 25 Feb 2025 22:29:05 GMT</pubDate>
   </item><item>
-    <title>Container Image</title>
-    <link>https://hammie217.github.io/Quartz/Notes/Digital/Containerisation/Container-Image</link>
-    <guid>https://hammie217.github.io/Quartz/Notes/Digital/Containerisation/Container-Image</guid>
-    <description>Container images are Container templates stored in an Image Repository that can be used to spin up Containers in a Container Runtime such as Docker.</description>
-    <pubDate>Tue, 11 Feb 2025 23:39:51 GMT</pubDate>
+    <title>Kafka</title>
+    <link>https://hammie217.github.io/Quartz/Notes/Digital/Kafka</link>
+    <guid>https://hammie217.github.io/Quartz/Notes/Digital/Kafka</guid>
+    <description>Kafka is a PubSub platform used to stream high volumes of data using Topics. Kafka is designed to be fault tolerant and scalable through the use of a platform like Kubernetes.</description>
+    <pubDate>Tue, 25 Feb 2025 22:29:05 GMT</pubDate>
   </item><item>
-    <title>Container Runtime</title>
-    <link>https://hammie217.github.io/Quartz/Notes/Digital/Containerisation/Container-Runtime</link>
-    <guid>https://hammie217.github.io/Quartz/Notes/Digital/Containerisation/Container-Runtime</guid>
-    <description>A container runtime is a piece of software that allows for the creation and running of Container based on Container Image.</description>
-    <pubDate>Tue, 11 Feb 2025 23:39:51 GMT</pubDate>
+    <title>Message Broker</title>
+    <link>https://hammie217.github.io/Quartz/Notes/Digital/Message-Broker</link>
+    <guid>https://hammie217.github.io/Quartz/Notes/Digital/Message-Broker</guid>
+    <description>A message broker is an application that stores messages in some form of memory, typically a Queue, from data senders and allows reading of those messages from data readers ...</description>
+    <pubDate>Tue, 25 Feb 2025 22:29:05 GMT</pubDate>
   </item><item>
-    <title>Container</title>
-    <link>https://hammie217.github.io/Quartz/Notes/Digital/Containerisation/Container</link>
-    <guid>https://hammie217.github.io/Quartz/Notes/Digital/Containerisation/Container</guid>
-    <description>Containers are units of software that run to do a specific function, containers are based on Container Images that define what the container is comprised of ...</description>
-    <pubDate>Tue, 11 Feb 2025 23:39:51 GMT</pubDate>
+    <title>Continuous Process Verification</title>
+    <link>https://hammie217.github.io/Quartz/Notes/Pharma/Continuous-Process-Verification</link>
+    <guid>https://hammie217.github.io/Quartz/Notes/Pharma/Continuous-Process-Verification</guid>
+    <description>Continuous Process Verification (CPV), is a process required in pharmaceutical manufacturing to monitor all Critical Quality Attributes, Critical Process Parameters and Critical ...</description>
+    <pubDate>Tue, 25 Feb 2025 22:29:05 GMT</pubDate>
   </item><item>
-    <title>Control Plane</title>
-    <link>https://hammie217.github.io/Quartz/Notes/Digital/Containerisation/Control-Plane</link>
-    <guid>https://hammie217.github.io/Quartz/Notes/Digital/Containerisation/Control-Plane</guid>
-    <description>The control plane is the core component of Kubernetes that manages a cluster. By default it is made up of: kube-apiserver kube-controller-manager kube-scheduler etcd .</description>
-    <pubDate>Tue, 11 Feb 2025 23:39:51 GMT</pubDate>
+    <title>Control Module</title>
+    <link>https://hammie217.github.io/Quartz/Notes/Pharma/Control-Module</link>
+    <guid>https://hammie217.github.io/Quartz/Notes/Pharma/Control-Module</guid>
+    <description>A Process cell is an ISA88 defined structure that belongs to a Equipment Module and is the lowest level defined in the physical hierarchy. Control Modules are typically instruments such as valves or pressure sensors.</description>
+    <pubDate>Tue, 25 Feb 2025 22:29:05 GMT</pubDate>
   </item><item>
-    <title>Docker</title>
-    <link>https://hammie217.github.io/Quartz/Notes/Digital/Containerisation/Docker</link>
-    <guid>https://hammie217.github.io/Quartz/Notes/Digital/Containerisation/Docker</guid>
-    <description>Docker is a very commonly used Container Runtime.</description>
-    <pubDate>Tue, 11 Feb 2025 23:39:51 GMT</pubDate>
+    <title>Critical Material Attribute</title>
+    <link>https://hammie217.github.io/Quartz/Notes/Pharma/Critical-Material-Attribute</link>
+    <guid>https://hammie217.github.io/Quartz/Notes/Pharma/Critical-Material-Attribute</guid>
+    <description>A Critical Material Attribute (CMA), is an attribute of raw material supplied to a pharmaceutical Manufacturing process that effects the quality of product produced, for example ...</description>
+    <pubDate>Tue, 25 Feb 2025 22:29:05 GMT</pubDate>
   </item><item>
-    <title>Ephemeral</title>
-    <link>https://hammie217.github.io/Quartz/Notes/Digital/Containerisation/Ephemeral</link>
-    <guid>https://hammie217.github.io/Quartz/Notes/Digital/Containerisation/Ephemeral</guid>
-    <description>In Kubernetes the concept of an ephemeral Container is one that can run temporarily, aka it can spin up and spin down as required without needing any container specific memory ...</description>
-    <pubDate>Tue, 11 Feb 2025 23:39:51 GMT</pubDate>
+    <title>Critical Process Parameter</title>
+    <link>https://hammie217.github.io/Quartz/Notes/Pharma/Critical-Process-Parameter</link>
+    <guid>https://hammie217.github.io/Quartz/Notes/Pharma/Critical-Process-Parameter</guid>
+    <description>A Critical Process Parameter (or CPP) is a parameter of a manufacturing process that has a direct impact on a Critical Quality Attribute of a product such as pressure over a filter, ...</description>
+    <pubDate>Tue, 25 Feb 2025 22:29:05 GMT</pubDate>
   </item><item>
-    <title>High Availability</title>
-    <link>https://hammie217.github.io/Quartz/Notes/Digital/Containerisation/High-Availability</link>
-    <guid>https://hammie217.github.io/Quartz/Notes/Digital/Containerisation/High-Availability</guid>
-    <description>High availability (HA) is simply the characteristic of keeping a system in an up state as much as possible, usually to some defined service level agreement such as 99.99% uptime (Less ...</description>
-    <pubDate>Tue, 11 Feb 2025 23:39:51 GMT</pubDate>
+    <title>Critical Quality Attribute</title>
+    <link>https://hammie217.github.io/Quartz/Notes/Pharma/Critical-Quality-Attribute</link>
+    <guid>https://hammie217.github.io/Quartz/Notes/Pharma/Critical-Quality-Attribute</guid>
+    <description>A Critical Quality Attribute (or CQA) is an attribute chosen for a product that ensures that it is of the desired quality. For example a product could have a CQA for the pH, Particle size, endotoxin content, sterility etc.</description>
+    <pubDate>Tue, 25 Feb 2025 22:29:05 GMT</pubDate>
   </item>
     </channel>
   </rss>

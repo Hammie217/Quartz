@@ -1,6 +1,5 @@
 import { QuartzConfig } from "./quartz/cfg"
 import * as Plugin from "./quartz/plugins"
-import { CenterImages } from "./quartz/plugins/transformers/centerImages"
 
 /**
  * Quartz 4.0 Configuration
@@ -57,7 +56,6 @@ const config: QuartzConfig = {
   plugins: {
     transformers: [
       Plugin.FrontMatter(),
-      Plugin.CenterImages(),
       Plugin.CreatedModifiedDate({
         priority: ["frontmatter", "git","filesystem"],
       }),
@@ -74,6 +72,7 @@ const config: QuartzConfig = {
       Plugin.CrawlLinks({ markdownLinkResolution: "shortest" }),
       Plugin.Description(),
       Plugin.Latex({ renderEngine: "katex" }),
+      Plugin.CenterImages(),
     ],
     filters: [Plugin.RemoveDrafts()],
     emitters: [
