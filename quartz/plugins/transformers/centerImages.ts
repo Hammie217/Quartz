@@ -13,7 +13,8 @@ export const CenterImages: QuartzTransformerPlugin = () => {
         [
           (tree) => {
             visit(tree, "element", (node: Element) => {
-              if (node.tagName === "img") {
+              // Ensure the node is valid and has the expected structure
+              if (node && node.tagName === "img") {
                 // Ensure the className property is an array
                 if (!Array.isArray(node.properties.className)) {
                   node.properties.className = []
