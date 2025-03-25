@@ -1,0 +1,1 @@
+A fourier transform is a mathematical operation used commonly in signal processing to switch a signal between the time domain and the frequency domain. 

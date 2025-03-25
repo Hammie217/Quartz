@@ -1,0 +1,1 @@
+ERP is Enterprise Resource Planning, ERP in a manufacturing environment focuses on batches and material availability but can have huge breadth across business functions. SAP is deployed in most large companies.

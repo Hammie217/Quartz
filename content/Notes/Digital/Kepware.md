@@ -1,0 +1,1 @@
+Kepware is piece of software commonly used throughout industry as an [[OPC]] Server, it has a collection of drivers to talk to common systems such as S7, Rockwell, AB, etc.. and then serve those in an [[OPC]] gateway for other systems to ingest. 

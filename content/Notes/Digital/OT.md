@@ -1,0 +1,3 @@
+OT is short for Operational Technology, it is the industrial production version of IT (Information Technology). Companies tend to split their networks through a firewall to keep their IT network and OT network segregated ensuring production is further away from the internet and harder to be victim of a cyber attack.
+
+OT networks are typically futher split up into VLANS based on the [[Purdue Model]] to bring even more security to the operational devices. The validity of this approach recently is under constant question.

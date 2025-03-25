@@ -1,0 +1,1 @@
+JSON or JavaScript Object Notation is a data format used throughout industry especially in web applications such as [[Application Programming Interface]]s. 

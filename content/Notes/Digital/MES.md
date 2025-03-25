@@ -1,0 +1,1 @@
+MES or Manufactuing Execution System is a software layer typically above a [[SCADA]] layer and below [[ERP]], MES focuses on the product flow and operator interactions usually leaving equipment as an abstraction with little connectivity options requiring most of the equipment and production complexities to be done by the lower level SCADA and equipment. 

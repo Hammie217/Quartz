@@ -1,0 +1,1 @@
+Fast Fourier Transform or FFT is a data transformation completed on discrete datapoints to attempt a [[Fourier Transform]]

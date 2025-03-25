@@ -4,38 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "d0b8679612e65445",
+        "id": "b1f9269e8975298f",
         "type": "tabs",
         "children": [
           {
-            "id": "fbcdf52696c0b2bc",
+            "id": "71ec2119a94c02cc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Digital/AMQP.md",
+                "file": "Posts/How 3D Printing is Transforming Manufacturing Sites.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "AMQP"
-            }
-          },
-          {
-            "id": "3a2bd58c7be3e3a6",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "Notes/Untitled.canvas",
-                "viewState": {
-                  "x": 0,
-                  "y": 0,
-                  "zoom": 0
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "Untitled"
+              "title": "How 3D Printing is Transforming Manufacturing Sites"
             }
           }
         ]
@@ -110,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Digital/AMQP.md",
+                "file": "Posts/How 3D Printing is Transforming Manufacturing Sites.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +103,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for AMQP"
+              "title": "Backlinks for How 3D Printing is Transforming Manufacturing Sites"
             }
           },
           {
@@ -179,44 +162,45 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "fbcdf52696c0b2bc",
+  "active": "f63d8c32f3441f68",
   "lastOpenFiles": [
-    "Posts/Assets/Pasted image 20250226215122.png",
+    "Posts/Technology Focus - Fledge (FogLAMP).md",
+    "Modular Type Package.md",
+    "HMI.md",
     "Pasted image 20250223212004.png",
+    "Notes/Digital/ERP.md",
+    "Notes/Digital/Purdue Model.md",
+    "Notes/Digital/Pasted image 20250324181729.png",
+    "Posts/Assets/Pasted image 20250324182729.png",
+    "Posts/Assets/Pasted image 20250324183852.png",
+    "Notes/Digital/MES.md",
+    "Notes/Digital/OT.md",
+    "Notes/Digital/SCADA.md",
+    "Posts/Assets/Pasted image 20250324175336.png",
+    "Posts/Assets/Pasted image 20250324140806.png",
+    "Notes/Digital/Fast Fourier Transform.md",
+    "Notes/Digital/Unified NameSpace.md",
+    "Notes/Digital/Fourier Transform.md",
+    "Notes/Digital/JSON.md",
+    "Draft/Writing Ideas.md",
+    "Notes/Digital/PLC.md",
+    "Notes/Digital/IO.md",
+    "Notes/Digital/Kepware.md",
+    "Notes/Digital/OPC.md",
+    "Posts/Pharmaceutical Filling techniques.md",
+    "Posts/Assets/Pasted image 20250324091631.png",
+    "Notes/Untitled.canvas",
+    "Posts/Assets/Pasted image 20250305104309.png",
+    "Posts/F1 Strategy Analytics.md",
+    "Notes/Digital/AMQP.md",
+    "Posts/Assets/Pasted image 20250226215122.png",
     "Posts/How 3D Printing is Transforming Manufacturing Sites.md",
     "Posts/Assets/Pasted image 20250226203425.png",
-    "Posts/Assets/Pasted image 20250226202747.png",
-    "Notes/Untitled.canvas",
-    "Draft/Writing Ideas.md",
     "Posts/Kubernetes Overview.md",
     "Notes/Pharma/ISA88.md",
     "Notes/Pharma/Procedure.md",
     "Notes/Pharma/Unit.md",
     "Notes/Pharma/Phase.md",
-    "Notes/Pharma/Control Module.md",
-    "Notes/Pharma/Operation.md",
-    "Notes/Pharma/Unit Procedure.md",
-    "Notes/Pharma/Process Cell.md",
-    "Notes/Pharma/Equipment Module.md",
-    "Notes/Pharma/RFID.md",
-    "Notes/Digital/Debezium.md",
-    "Notes/Digital/Kafka Connect.md",
-    "Notes/Digital/Kafka.md",
-    "Notes/Digital/Message Broker.md",
-    "Notes/Pharma/Continuous Process Verification.md",
-    "Notes/Pharma/Critical Material Attribute.md",
-    "Notes/Pharma/Critical Quality Attribute.md",
-    "Notes/Pharma/Critical Process Parameter.md",
-    "Notes/Pharma/Cold chain.md",
-    "Notes/Pharma/RTLS.md",
-    "Draft/My kubernetes architecture.md",
-    "_index.md",
-    "Posts/Assets/Pasted image 20250223210849.png",
-    "Posts/Assets/Screenshot 2025-02-23 at 21.07.46.png",
-    "Posts/Assets/Screenshot 2025-02-23 at 21.07.56.png",
-    "Posts/Assets/Pasted image 20250222124230.png",
-    "Posts/Assets/Pasted image 20250222124717.png",
-    "Posts/Assets/Pasted image 20250222124820.png",
     "CI",
     "Notes/Digital/Containerisation",
     "Notes/Digital",

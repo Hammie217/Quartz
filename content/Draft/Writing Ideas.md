@@ -8,3 +8,15 @@ The pharmaceutical industry is rapidly adopting digital twins for real-time proc
 Leaflet free process
 Blister free packing process
 How to use 3D printing in manufacturing
+
+Technology focus:
+Tulip
+Highbyte
+Litmus
+HiveMQ
+Foglamp
+ThingWorx
+
+
+Equipment Focus:
+Autoclave
