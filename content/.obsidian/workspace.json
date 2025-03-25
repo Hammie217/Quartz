@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Posts/How 3D Printing is Transforming Manufacturing Sites.md",
+                "file": "Notes/Digital/Modular Type Package.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "How 3D Printing is Transforming Manufacturing Sites"
+              "title": "Modular Type Package"
             }
           }
         ]
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Posts/How 3D Printing is Transforming Manufacturing Sites.md",
+                "file": "Notes/Digital/Modular Type Package.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for How 3D Printing is Transforming Manufacturing Sites"
+              "title": "Backlinks for Modular Type Package"
             }
           },
           {
@@ -164,9 +164,10 @@
   },
   "active": "f63d8c32f3441f68",
   "lastOpenFiles": [
+    "Notes/Digital/HMI.md",
+    "Notes/Digital/Modular Type Package.md",
+    "Posts/How 3D Printing is Transforming Manufacturing Sites.md",
     "Posts/Technology Focus - Fledge (FogLAMP).md",
-    "Modular Type Package.md",
-    "HMI.md",
     "Pasted image 20250223212004.png",
     "Notes/Digital/ERP.md",
     "Notes/Digital/Purdue Model.md",
@@ -194,7 +195,6 @@
     "Posts/F1 Strategy Analytics.md",
     "Notes/Digital/AMQP.md",
     "Posts/Assets/Pasted image 20250226215122.png",
-    "Posts/How 3D Printing is Transforming Manufacturing Sites.md",
     "Posts/Assets/Pasted image 20250226203425.png",
     "Posts/Kubernetes Overview.md",
     "Notes/Pharma/ISA88.md",
