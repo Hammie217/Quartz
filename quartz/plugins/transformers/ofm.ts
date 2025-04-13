@@ -14,7 +14,7 @@ import rehypeRaw from "rehype-raw"
 import { SKIP, visit } from "unist-util-visit"
 import path from "path"
 import { splitAnchor } from "../../util/path"
-import { JSResource } from "../../util/resources"
+import { JSResource, CSSResource } from "../../util/resources"
 // @ts-ignore
 import calloutScript from "../../components/scripts/callout.inline"
 // @ts-ignore
@@ -124,7 +124,7 @@ export const wikilinkRegex = new RegExp(
 export const tableRegex = new RegExp(/^\|([^\n])+\|\n(\|)( ?:?-{3,}:? ?\|)+\n(\|([^\n])+\|\n?)+/gm)
 
 // matches any wikilink, only used for escaping wikilinks inside tables
-export const tableWikilinkRegex = new RegExp(/(!?\[\[[^\]]*?\]\])/g)
+export const tableWikilinkRegex = new RegExp(/(!?\[\[[^\]]*?\]\]|\[\^[^\]]*?\])/g)
 
 const highlightRegex = new RegExp(/==([^=]+)==/g)
 const commentRegex = new RegExp(/%%[\s\S]*?%%/g)
@@ -276,6 +276,7 @@ export const ObsidianFlavoredMarkdown: QuartzTransformerPlugin<Partial<Options>>
 
                 // internal link
                 const url = fp + anchor
+
                 return {
                   type: "link",
                   url,
@@ -513,6 +514,7 @@ export const ObsidianFlavoredMarkdown: QuartzTransformerPlugin<Partial<Options>>
                 node.data = {
                   hProperties: {
                     className: ["mermaid"],
+                    "data-clipboard": JSON.stringify(node.value),
                   },
                 }
               }
@@ -730,6 +732,7 @@ export const ObsidianFlavoredMarkdown: QuartzTransformerPlugin<Partial<Options>>
     },
     externalResources() {
       const js: JSResource[] = []
+      const css: CSSResource[] = []
 
       if (opts.enableCheckbox) {
         js.push({
@@ -761,7 +764,7 @@ export const ObsidianFlavoredMarkdown: QuartzTransformerPlugin<Partial<Options>>
         })
       }
 
-      return { js }
+      return { js, css }
     },
   }
 }
