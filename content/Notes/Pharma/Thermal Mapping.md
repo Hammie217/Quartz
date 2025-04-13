@@ -1,0 +1,3 @@
+Thermal mapping is the process of probing a temperature critical area with thermocouples, or another method, to see how the temperature varies throughout the area. This process allows you to know the hottest and coldest part of your system so when monitoring it is key to monitor at these high and low points as these are the first to go out of specification.
+
+For example this is a key requirement of a [[Cold Store]] or an [[Autoclave]].

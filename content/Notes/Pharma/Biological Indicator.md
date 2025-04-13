@@ -1,0 +1,1 @@
+Biological Indicators make use of live biological specimens such as Geobacillus Stearothermophilus to indicate if your [[Sterilisation]] process is effective in killing bacteria. Biological indicators can be placed throughout the system, subjected to a [[Sterilisation]] cycle and then tested at cycle completion to show if the process kills bacteria or allows bacteria to survive.

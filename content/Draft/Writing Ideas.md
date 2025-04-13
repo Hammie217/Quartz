@@ -14,7 +14,6 @@ Tulip
 Highbyte
 Litmus
 HiveMQ
-Foglamp
 ThingWorx
 
 

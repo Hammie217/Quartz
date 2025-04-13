@@ -1,0 +1,1 @@
+Chemical Indicators are devices designed to visually change based on being subject to a specific situation. For example they are used in [[Autoclave]] validation and ongoing testing to prove that some set of conditions have been met. For example a certain amount of heat for a certain duration.
