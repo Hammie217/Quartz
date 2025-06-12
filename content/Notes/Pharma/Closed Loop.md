@@ -1,0 +1,3 @@
+A closed loop system, is a control system where an input and an output is fed to a single controller allowing a system to control typically quicker and more accurately than [[Open Loop]] control.
+
+An example of this would be controlling the speed of a car, if you don't have a speedometer showing your current speed you will not be able to control the car to exactly 30mph, with closed loop feedback you have both the input set point (30mph) and the output current speed and can determine if you should speed up or slow down.

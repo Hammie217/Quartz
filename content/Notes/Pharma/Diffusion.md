@@ -1,0 +1,1 @@
+Diffusion is the process within a [[Filter]] where small particles are captured by travelling in a [[Brownian motion]] due to their small mass and colliding with the filter fibres.

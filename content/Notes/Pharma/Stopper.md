@@ -1,0 +1,3 @@
+Stoppers are rubber bungs used as a component in pharmaceutical [[Vials]], they placed in the top of a [[Vial]] to seal the product in, stoppers are held in place with a [[Cap]].
+
+When a [[Vial]] is used and a syringe drawn up, the stopper is left in place with the syringe needle piercing the stopper, this not only maintains the product sterility whilst drawing out the syringe but also when the syringe is removed from the vial the rubber stopper closes this small gap allowing for no liquid to escape and for multiple doses within a single [[Vial]].

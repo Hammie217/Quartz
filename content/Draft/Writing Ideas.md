@@ -10,12 +10,21 @@ Blister free packing process
 How to use 3D printing in manufacturing
 
 Technology focus:
+Mendix
 Tulip
 Highbyte
 Litmus
 HiveMQ
 ThingWorx
+Ignition
+Crosser
+EMQX Edge
+Node-red
+Kepware Edge
+MCP protocol
 
 
 Equipment Focus:
 Autoclave
+RABS
+Isolator

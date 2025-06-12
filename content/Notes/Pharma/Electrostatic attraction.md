@@ -1,0 +1,1 @@
+Electrostatic attraction is a process commonly used within a [[Filter]] to attract charged particles and capture them by sticking to a fibre when colliding.
