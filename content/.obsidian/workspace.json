@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "broken links output.md",
+                "file": "Notes/Pharma/Pure Steam.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "broken links output"
+              "title": "Pure Steam"
             }
           }
         ],
@@ -196,8 +196,8 @@
   },
   "active": "226db4d180fbc841",
   "lastOpenFiles": [
-    "empty files.md",
     "broken links output.md",
+    "empty files.md",
     "Notes/Pharma/Pure Steam.md",
     "Notes/Pharma/Dry steam.md",
     "Pasted image 20250223212004.png",
