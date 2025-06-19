@@ -1,0 +1,1 @@
+Pure steam is a type of [[Steam]] that is generated from [[Purified Water]]. Pure steam is used for [[Sterilisation In Place]] to prevent introduction of contaminants after [[Clean In Place]].

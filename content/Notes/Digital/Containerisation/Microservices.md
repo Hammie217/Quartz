@@ -1,0 +1,5 @@
+A Microservice architecture is the splitting up of an application into component parts that interact, typically over something like an [[Application Programming Interface]], compared to a single monolithic application where all code sits within a single tightly knit process.
+
+A microservices architecture allows for deployments on [[Kubernetes]] to scale each individual constituent part as required, for example a commercial website may have more customers at 6PM requiring more load, each microservice will scale as per requirements, for example the login service could scale up independently from the checkout service.
+
+Microservices also enable a much more expandable and interoperable architecutre where adding new functions is easy as all data is readily available over [[Application Programming Interface]]s.

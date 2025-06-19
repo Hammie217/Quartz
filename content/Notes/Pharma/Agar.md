@@ -1,0 +1,1 @@
+Agar is a jelly-like yellow substance commonly used as a growth medium for [[Inoculation]] in [[BioBurden]] testing.
