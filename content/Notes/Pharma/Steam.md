@@ -8,6 +8,7 @@ If steam is heated above this saturation point, it becomes [[Dry steam]] where t
 
 If steam is heated further it then becomes [[Superheated Steam]], superheated steam has been taken so far beyond its saturation point it is very hard to condense, superheated steam isn't used in pharma and typically reserved for power generation where high energy density is the name of the game.
 
-[[Pure Steam]] is another type of steam, but this term is defined by being created with [[Purified Water]] rather than a particular thermal state.
+Steam is also categorised based on the cleanliness, [[Plant Steam]] being unclassified, [[Clean Steam]] requiring some level of treatment such as [[Reverse Osmosis]] and [[Pure Steam]] being the highest level of cleanliness typically requires generation from [[Water For Injection]].
+
 
 ![[Website Drawings-7.jpg]]

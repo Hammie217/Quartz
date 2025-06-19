@@ -28,3 +28,6 @@ Equipment Focus:
 Autoclave
 RABS
 Isolator
+
+Notes:
+Reverse Osmosis
