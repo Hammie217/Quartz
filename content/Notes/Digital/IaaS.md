@@ -1,0 +1,1 @@
+IaaS is a common acronym for Infrastructure as a Service. With this a provider supplies a piece of Infrastructure rather than software application for you to use as you like. Common examples of this are things such as VM's or [[Kubernetes]] clusters provided from companies like Azure, Amazon Web Services or Google Cloud Platform. 

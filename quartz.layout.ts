@@ -54,6 +54,7 @@ export const defaultContentPageLayout: PageLayout = {
         linkToMore: "Posts/" as SimpleSlug,
       }),
     ),
+    /*
     Component.DesktopOnly(
       Component.RecentNotes({
         title: "Recent Recordings",
@@ -63,6 +64,7 @@ export const defaultContentPageLayout: PageLayout = {
         linkToMore: "Recordings/" as SimpleSlug,
       }),
     ),
+    */
     Component.DesktopOnly(
       Component.RecentNotes({
         title: "Recent Notes",
