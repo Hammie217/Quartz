@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Posts/Why your factory should be deploying a containers.md",
+                "file": "Posts/Why your factory should be deploying containers.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Why your factory should be deploying a containers"
+              "title": "Why your factory should be deploying containers"
             }
           }
         ],
@@ -185,7 +185,7 @@
     "Draft/My kubernetes architecture.md",
     "Posts/Technology Focus - Fledge (FogLAMP).md",
     "Posts/Automation Focus - Autoclave.md",
-    "Posts/Why your factory should be deploying a containers.md",
+    "Posts/Why your factory should be deploying containers.md",
     "Posts/Pasted image 20250701131030.png",
     "Posts/Pasted image 20250716153751.png",
     "Posts/Pasted image 20250716114328.png",
