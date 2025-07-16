@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Posts/Automation Focus - Autoclave.md",
+                "file": "Posts/Why your factory should be deploying a containers.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Automation Focus - Autoclave"
+              "title": "Why your factory should be deploying a containers"
             }
           }
         ],
@@ -178,19 +178,21 @@
       "graph:Open graph view": false
     }
   },
-  "active": "f63d8c32f3441f68",
+  "active": "2e1e7132ca554b64",
   "lastOpenFiles": [
-    "Posts/Why your factory should be deploying a containers.md",
     "Posts/Kubernetes Overview.md",
+    "Draft/Writing Ideas.md",
+    "Draft/My kubernetes architecture.md",
+    "Posts/Technology Focus - Fledge (FogLAMP).md",
+    "Posts/Automation Focus - Autoclave.md",
+    "Posts/Why your factory should be deploying a containers.md",
     "Posts/Pasted image 20250701131030.png",
     "Posts/Pasted image 20250716153751.png",
     "Posts/Pasted image 20250716114328.png",
     "Pasted image 20250223212004.png",
     "Ignition.excalidraw",
-    "Draft/Writing Ideas.md",
     "Notes/Digital/Containerisation/Kubernetes.md",
     "Draft/F1 Race State Lamp.md",
-    "Draft/My kubernetes architecture.md",
     "Notes/Digital/IaaS.md",
     "Notes/Pharma/Steam.md",
     "Notes/Pharma/Friability.md",
@@ -208,7 +210,6 @@
     "Notes/Pharma/Superheated Steam.md",
     "Notes/Pharma/Wet Steam.md",
     "Notes/Pharma/Website Drawings-7.jpg",
-    "Posts/Automation Focus - Autoclave.md",
     "Notes/Pharma/Terminal Sterilisation.md",
     "Notes/Digital/Containerisation/Microservices.md",
     "Untitled.canvas",

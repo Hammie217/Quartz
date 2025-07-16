@@ -1,4 +1,4 @@
-
+#TechnologyFocus
 ## Introduction (What are containers)
 A [[Container]] is a defined unit of software, the easiest and most common way to explain containers is through comparison to a Virtual Machine setup. With Virtual Machines, a full computer is simulated with the only shared resource being the bare metal hardware that these VMs run on, containers on the other hand run on a hosts kernel (Operating System) meaning they are much much faster to spin up and down. 
 
