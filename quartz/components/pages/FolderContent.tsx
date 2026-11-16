@@ -9,6 +9,7 @@ import { QuartzPluginData } from "../../plugins/vfile"
 import { ComponentChildren } from "preact"
 import { concatenateResources } from "../../util/resources"
 import { trieFromAllFiles } from "../../util/ctx"
+import ContentConstructor from "./Content"
 
 interface FolderContentOptions {
   /**
@@ -26,9 +27,17 @@ const defaultOptions: FolderContentOptions = {
 
 export default ((opts?: Partial<FolderContentOptions>) => {
   const options: FolderContentOptions = { ...defaultOptions, ...opts }
+  const Content = ContentConstructor()
 
   const FolderContent: QuartzComponent = (props: QuartzComponentProps) => {
     const { tree, fileData, allFiles, cfg } = props
+    if (
+      fileData.frontmatter?.portfolio ||
+      ["article", "case-study", "knowledge", "event", "graph"].includes(
+        String(fileData.frontmatter?.type),
+      )
+    )
+      return <Content {...props} />
 
     const trie = (props.ctx.trie ??= trieFromAllFiles(allFiles))
     const folder = trie.findNode(fileData.slug!.split("/"))
@@ -121,6 +130,7 @@ export default ((opts?: Partial<FolderContentOptions>) => {
     )
   }
 
-  FolderContent.css = concatenateResources(style, PageList.css)
+  FolderContent.css = concatenateResources(style, PageList.css, Content.css)
+  FolderContent.afterDOMLoaded = Content.afterDOMLoaded
   return FolderContent
 }) satisfies QuartzComponentConstructor

@@ -1,5 +1,3 @@
-import exp from "constants"
-
 export { FrontMatter } from "./frontmatter"
 export { GitHubFlavoredMarkdown } from "./gfm"
 export { Citations } from "./citations"

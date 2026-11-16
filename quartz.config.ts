@@ -1,5 +1,7 @@
 import { QuartzConfig } from "./quartz/cfg"
 import * as Plugin from "./quartz/plugins"
+import { PublicationSafety } from "./quartz/plugins/filters/publication"
+import { PublicationMetadata } from "./quartz/plugins/transformers/publication"
 
 /**
  * Quartz 4 Configuration
@@ -9,16 +11,16 @@ import * as Plugin from "./quartz/plugins"
 const config: QuartzConfig = {
   configuration: {
     pageTitle: "Hamish Sams",
-    pageTitleSuffix: "",
+    pageTitleSuffix: " | Hamish Sams",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
       provider: "plausible",
     },
-    locale: "en-US",
-    baseUrl: "hammie217.github.io/Quartz/",
-    ignorePatterns: ["private", "templates", ".obsidian", "Draft"],
-    defaultDateType: "modified",
+    locale: "en-GB",
+    baseUrl: "hammie217.github.io/Quartz",
+    ignorePatterns: ["private", "templates", ".obsidian", "Draft", "**/.DS_Store"],
+    defaultDateType: "published",
     theme: {
       fontOrigin: "googleFonts",
       cdnCaching: true,
@@ -29,26 +31,26 @@ const config: QuartzConfig = {
       },
       colors: {
         lightMode: {
-          light: "#faf8f8",
-          lightgray: "#e5e5e5",
-          gray: "#b8b8b8",
-          darkgray: "#4e4e4e",
-          dark: "#2b2b2b",
-          secondary: "#284b63",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#fff23688",
+          light: "#F8F9F7",
+          lightgray: "#E2E7E5",
+          gray: "#667580",
+          darkgray: "#172B3A",
+          dark: "#172B3A",
+          secondary: "#147C78",
+          tertiary: "#168B86",
+          highlight: "rgba(25, 106, 102, 0.08)",
+          textHighlight: "#c8dfcb88",
         },
         darkMode: {
-          light: "#161618",
-          lightgray: "#393639",
-          gray: "#646464",
-          darkgray: "#d4d4d4",
-          dark: "#ebebec",
-          secondary: "#7b97aa",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#b3aa0288",
+          light: "#111A22",
+          lightgray: "#32434C",
+          gray: "#A7B5BD",
+          darkgray: "#F1F5F4",
+          dark: "#F1F5F4",
+          secondary: "#51BDB3",
+          tertiary: "#51BDB3",
+          highlight: "rgba(137, 204, 196, 0.12)",
+          textHighlight: "#35786f88",
         },
       },
     },
@@ -56,8 +58,9 @@ const config: QuartzConfig = {
   plugins: {
     transformers: [
       Plugin.FrontMatter(),
+      PublicationMetadata(),
       Plugin.CreatedModifiedDate({
-        priority: ["frontmatter", "git","filesystem"],
+        priority: ["frontmatter", "git", "filesystem"],
       }),
       Plugin.SyntaxHighlighting({
         theme: {
@@ -74,7 +77,7 @@ const config: QuartzConfig = {
       Plugin.Latex({ renderEngine: "katex" }),
       Plugin.CenterImages(),
     ],
-    filters: [Plugin.RemoveDrafts()],
+    filters: [Plugin.RemoveDrafts(), PublicationSafety()],
     emitters: [
       Plugin.AliasRedirects(),
       Plugin.ComponentResources(),

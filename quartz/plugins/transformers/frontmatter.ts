@@ -140,8 +140,21 @@ declare module "vfile" {
         published: string
         description: string
         socialDescription: string
+        socialImage: string
+        portfolio: boolean
         publish: boolean | string
         draft: boolean | string
+        type: "page" | "article" | "case-study" | "knowledge" | "event" | "graph"
+        view: string
+        heading: string
+        eyebrow: string
+        category: string
+        featured: boolean
+        topics: string[]
+        role: string
+        organisation: string
+        period: string
+        outcome: string
         lang: string
         enableToc: string
         cssclasses: string[]

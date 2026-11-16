@@ -1,10 +1,11 @@
 import { i18n } from "../i18n"
-import { FullSlug, getFileExtension, joinSegments, pathToRoot } from "../util/path"
+import { FullSlug, getFileExtension, joinSegments, pathToRoot, simplifySlug } from "../util/path"
 import { CSSResourceToStyleElement, JSResourceToScriptElement } from "../util/resources"
 import { googleFontHref, googleFontSubsetHref } from "../util/theme"
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
 import { unescapeHTML } from "../util/escape"
 import { CustomOgImagesEmitterName } from "../plugins/emitters/ogImage"
+import { isArticle } from "../util/publication"
 export default (() => {
   const Head: QuartzComponent = ({
     cfg,
@@ -29,12 +30,31 @@ export default (() => {
 
     // Url of current page
     const socialUrl =
-      fileData.slug === "404" ? url.toString() : joinSegments(url.toString(), fileData.slug!)
+      fileData.slug === "404"
+        ? url.toString()
+        : joinSegments(url.toString(), simplifySlug(fileData.slug!))
 
     const usesCustomOgImage = ctx.cfg.plugins.emitters.some(
       (e) => e.name === CustomOgImagesEmitterName,
     )
     const ogImageDefaultPath = `https://${cfg.baseUrl}/static/og-image.png`
+    const person = {
+      "@type": "Person", "@id": `${url.toString()}/#hamish-sams`, name: "Hamish Sams",
+      url: `${url.toString()}/`, sameAs: ["https://www.linkedin.com/in/hamish-sams-2ba767153/", "https://github.com/Hammie217"],
+      knowsAbout: ["Industrial Automation", "Manufacturing Digitalisation", "OT Data Integration"],
+    }
+    const schema: object[] = [person]
+    if (isArticle(fileData)) schema.push({
+      "@type": "Article", headline: fileData.frontmatter?.title, description,
+      mainEntityOfPage: socialUrl, author: { "@id": person["@id"] },
+      datePublished: fileData.dates?.published.toISOString(), dateModified: fileData.dates?.modified.toISOString(),
+    })
+    if (fileData.slug !== "index") schema.push({
+      "@type": "BreadcrumbList", itemListElement: [
+        { "@type": "ListItem", position: 1, name: "Home", item: `${url.toString()}/` },
+        { "@type": "ListItem", position: 2, name: fileData.frontmatter?.title, item: socialUrl },
+      ],
+    })
 
     return (
       <head>
@@ -53,7 +73,12 @@ export default (() => {
         <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossOrigin="anonymous" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-        <meta name="og:site_name" content={cfg.pageTitle}></meta>
+        <meta property="og:site_name" content={cfg.pageTitle} />
+        <meta
+          property="og:type"
+          content={fileData.frontmatter?.portfolio ? "website" : "article"}
+        />
+        <meta name="twitter:card" content="summary_large_image" />
         <meta property="og:title" content={title} />
         <meta property="og:description" content={description} />
         <meta property="og:image:alt" content={description} />
@@ -72,7 +97,8 @@ export default (() => {
 
         {cfg.baseUrl && (
           <>
-            <meta property="twitter:domain" content={cfg.baseUrl}></meta>
+            <link rel="canonical" href={socialUrl} />
+            <meta property="twitter:domain" content={url.hostname}></meta>
             <meta property="og:url" content={socialUrl}></meta>
             <meta property="twitter:url" content={socialUrl}></meta>
           </>
@@ -81,6 +107,7 @@ export default (() => {
         <link rel="icon" href={iconPath} />
         <meta name="description" content={description} />
         <meta name="generator" content="Quartz" />
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ "@context": "https://schema.org", "@graph": schema }).replace(/</g, "\\u003c") }} />
 
         {css.map((resource) => CSSResourceToStyleElement(resource, true))}
         {js

@@ -80,7 +80,7 @@ export const CreatedModifiedDate: QuartzTransformerPlugin<Partial<Options>> = (u
             file.data.dates = {
               created: coerceDate(fp, created),
               modified: coerceDate(fp, modified),
-              published: coerceDate(fp, published),
+              published: coerceDate(fp, published ?? modified ?? created),
             }
           }
         },

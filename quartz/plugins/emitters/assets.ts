@@ -5,10 +5,13 @@ import fs from "fs"
 import { glob } from "../../util/glob"
 import { Argv } from "../../util/ctx"
 import { QuartzConfig } from "../../cfg"
+import manifest from "../../publication-manifest.json"
+
+const approvedAsset = (file: string) => manifest.assets.includes(file.split(path.sep).join("/"))
 
 const filesToCopy = async (argv: Argv, cfg: QuartzConfig) => {
   // glob all non MD files in content folder and copy it over
-  return await glob("**", argv.directory, ["**/*.md", ...cfg.configuration.ignorePatterns])
+  return (await glob("**", argv.directory, ["**/*.md", ...cfg.configuration.ignorePatterns])).filter(approvedAsset)
 }
 
 const copyFile = async (argv: Argv, fp: FilePath) => {
@@ -38,6 +41,7 @@ export const Assets: QuartzEmitterPlugin = () => {
       for (const changeEvent of changeEvents) {
         const ext = path.extname(changeEvent.path)
         if (ext === ".md") continue
+        if (!approvedAsset(changeEvent.path)) continue
 
         if (changeEvent.type === "add" || changeEvent.type === "change") {
           yield copyFile(ctx.argv, changeEvent.path)

@@ -1,0 +1,1322 @@
+[
+  {
+    "file": "Notes/Digital/AMQP.md",
+    "slug": "Notes/Digital/AMQP",
+    "sha256": "0361ee070e63eca114d7313e11bea520d8783bdb4caf34c920fb8e051b74b947"
+  },
+  {
+    "file": "Notes/Digital/Application Programming Interface.md",
+    "slug": "Notes/Digital/Application-Programming-Interface",
+    "sha256": "3ba3985f3631f4e3e44f2cd4a45bb6b9429089b3201234a8e3f0c5a14ad230c8"
+  },
+  {
+    "file": "Notes/Digital/CICD.md",
+    "slug": "Notes/Digital/CICD",
+    "sha256": "17ff42541e032390560393a75173477efeb95afac512263ebc592a0d5e10e1fc"
+  },
+  {
+    "file": "Notes/Digital/Containerisation/Autoscaling.md",
+    "slug": "Notes/Digital/Containerisation/Autoscaling",
+    "sha256": "3bc14a3836662ae7166de43fefd539c9fc9d2bff5bc62be92e0a7f53cb27d234"
+  },
+  {
+    "file": "Notes/Digital/Containerisation/Container Image.md",
+    "slug": "Notes/Digital/Containerisation/Container-Image",
+    "sha256": "d249e9a22e96e52431f45f64e35b0a25792d1c1f2d34d72e5ea99ec3f95d000f"
+  },
+  {
+    "file": "Notes/Digital/Containerisation/Container Runtime.md",
+    "slug": "Notes/Digital/Containerisation/Container-Runtime",
+    "sha256": "842e5f48e1e3ec7c2fa6b52646b4460932cbdb9653bd31455ace5e007e83a315"
+  },
+  {
+    "file": "Notes/Digital/Containerisation/Container.md",
+    "slug": "Notes/Digital/Containerisation/Container",
+    "sha256": "5c46786694b3c0117f8ad1cbabf6d13bacbf365b26602fc47ce2f58cf33323a2"
+  },
+  {
+    "file": "Notes/Digital/Containerisation/Control Plane.md",
+    "slug": "Notes/Digital/Containerisation/Control-Plane",
+    "sha256": "7ece82311feb1f414fd395e57b7b3d4bc94b3cef1805cc6a8fd6f6a8c74eed77"
+  },
+  {
+    "file": "Notes/Digital/Containerisation/Docker.md",
+    "slug": "Notes/Digital/Containerisation/Docker",
+    "sha256": "441f803bf6f57635b67bd70e545a55f494598ed193bc98661ad6c11b71c5067b"
+  },
+  {
+    "file": "Notes/Digital/Containerisation/Dockerfile.md",
+    "slug": "Notes/Digital/Containerisation/Dockerfile",
+    "sha256": "ca71c9c56d5b4a6298020bf1d474a7d9c5fc526331fd6d35554146b42c9c6eb9"
+  },
+  {
+    "file": "Notes/Digital/Containerisation/Ephemeral.md",
+    "slug": "Notes/Digital/Containerisation/Ephemeral",
+    "sha256": "cd44c6914ae294d003b03dd5031984aff1be189a5026b1dc000abde352f6ebfa"
+  },
+  {
+    "file": "Notes/Digital/Containerisation/Helm.md",
+    "slug": "Notes/Digital/Containerisation/Helm",
+    "sha256": "fbba272e6328845a871d3930da860f3928245c067b978c0ad796622268943d18"
+  },
+  {
+    "file": "Notes/Digital/Containerisation/Helmcharts.md",
+    "slug": "Notes/Digital/Containerisation/Helmcharts",
+    "sha256": "b52053a6df92237bfebc87c577b31d31040b157b8c0010d957fceeeb7be2f665"
+  },
+  {
+    "file": "Notes/Digital/Containerisation/High Availability.md",
+    "slug": "Notes/Digital/Containerisation/High-Availability",
+    "sha256": "e8c7ba32eff399c24d0ab849ebc0ec1fc93431f8710c2392b6ff1df0acc90070"
+  },
+  {
+    "file": "Notes/Digital/Containerisation/Horizontal Pod Autoscaling.md",
+    "slug": "Notes/Digital/Containerisation/Horizontal-Pod-Autoscaling",
+    "sha256": "4bccf71ca202da7ae62fa1e39e1e15600675b737071eb9c71b6fb11200b71f66"
+  },
+  {
+    "file": "Notes/Digital/Containerisation/Image Repository.md",
+    "slug": "Notes/Digital/Containerisation/Image-Repository",
+    "sha256": "a3138b622e28cdc528c1db5909334425ac813b2f17ef1249634473c81c2db03a"
+  },
+  {
+    "file": "Notes/Digital/Containerisation/Kubernetes services.md",
+    "slug": "Notes/Digital/Containerisation/Kubernetes-services",
+    "sha256": "a79ca4993770a130a88b04daeaa0a9491171fbecac4a947cb3cc341646f575e3"
+  },
+  {
+    "file": "Notes/Digital/Containerisation/Kubernetes.md",
+    "slug": "Notes/Digital/Containerisation/Kubernetes",
+    "sha256": "615ec0b768d37dfd7b7bb2fa2e579d2f758b3bab655263ed3d8b0eb2293646c3"
+  },
+  {
+    "file": "Notes/Digital/Containerisation/Manifest.md",
+    "slug": "Notes/Digital/Containerisation/Manifest",
+    "sha256": "5bf63be7fe967d4bd51d78a7879aaddd17d80210beccbefa4d3fc4d633139f23"
+  },
+  {
+    "file": "Notes/Digital/Containerisation/Microservices.md",
+    "slug": "Notes/Digital/Containerisation/Microservices",
+    "sha256": "2b7af224203845b29c89c8cfde3e15d08b575ed80d734d217a8badb3687fc50b"
+  },
+  {
+    "file": "Notes/Digital/Containerisation/Nodes.md",
+    "slug": "Notes/Digital/Containerisation/Nodes",
+    "sha256": "cce179fb306d778f613c6a13806a64440afd86c9ae32e7101821272dfc6d07ad"
+  },
+  {
+    "file": "Notes/Digital/Containerisation/Persistent Volume Claim.md",
+    "slug": "Notes/Digital/Containerisation/Persistent-Volume-Claim",
+    "sha256": "cb9c3cd33e6cce2903ff199e5f9a1c25a20fac0eacaa503f780ab70a661c8af3"
+  },
+  {
+    "file": "Notes/Digital/Containerisation/Pods.md",
+    "slug": "Notes/Digital/Containerisation/Pods",
+    "sha256": "7ef2c7b56a9881cbf50a1e47781d7083752103ee534cba79bb64032c3d31bf5c"
+  },
+  {
+    "file": "Notes/Digital/Containerisation/Proxy.md",
+    "slug": "Notes/Digital/Containerisation/Proxy",
+    "sha256": "d5d25cab3c89bc5d04de44b7db7b433e3d228ed96069e7fb8a0777413745c9f2"
+  },
+  {
+    "file": "Notes/Digital/Containerisation/Stateful Set.md",
+    "slug": "Notes/Digital/Containerisation/Stateful-Set",
+    "sha256": "323c1de5f7176ee210dfad7e199c0d9423cef7e38b7f8468a16616f2a091b13e"
+  },
+  {
+    "file": "Notes/Digital/Containerisation/Veritcal Pod Autoscaling.md",
+    "slug": "Notes/Digital/Containerisation/Veritcal-Pod-Autoscaling",
+    "sha256": "fcb802ec35bc8f7774e7197e4258bb36a13f735bb41c37f730fdb8834fae6ddc"
+  },
+  {
+    "file": "Notes/Digital/Containerisation/Website Drawings-4.jpg",
+    "slug": "Notes/Digital/Containerisation/Website-Drawings-4.jpg",
+    "sha256": "a88633c58acbecfac4df7921a3fdb536659f6480e96141c531dcf5ed1166d3d6"
+  },
+  {
+    "file": "Notes/Digital/Containerisation/Website Drawings-5 2.jpg",
+    "slug": "Notes/Digital/Containerisation/Website-Drawings-5-2.jpg",
+    "sha256": "043272f792a07480c7d8ea9b47040b2b0bbc3cd8b11dd82f46996d927c4b083e"
+  },
+  {
+    "file": "Notes/Digital/Containerisation/Website Drawings-5.jpg",
+    "slug": "Notes/Digital/Containerisation/Website-Drawings-5.jpg",
+    "sha256": "4df81353b4a48e526bdaa47eb545ea6006b9a3218f785e53f0256c0a97b39db3"
+  },
+  {
+    "file": "Notes/Digital/Containerisation/Website Drawings-6.jpg",
+    "slug": "Notes/Digital/Containerisation/Website-Drawings-6.jpg",
+    "sha256": "b9bd6ca4e1fa90f97d1b70fe347d3773d996c095491b0a962bcfb5d52f4c2b6b"
+  },
+  {
+    "file": "Notes/Digital/Containerisation/etcd.md",
+    "slug": "Notes/Digital/Containerisation/etcd",
+    "sha256": "33fa3e4d76bb9e5c9bb16c151a5f7ac697e9163989d7d971db4c9f4b68140c79"
+  },
+  {
+    "file": "Notes/Digital/Containerisation/kube-apiserver.md",
+    "slug": "Notes/Digital/Containerisation/kube-apiserver",
+    "sha256": "c39ea0ed9b22ca4021a5fece4f089a53ef2124fbd23fde92db6180155324b19d"
+  },
+  {
+    "file": "Notes/Digital/Containerisation/kube-controller-manager.md",
+    "slug": "Notes/Digital/Containerisation/kube-controller-manager",
+    "sha256": "111072b0480c8db92caf1df1aea975fba812f592d7e459e0c1f6e04c9c579b90"
+  },
+  {
+    "file": "Notes/Digital/Containerisation/kube-proxy.md",
+    "slug": "Notes/Digital/Containerisation/kube-proxy",
+    "sha256": "c5522eec8db8f3d3c190f37df6ef9c99545d6c867e25b07b99c20f502242245e"
+  },
+  {
+    "file": "Notes/Digital/Containerisation/kube-scheduler.md",
+    "slug": "Notes/Digital/Containerisation/kube-scheduler",
+    "sha256": "2340019ec06f8fc1e20ecdf14cc21cce276735026b8d4c4a5143da56dd18cb8b"
+  },
+  {
+    "file": "Notes/Digital/Containerisation/kubeadm.md",
+    "slug": "Notes/Digital/Containerisation/kubeadm",
+    "sha256": "6681cb5458d5f78d4eb8d44e4709a07d065971131a1d78625bf0f67d766c54fb"
+  },
+  {
+    "file": "Notes/Digital/Containerisation/kubelet.md",
+    "slug": "Notes/Digital/Containerisation/kubelet",
+    "sha256": "67a6ac48dc768296f3877a9dd5d69babdcc3aaf6799ca0a050ddb91e5f83bec3"
+  },
+  {
+    "file": "Notes/Digital/Debezium.md",
+    "slug": "Notes/Digital/Debezium",
+    "sha256": "5dc522bfa9f3ce7dee3db6dee79df2f671b16f9ac9ec2cad3877e9f7b32d8d82"
+  },
+  {
+    "file": "Notes/Digital/ERP.md",
+    "slug": "Notes/Digital/ERP",
+    "sha256": "6d2c89e5dd4789d813fc8cba0dfc2a22eae45f31dfb18531f9fad5c41bf8c068"
+  },
+  {
+    "file": "Notes/Digital/FIFO.md",
+    "slug": "Notes/Digital/FIFO",
+    "sha256": "e3534efed932370e51d048b815fdea32b228bf0b39ca4f5b4d3cc3ca877a79e1"
+  },
+  {
+    "file": "Notes/Digital/Fast Fourier Transform.md",
+    "slug": "Notes/Digital/Fast-Fourier-Transform",
+    "sha256": "59cca3a6c68c666c9b90785e7390e6086c95c1d19af0965ed04b5ee20594512a"
+  },
+  {
+    "file": "Notes/Digital/Fourier Transform.md",
+    "slug": "Notes/Digital/Fourier-Transform",
+    "sha256": "3dbc112222c56af9ead631a2171bee7d936723b5574d00cd25274af29ec5fcd7"
+  },
+  {
+    "file": "Notes/Digital/HMI.md",
+    "slug": "Notes/Digital/HMI",
+    "sha256": "23047d2b25f0951cb0a22d751d52b67d3d86717f5600bdc6dfda16670ed450b9"
+  },
+  {
+    "file": "Notes/Digital/IO.md",
+    "slug": "Notes/Digital/IO",
+    "sha256": "c7bff62d9f7d0d3c8695818f30b6ef1915a2f4d4e663a6132bed0b0af2b64af2"
+  },
+  {
+    "file": "Notes/Digital/IaaS.md",
+    "slug": "Notes/Digital/IaaS",
+    "sha256": "a2b90dff136dcd81222881cb4eaef3eb2b8584acc2cbf63075f8505b06925650"
+  },
+  {
+    "file": "Notes/Digital/Idempotent.md",
+    "slug": "Notes/Digital/Idempotent",
+    "sha256": "b92e8c15be05b31f9076d8b7430697f793a09fba5ad3390afbdf2546cb61dea5"
+  },
+  {
+    "file": "Notes/Digital/JSON.md",
+    "slug": "Notes/Digital/JSON",
+    "sha256": "4466c047ec00e7f5d25112d07103aa913063bab78b5669abc051001f355752de"
+  },
+  {
+    "file": "Notes/Digital/Kafka Connect.md",
+    "slug": "Notes/Digital/Kafka-Connect",
+    "sha256": "d10b06cd337346b755f3ebb5084cc7524edb71e30cf85ad03669b4f5e5b36721"
+  },
+  {
+    "file": "Notes/Digital/Kafka.md",
+    "slug": "Notes/Digital/Kafka",
+    "sha256": "eee7c3323fa49e8dfbfc3963f37c0bf8ab2d93c077017ca6153638a461737d6f"
+  },
+  {
+    "file": "Notes/Digital/Kepware.md",
+    "slug": "Notes/Digital/Kepware",
+    "sha256": "614a77d88833d8ea84d62854592e8cdcfb4121f093c8cc177b8ce4a078052b8a"
+  },
+  {
+    "file": "Notes/Digital/LIFO.md",
+    "slug": "Notes/Digital/LIFO",
+    "sha256": "07fe30726206a2197a192daeadb8c04a78327695ca06a0d30e2a79065ce95ae2"
+  },
+  {
+    "file": "Notes/Digital/MES.md",
+    "slug": "Notes/Digital/MES",
+    "sha256": "7ac1208c7f08b152edd3fa00febd3f0beb66b33d3d61b716a7a343999d126857"
+  },
+  {
+    "file": "Notes/Digital/MQTT.md",
+    "slug": "Notes/Digital/MQTT",
+    "sha256": "555443c840437e7e95fdd1f7421930cd2e64912a67b3497c011acc29f100728e"
+  },
+  {
+    "file": "Notes/Digital/Message Broker.md",
+    "slug": "Notes/Digital/Message-Broker",
+    "sha256": "352fc32e7b61ea7dec24770bcb7406de6b126895bafb56641e0a8edf78608a6e"
+  },
+  {
+    "file": "Notes/Digital/Modular Type Package.md",
+    "slug": "Notes/Digital/Modular-Type-Package",
+    "sha256": "ebe17d2ade8bd8cb99f12218ef8f768a7715c647cbce0139df185208f69e59f5"
+  },
+  {
+    "file": "Notes/Digital/OPC.md",
+    "slug": "Notes/Digital/OPC",
+    "sha256": "5e29d3b697f88b52ebc852971e361a27175c7fe2bd0ffec1a65c9a19c171383b"
+  },
+  {
+    "file": "Notes/Digital/OT.md",
+    "slug": "Notes/Digital/OT",
+    "sha256": "1a149cd22d5ee5bcea2744bf7475a5ae4825b17be473d5bc9c66908afcd5dd74"
+  },
+  {
+    "file": "Notes/Digital/Open Container Initiative.md",
+    "slug": "Notes/Digital/Open-Container-Initiative",
+    "sha256": "6b0b7ac82b708bf2dbc5a634977e64026b77d1c0c071163b706462cc13c2202d"
+  },
+  {
+    "file": "Notes/Digital/PLC.md",
+    "slug": "Notes/Digital/PLC",
+    "sha256": "e4576a6b0e715680ad2e2681bcfefc2964fee2dd30e26a46462ef9eaa95058b3"
+  },
+  {
+    "file": "Notes/Digital/Pasted image 20250324181729.png",
+    "slug": "Notes/Digital/Pasted-image-20250324181729.png",
+    "sha256": "da27bf4ca685b21f0e30c81fc93c71d21cfeb62f19af42f8a715878498a2aa11"
+  },
+  {
+    "file": "Notes/Digital/PubSub.md",
+    "slug": "Notes/Digital/PubSub",
+    "sha256": "3b01c5fd4f72c953f22c073c560509342d6adb96094e75b653b91cf349ded38d"
+  },
+  {
+    "file": "Notes/Digital/Purdue Model.md",
+    "slug": "Notes/Digital/Purdue-Model",
+    "sha256": "6e925f6033f4f68da08e5302a5ab48f18c27c11d3cfba29d32b2f27e9b7e9030"
+  },
+  {
+    "file": "Notes/Digital/Queue.md",
+    "slug": "Notes/Digital/Queue",
+    "sha256": "7df75b1d5c2cc88c7ac21888b58624542c5bc3365e4d19789df7e4ca8a7f8cd9"
+  },
+  {
+    "file": "Notes/Digital/RabbitMQ.md",
+    "slug": "Notes/Digital/RabbitMQ",
+    "sha256": "1870a7cb7726476d4ae37d72caec33e8c9f20754dc97150a4950015f74b43758"
+  },
+  {
+    "file": "Notes/Digital/SCADA.md",
+    "slug": "Notes/Digital/SCADA",
+    "sha256": "b998a94d2d0a4bd51fb45ab40c6707e6f76f736b6fb7df444fc195d21f7dccce"
+  },
+  {
+    "file": "Notes/Digital/Stack.md",
+    "slug": "Notes/Digital/Stack",
+    "sha256": "37fc6af7c0f241ecd91fdf90c476640fd894618ed5851f61f210cbb651ae06fd"
+  },
+  {
+    "file": "Notes/Digital/Unified NameSpace.md",
+    "slug": "Notes/Digital/Unified-NameSpace",
+    "sha256": "b285732335efa93326c7428cf2d5a98561c79d50b4ef5bcfde335c4e2311fc13"
+  },
+  {
+    "file": "Notes/Notes.md",
+    "slug": "Notes/Notes",
+    "sha256": "a76a3c34c1115e530aafee7b8163d15a46a6f3fbf6c662ce35e637b7aa5076a5"
+  },
+  {
+    "file": "Notes/Pharma/Active Pharmaceutical Ingredient.md",
+    "slug": "Notes/Pharma/Active-Pharmaceutical-Ingredient",
+    "sha256": "fb037b646eee50a31d2bd6a0bea290c7e0df2d76682b05d429979adc52ba48d0"
+  },
+  {
+    "file": "Notes/Pharma/Agar.md",
+    "slug": "Notes/Pharma/Agar",
+    "sha256": "aab7fd3ea18026fa569df975846eb43c45ef5bae3a06c2bd9d17d97b3774e36f"
+  },
+  {
+    "file": "Notes/Pharma/Aseptic.md",
+    "slug": "Notes/Pharma/Aseptic",
+    "sha256": "2570f0e2b5ea7dfe7b69a19b6c1172c29ea1af44f01ed72fa0685d06808d6cc3"
+  },
+  {
+    "file": "Notes/Pharma/Assembly.md",
+    "slug": "Notes/Pharma/Assembly",
+    "sha256": "3e8a75473e94298a809339af3e176765c8f9be7a4692e6fe50fdecc5e06a9e40"
+  },
+  {
+    "file": "Notes/Pharma/Autoclave.md",
+    "slug": "Notes/Pharma/Autoclave",
+    "sha256": "5c4d5c3730a77fba4dcb6c87630635901f370735d6b5438d103ae0b4681c8cba"
+  },
+  {
+    "file": "Notes/Pharma/Autoinjectors.md",
+    "slug": "Notes/Pharma/Autoinjectors",
+    "sha256": "d838328cc6eea68b1d1161fd136070b85108b5cf26fdcb7ce5d4dea295606587"
+  },
+  {
+    "file": "Notes/Pharma/Bag Filter.md",
+    "slug": "Notes/Pharma/Bag-Filter",
+    "sha256": "722f065a1f2ad345e7b5a2029e292d97de63a91b0d5b0b3b962d97cec77fb632"
+  },
+  {
+    "file": "Notes/Pharma/Bander.md",
+    "slug": "Notes/Pharma/Bander",
+    "sha256": "df7fbc4c54045012dffa165f8ce30e0df22b962c82af4a17d2d1911c0620f6a2"
+  },
+  {
+    "file": "Notes/Pharma/Beads.md",
+    "slug": "Notes/Pharma/Beads",
+    "sha256": "b21b60f054480e502c2fad52aed3134fe076a88e5de3debfaa6141bcbe6a0b3a"
+  },
+  {
+    "file": "Notes/Pharma/BioBurden.md",
+    "slug": "Notes/Pharma/BioBurden",
+    "sha256": "fce2ee4e53cbfb460f9613ca9f43a7d23daa484a591988574dc3e1f4f3a4bb38"
+  },
+  {
+    "file": "Notes/Pharma/Biological Indicator.md",
+    "slug": "Notes/Pharma/Biological-Indicator",
+    "sha256": "9a8c0e552e0f9df5aa750803167dfca36fa82d97956105ef347634fccf10988b"
+  },
+  {
+    "file": "Notes/Pharma/Blending.md",
+    "slug": "Notes/Pharma/Blending",
+    "sha256": "1d279b36c76e6e847cdfec910883200967c0df151e3c38d3a056a006ffb915a8"
+  },
+  {
+    "file": "Notes/Pharma/Blowdown.md",
+    "slug": "Notes/Pharma/Blowdown",
+    "sha256": "c788438190bf286ce449fa26d5bac075ec7151c417aff6cf5f89c99263efc513"
+  },
+  {
+    "file": "Notes/Pharma/Body.md",
+    "slug": "Notes/Pharma/Body",
+    "sha256": "b1a690f1c289177128dc5e52c811c45a977e3182bcc59f3920c3678b19fa0ef3"
+  },
+  {
+    "file": "Notes/Pharma/Bowie-Dick.md",
+    "slug": "Notes/Pharma/Bowie-Dick",
+    "sha256": "6b46635d526562e5dd4e5159f695774c03859f94db81d918081b9cfccc2321c0"
+  },
+  {
+    "file": "Notes/Pharma/Brownian motion.md",
+    "slug": "Notes/Pharma/Brownian-motion",
+    "sha256": "a2e02021a1d1686cbd570384a97cd54efe49f61278d0ea2f264fabc1aa16dab8"
+  },
+  {
+    "file": "Notes/Pharma/Buffer.md",
+    "slug": "Notes/Pharma/Buffer",
+    "sha256": "8b620eee3bf5d76413f0d0aa263c29e58aa57d33473db5288f2b1d9cf4c3ea82"
+  },
+  {
+    "file": "Notes/Pharma/Building Management System.md",
+    "slug": "Notes/Pharma/Building-Management-System",
+    "sha256": "d97495fb88918e71c883ecf45b75fa79dfbe165a7db346bcf21f5faacc270cb5"
+  },
+  {
+    "file": "Notes/Pharma/Bulk Drug Product.md",
+    "slug": "Notes/Pharma/Bulk-Drug-Product",
+    "sha256": "cda37df0f6c1738ad699eb704de5ca14c2db631b4669884302147e977475e25c"
+  },
+  {
+    "file": "Notes/Pharma/Bulk Drug Substance.md",
+    "slug": "Notes/Pharma/Bulk-Drug-Substance",
+    "sha256": "c0c8afaa44c3066ee29f72c45778e168fd01efeeeb4e07c571bf1c544aaa9200"
+  },
+  {
+    "file": "Notes/Pharma/CFU.md",
+    "slug": "Notes/Pharma/CFU",
+    "sha256": "ccaede961033e9c1eda527a96f5e759c42941f34ec2fbbcb0db335c501205620"
+  },
+  {
+    "file": "Notes/Pharma/Carton.md",
+    "slug": "Notes/Pharma/Carton",
+    "sha256": "f6501f31bab617069704db1468cd4565586bd80aed4f3fc4175adbe681bdc585"
+  },
+  {
+    "file": "Notes/Pharma/Cartonner.md",
+    "slug": "Notes/Pharma/Cartonner",
+    "sha256": "c0b3cc641d4ffa3e3e0004394bf08ba5f6257a53de08221b8c382cc1558b9064"
+  },
+  {
+    "file": "Notes/Pharma/Case.md",
+    "slug": "Notes/Pharma/Case",
+    "sha256": "6490e305f219dc654242cef2d5484985cd2cbb0cab13997df2fc002fe88eb0bb"
+  },
+  {
+    "file": "Notes/Pharma/Casepacker.md",
+    "slug": "Notes/Pharma/Casepacker",
+    "sha256": "1e89536892bea1f8f700e3fcecead4f9bc7d9b9749654732b5ff7eaf0b0156b2"
+  },
+  {
+    "file": "Notes/Pharma/Checkweigher.md",
+    "slug": "Notes/Pharma/Checkweigher",
+    "sha256": "af0a7421ec820c520b83d9ac1b11815188ca55a46effc7b3cd18c3e01a296966"
+  },
+  {
+    "file": "Notes/Pharma/Chemical Indicator.md",
+    "slug": "Notes/Pharma/Chemical-Indicator",
+    "sha256": "ca8297ca340f4351d6811f605d4cf535790ab67180b8512d7be658983adee078"
+  },
+  {
+    "file": "Notes/Pharma/Chilled Water.md",
+    "slug": "Notes/Pharma/Chilled-Water",
+    "sha256": "b99857946701a23e12f24e0ae039e16c15715f9f26cb8d26cfb90a47c18b1cbe"
+  },
+  {
+    "file": "Notes/Pharma/Clean In Place.md",
+    "slug": "Notes/Pharma/Clean-In-Place",
+    "sha256": "ebd3710cea8836fed870a3d2eabeca1f86560cfda9e6ef9f5d984363711c8b25"
+  },
+  {
+    "file": "Notes/Pharma/Clean Steam.md",
+    "slug": "Notes/Pharma/Clean-Steam",
+    "sha256": "6ebe933d8535db9b18a07f7e3849070ad613502a939f0cdcea953accf8904b07"
+  },
+  {
+    "file": "Notes/Pharma/Closed Loop.md",
+    "slug": "Notes/Pharma/Closed-Loop",
+    "sha256": "46aa77c3512f73265be146ed071c2f62bb1ed606e2fcd59db8a14b46a940296d"
+  },
+  {
+    "file": "Notes/Pharma/Coater.md",
+    "slug": "Notes/Pharma/Coater",
+    "sha256": "5b57a9165756c08801e9babb7c1e4423454a674c756c5c5281bbe513245d855a"
+  },
+  {
+    "file": "Notes/Pharma/Coating.md",
+    "slug": "Notes/Pharma/Coating",
+    "sha256": "dac532c8279d1175c5b58417dca6583f08cdbb9ad8e6fdf3ebf7fecb9cfa0737"
+  },
+  {
+    "file": "Notes/Pharma/Cold Store.md",
+    "slug": "Notes/Pharma/Cold-Store",
+    "sha256": "f3c260b5d967b682154bba531db2a841e021337baa06e17733b507e786ebafa4"
+  },
+  {
+    "file": "Notes/Pharma/Cold chain.md",
+    "slug": "Notes/Pharma/Cold-chain",
+    "sha256": "255e8cc52a42c9e09da5040e01ebddf7171101770a2c78e343a601b5807b3994"
+  },
+  {
+    "file": "Notes/Pharma/Continuous Process Verification.md",
+    "slug": "Notes/Pharma/Continuous-Process-Verification",
+    "sha256": "79bfaa900fe43a88f86c776bfde5e3878e9843c8370b6bfd1c5c4b23852c5eff"
+  },
+  {
+    "file": "Notes/Pharma/Control Module.md",
+    "slug": "Notes/Pharma/Control-Module",
+    "sha256": "cb5055357da2122f07c01a0ee8c26586aa1f3fd51df6fb51b5e03f085b1f4546"
+  },
+  {
+    "file": "Notes/Pharma/Critical Material Attribute.md",
+    "slug": "Notes/Pharma/Critical-Material-Attribute",
+    "sha256": "ab62c37e3b3dd7d1d6ad041b8c7d59987db1229528bb372a88d77dd2d16a1b7b"
+  },
+  {
+    "file": "Notes/Pharma/Critical Process Parameter.md",
+    "slug": "Notes/Pharma/Critical-Process-Parameter",
+    "sha256": "ea6d7912f095242d5c81747e3567655a9b32ca61ed1e5ad006dde47a0fc538af"
+  },
+  {
+    "file": "Notes/Pharma/Critical Quality Attribute.md",
+    "slug": "Notes/Pharma/Critical-Quality-Attribute",
+    "sha256": "139b729df925d4607c1e8b10f04ed9a5da7b73bb25b2f5e2b82927a89faa5827"
+  },
+  {
+    "file": "Notes/Pharma/Depyrogenation Oven.md",
+    "slug": "Notes/Pharma/Depyrogenation-Oven",
+    "sha256": "97292a5579786081d11692c4013e6a85715b3995aae7197d21641d2437120fa5"
+  },
+  {
+    "file": "Notes/Pharma/Depyrogenation.md",
+    "slug": "Notes/Pharma/Depyrogenation",
+    "sha256": "a44721790a741df841e15ea3231b9c9c15fbafe64d4dae1d59ba76e51c380671"
+  },
+  {
+    "file": "Notes/Pharma/Diffusion.md",
+    "slug": "Notes/Pharma/Diffusion",
+    "sha256": "cac1f4405ad8bc653691149d0942584d26ad8398c5e199926ee07d0f59a62506"
+  },
+  {
+    "file": "Notes/Pharma/Dispensing.md",
+    "slug": "Notes/Pharma/Dispensing",
+    "sha256": "2f9222a1b84614f8f4b4109d4ea2ae5820a4a9c43988d5cd72086dcca4518742"
+  },
+  {
+    "file": "Notes/Pharma/Downflow Booth.md",
+    "slug": "Notes/Pharma/Downflow-Booth",
+    "sha256": "39dfe081bd2906ed0c10f747600c4371b298fe72bc70885a1b68d082b31a1d6b"
+  },
+  {
+    "file": "Notes/Pharma/Dry Granulation.md",
+    "slug": "Notes/Pharma/Dry-Granulation",
+    "sha256": "885ba975474efe44af1567412e86c79d1dd9967cbdb4ebad1b244a3afe3e1bc4"
+  },
+  {
+    "file": "Notes/Pharma/Dry Heat.md",
+    "slug": "Notes/Pharma/Dry-Heat",
+    "sha256": "e6f8ef13e7cb4a0dc9bbe593a58dd26a02f4079a5e7f17a2840cf6c802535fd8"
+  },
+  {
+    "file": "Notes/Pharma/Dry steam.md",
+    "slug": "Notes/Pharma/Dry-steam",
+    "sha256": "41c915623229d5000ef7ea2776a6e5ffd198c791ecc5eeebc5a9125a5b1680c8"
+  },
+  {
+    "file": "Notes/Pharma/Electrostatic attraction.md",
+    "slug": "Notes/Pharma/Electrostatic-attraction",
+    "sha256": "1c87b37a87f17a6ded3cb5d5dd8dadc11840f5bf5ea3bc3a271ec2d882608825"
+  },
+  {
+    "file": "Notes/Pharma/Endotoxins.md",
+    "slug": "Notes/Pharma/Endotoxins",
+    "sha256": "e6df6105a192ffc276b0eef31bcf10235dd9a000d5e19513a6734a5e72dcdeeb"
+  },
+  {
+    "file": "Notes/Pharma/Environmental Monitoring System.md",
+    "slug": "Notes/Pharma/Environmental-Monitoring-System",
+    "sha256": "85c695664513411fc87b12e7cd7a65aa6490a3e4947497c8250698d1f922fffd"
+  },
+  {
+    "file": "Notes/Pharma/Equipment Module.md",
+    "slug": "Notes/Pharma/Equipment-Module",
+    "sha256": "2bb9a9e8297116d43d3a3d32b34e3c30bbf6a3c89b3baad498428034c7953570"
+  },
+  {
+    "file": "Notes/Pharma/Extremophiles.md",
+    "slug": "Notes/Pharma/Extremophiles",
+    "sha256": "14f39812fea67f578b001448e72da4372a02ce464ad0a488735cebda5f9c27c6"
+  },
+  {
+    "file": "Notes/Pharma/F0 Value.md",
+    "slug": "Notes/Pharma/F0-Value",
+    "sha256": "f9dbeb7bd8d20a34f3627da1c308ac759ada3388eb5e0ccc562ab1986ef6326d"
+  },
+  {
+    "file": "Notes/Pharma/Filter.md",
+    "slug": "Notes/Pharma/Filter",
+    "sha256": "a4032c5d6eeb29cd7b28c845dc899288c0caa15e8a81da7f2cf07f266b663d06"
+  },
+  {
+    "file": "Notes/Pharma/Fluidised Bed.md",
+    "slug": "Notes/Pharma/Fluidised-Bed",
+    "sha256": "b6b818dab249b58c01c63a4966310a4e55daaa9a7a516a1777af252e292ada1d"
+  },
+  {
+    "file": "Notes/Pharma/Forced Thaw.md",
+    "slug": "Notes/Pharma/Forced-Thaw",
+    "sha256": "3ae0b952f485adce0ca822ac6ac03d9478a913e76f9028cea822234d8235f751"
+  },
+  {
+    "file": "Notes/Pharma/Formulation.md",
+    "slug": "Notes/Pharma/Formulation",
+    "sha256": "a51cd4039ba69fa94ac8fcf53dc3e0c2b050f3d5cb0b116ec3a9c317e14d5083"
+  },
+  {
+    "file": "Notes/Pharma/Friability.md",
+    "slug": "Notes/Pharma/Friability",
+    "sha256": "076a7c6592ea70fb9e742ffdefa07d7d810e4c6416348ecf9d88ed4d09cefcb7"
+  },
+  {
+    "file": "Notes/Pharma/Frozen chicken.md",
+    "slug": "Notes/Pharma/Frozen-chicken",
+    "sha256": "32403dccc678f4c008f04e2982cbcfa577c1c85e6a08263cd5186d440ad9673b"
+  },
+  {
+    "file": "Notes/Pharma/Granulation.md",
+    "slug": "Notes/Pharma/Granulation",
+    "sha256": "911f85838b156db242cf81fec5e69908bf103a11bc961c786783a004a5232b2b"
+  },
+  {
+    "file": "Notes/Pharma/HEPA.md",
+    "slug": "Notes/Pharma/HEPA",
+    "sha256": "6ebffede99b3811968d22182f620da9408922a29dee5cef678ed4e1c2aba61f8"
+  },
+  {
+    "file": "Notes/Pharma/HVAC.md",
+    "slug": "Notes/Pharma/HVAC",
+    "sha256": "a993d6bfcab230bc253d3f1ee921594c25a424893324c667005e8861ba008cf0"
+  },
+  {
+    "file": "Notes/Pharma/Heat Exchanger.md",
+    "slug": "Notes/Pharma/Heat-Exchanger",
+    "sha256": "d4b45db491d3b331764067807c86252e75b1b5ac3d2b0ad3d37a598651b761a0"
+  },
+  {
+    "file": "Notes/Pharma/Heat Sealer.md",
+    "slug": "Notes/Pharma/Heat-Sealer",
+    "sha256": "b376ef7326a24b03194b0297f7b6f2ddeef9ab9e541a83fae8b7137e8b5bf17e"
+  },
+  {
+    "file": "Notes/Pharma/ISA88.md",
+    "slug": "Notes/Pharma/ISA88",
+    "sha256": "d3a4555541e8dbbaf8851c273e5c68151a6f53fa4608d13e78a917b5c1b56301"
+  },
+  {
+    "file": "Notes/Pharma/Impaction.md",
+    "slug": "Notes/Pharma/Impaction",
+    "sha256": "b4897512fb43d06de9cc0483ba775d290f8ce446a8dbaf1c3ef4351e475a1075"
+  },
+  {
+    "file": "Notes/Pharma/Incubation.md",
+    "slug": "Notes/Pharma/Incubation",
+    "sha256": "aa95afc87abaeccb95a69a48502cad956ff0fe3389f00b5c05d53c0614f22d43"
+  },
+  {
+    "file": "Notes/Pharma/Inoculation.md",
+    "slug": "Notes/Pharma/Inoculation",
+    "sha256": "27ec6eedc80296125bd49235834625d696ebf28a5acc045a1e0d28ecbc5dfa04"
+  },
+  {
+    "file": "Notes/Pharma/Installation Qualification.md",
+    "slug": "Notes/Pharma/Installation-Qualification",
+    "sha256": "e440b1f89b5e9e60dc0a73c71bac021256e1ce5c38301fcedf8516f3b5380a97"
+  },
+  {
+    "file": "Notes/Pharma/Interception.md",
+    "slug": "Notes/Pharma/Interception",
+    "sha256": "49861aee36b05cad97c51dd1735badfb813e57995d14343074fbcacfdbbb0ebc"
+  },
+  {
+    "file": "Notes/Pharma/Isokinetic probes.md",
+    "slug": "Notes/Pharma/Isokinetic-probes",
+    "sha256": "9daaa618971030df3a94a78c82b2fbd266bd784cc192ecaae8e1f64e261def91"
+  },
+  {
+    "file": "Notes/Pharma/Labeller.md",
+    "slug": "Notes/Pharma/Labeller",
+    "sha256": "c937a7aa52705689ab7d790cef0491e87b4c1f0daa077de36fd995199674e763"
+  },
+  {
+    "file": "Notes/Pharma/Latent heat.md",
+    "slug": "Notes/Pharma/Latent-heat",
+    "sha256": "a03b45fab15cdf587a233e672cf81c87a60c28532c94154dab20ef01934ff23a"
+  },
+  {
+    "file": "Notes/Pharma/Leaflet.md",
+    "slug": "Notes/Pharma/Leaflet",
+    "sha256": "055053fad61f4503e490ee7bdf2dde8bbd13d05a7117a224f9a20ce3bc087c8f"
+  },
+  {
+    "file": "Notes/Pharma/MPPS.md",
+    "slug": "Notes/Pharma/MPPS",
+    "sha256": "4baa7a2ce4e1ef27abe1bd59a5cb6e70a4274b067db5e99f6f735d3400bb2597"
+  },
+  {
+    "file": "Notes/Pharma/Manufacturing.md",
+    "slug": "Notes/Pharma/Manufacturing",
+    "sha256": "6a4a10706aabc2a098b6e8eb7621adc18648125a2b522f2f61c63b09d1c2a02e"
+  },
+  {
+    "file": "Notes/Pharma/Milling.md",
+    "slug": "Notes/Pharma/Milling",
+    "sha256": "3f14b305f7ef2ae15018b9485947780f358edf0e7cd6d5b256f00e4735730fe6"
+  },
+  {
+    "file": "Notes/Pharma/Moist heat sterilisation.md",
+    "slug": "Notes/Pharma/Moist-heat-sterilisation",
+    "sha256": "b1c62a8e8e11bf50865325611b0d2cef3f56e76070deb1655d1f2224fa4615cb"
+  },
+  {
+    "file": "Notes/Pharma/Monograph.md",
+    "slug": "Notes/Pharma/Monograph",
+    "sha256": "1af1907f4c905b00c1659951e359fc301c447f2d7ca73583ce5496f62e4447c1"
+  },
+  {
+    "file": "Notes/Pharma/Needle.md",
+    "slug": "Notes/Pharma/Needle",
+    "sha256": "2eae59ba12c4ea60ae4654432baa9e6a19a20d31611b1f94598e2b21f5fa09b2"
+  },
+  {
+    "file": "Notes/Pharma/Open Loop.md",
+    "slug": "Notes/Pharma/Open-Loop",
+    "sha256": "c0f0ef9066475a340c5ed1b2f715bf5d018088f00f60b0f4a4c2be9caa937349"
+  },
+  {
+    "file": "Notes/Pharma/Operation.md",
+    "slug": "Notes/Pharma/Operation",
+    "sha256": "56c50b655d68e5e5cceb1b4e9869702b2198abbb0d754389508ed39143b00662"
+  },
+  {
+    "file": "Notes/Pharma/Operational Qualification.md",
+    "slug": "Notes/Pharma/Operational-Qualification",
+    "sha256": "0ecbf810e82084c9eaaa266e509ba62b77d7ae7a4533f3e5dbd8144138d8bc77"
+  },
+  {
+    "file": "Notes/Pharma/Optical Character Verification.md",
+    "slug": "Notes/Pharma/Optical-Character-Verification",
+    "sha256": "b7e3881fa1a7a19c5b653dd701568fe02b03c1fb80c79fa1c835a13e1fe71bfa"
+  },
+  {
+    "file": "Notes/Pharma/Oral Solid Dose.md",
+    "slug": "Notes/Pharma/Oral-Solid-Dose",
+    "sha256": "984f3205a8ea38d241628efb6a7049ef913ef52fdff29bc1c3206810372da803"
+  },
+  {
+    "file": "Notes/Pharma/PID.md",
+    "slug": "Notes/Pharma/PID",
+    "sha256": "9251e920c701aeffea1dcc16fcad73bf3f659980043b54695ca7866c6b8acfe7"
+  },
+  {
+    "file": "Notes/Pharma/Packing.md",
+    "slug": "Notes/Pharma/Packing",
+    "sha256": "fb19e48051097fb7a565a5c4bdf720ace42544fe15e2f67046e36f45769554f0"
+  },
+  {
+    "file": "Notes/Pharma/Pallet Stacker.md",
+    "slug": "Notes/Pharma/Pallet-Stacker",
+    "sha256": "224ae6cfa9defd1a9382750dd76241057a78f69c0b25dfb4953d788450daf0f3"
+  },
+  {
+    "file": "Notes/Pharma/Pallet Transfer.md",
+    "slug": "Notes/Pharma/Pallet-Transfer",
+    "sha256": "6c4412ffbd852701dc39524e12e744b8bea51affc13c965ee9be4d4db25d1806"
+  },
+  {
+    "file": "Notes/Pharma/Pallet Wrapper.md",
+    "slug": "Notes/Pharma/Pallet-Wrapper",
+    "sha256": "5703e2b6f0276e5b3dd527aa85e0d8a84eb32de845c14e37269ef300fa7b48a3"
+  },
+  {
+    "file": "Notes/Pharma/Pallet.md",
+    "slug": "Notes/Pharma/Pallet",
+    "sha256": "d6e6e00f9bb716d32e98968c228c8d1e0cccbc551f3d803fc9366d6060bebbfc"
+  },
+  {
+    "file": "Notes/Pharma/Palletiser.md",
+    "slug": "Notes/Pharma/Palletiser",
+    "sha256": "db685573ff32c8b23f6e249047ac91719d5acab70ec14536e3b097d0facc02f3"
+  },
+  {
+    "file": "Notes/Pharma/Particulate Monitoring.md",
+    "slug": "Notes/Pharma/Particulate-Monitoring",
+    "sha256": "8487b8756d07c4e43bc5e36face5a1b2c2b662d6eb5471c092238e4e8446189c"
+  },
+  {
+    "file": "Notes/Pharma/Passive Thaw.md",
+    "slug": "Notes/Pharma/Passive-Thaw",
+    "sha256": "78268b7134f2cc89aa0dbb4f84b3f710447309c1f7751ac5ef6fca6ac9b2cd0e"
+  },
+  {
+    "file": "Notes/Pharma/Performance Qualification.md",
+    "slug": "Notes/Pharma/Performance-Qualification",
+    "sha256": "89ae26696a743280a574b0b1f7f4a225b78e996618edca4481c85d953b218562"
+  },
+  {
+    "file": "Notes/Pharma/Pharmaceutical Manufacture.md",
+    "slug": "Notes/Pharma/Pharmaceutical-Manufacture",
+    "sha256": "68ed693ec143a47c8dc0d7a9ffdfd17c5dc516b8c1b86c72b624e1561c6c0c5d"
+  },
+  {
+    "file": "Notes/Pharma/Phase.md",
+    "slug": "Notes/Pharma/Phase",
+    "sha256": "513d054637e923ed76de371b8f133a0790e8c3657bb35d72876c793ef883197a"
+  },
+  {
+    "file": "Notes/Pharma/Plant Steam.md",
+    "slug": "Notes/Pharma/Plant-Steam",
+    "sha256": "a0e747d3c485237c1aebf552e342c972d67f2685d82913c8f4b720561d5247b7"
+  },
+  {
+    "file": "Notes/Pharma/Pooling.md",
+    "slug": "Notes/Pharma/Pooling",
+    "sha256": "afe54ac3d4ecfa6db14e675742764b33b5b1b4ac831f72601e918a8d83baa4cd"
+  },
+  {
+    "file": "Notes/Pharma/Power Pack.md",
+    "slug": "Notes/Pharma/Power-Pack",
+    "sha256": "0824a99591f0944cc31c2f5082243fbb382cbae445aa710690dc23157716b380"
+  },
+  {
+    "file": "Notes/Pharma/Pressure Cascade.md",
+    "slug": "Notes/Pharma/Pressure-Cascade",
+    "sha256": "3b4676ad242cb13e7a8167cc7c80b940d08dbb1a5cf55bd30e28274741cb4503"
+  },
+  {
+    "file": "Notes/Pharma/Pressure Relief Damper.md",
+    "slug": "Notes/Pharma/Pressure-Relief-Damper",
+    "sha256": "366a7eb7f7349ed9b2bd61f26a5b38a70e5b2f0bb0af33e07682563c33bf86c2"
+  },
+  {
+    "file": "Notes/Pharma/Primary Manufacturing.md",
+    "slug": "Notes/Pharma/Primary-Manufacturing",
+    "sha256": "22cf063cec7e65af982d6f69649931a411860c02c1c35a21a3557ad83e87de4e"
+  },
+  {
+    "file": "Notes/Pharma/Procedure.md",
+    "slug": "Notes/Pharma/Procedure",
+    "sha256": "0c29c2c1ef5de26da7fb3b69e0c88605f1caf203f37b15b831166db401d1e093"
+  },
+  {
+    "file": "Notes/Pharma/Process Cell.md",
+    "slug": "Notes/Pharma/Process-Cell",
+    "sha256": "a88bfe649220d544f498993c564dd21142c987ced1d6aa64ae72f452168a7377"
+  },
+  {
+    "file": "Notes/Pharma/Puck Loader.md",
+    "slug": "Notes/Pharma/Puck-Loader",
+    "sha256": "82fb033502d895ed918a765b0a49a8a2a2823dcb5ceb6e06d00ad72401d13ccf"
+  },
+  {
+    "file": "Notes/Pharma/Puck Unloader.md",
+    "slug": "Notes/Pharma/Puck-Unloader",
+    "sha256": "eef276fd2d3a7a8751bad2a88815af252e485d5c7a9a59dfad4591dcf4ad33c1"
+  },
+  {
+    "file": "Notes/Pharma/Puck.md",
+    "slug": "Notes/Pharma/Puck",
+    "sha256": "c46f3c6955b46af982b79ea38ec5e9be34f8333617cc1a756c4c20c79dfdad6c"
+  },
+  {
+    "file": "Notes/Pharma/Pure Steam.md",
+    "slug": "Notes/Pharma/Pure-Steam",
+    "sha256": "14415f896f4bc84e885cb325213793cccacf70159ed189bc970f7bd3e49e1d96"
+  },
+  {
+    "file": "Notes/Pharma/Purified Water.md",
+    "slug": "Notes/Pharma/Purified-Water",
+    "sha256": "6cc0ccd3a00b564b8b2dc510e82de008c1ccdf90d13a1582f457111d9afbdf55"
+  },
+  {
+    "file": "Notes/Pharma/RFID.md",
+    "slug": "Notes/Pharma/RFID",
+    "sha256": "36c9c818a611b98e04521831af145ce1be11ca4c2840a5b3b6c0c69fc531a815"
+  },
+  {
+    "file": "Notes/Pharma/RTLS.md",
+    "slug": "Notes/Pharma/RTLS",
+    "sha256": "8c169b2f044ca289e0442ff042d9cd8e8f1f77ad4b70d43abf9571538041627a"
+  },
+  {
+    "file": "Notes/Pharma/Sanitary.md",
+    "slug": "Notes/Pharma/Sanitary",
+    "sha256": "af515a277ebda42b695b8ab37c5722ec16d12c11955ce8731416a2ed146c1731"
+  },
+  {
+    "file": "Notes/Pharma/Saturated Steam.md",
+    "slug": "Notes/Pharma/Saturated-Steam",
+    "sha256": "f7e43535c539d2c42598e765848d2136b18abd3184ed1c80673bc03c8e1aa4c4"
+  },
+  {
+    "file": "Notes/Pharma/Secondary Manufacturing.md",
+    "slug": "Notes/Pharma/Secondary-Manufacturing",
+    "sha256": "cb13af8cb32b426f41ddcf31468b8b1a8652e775cb3bc53a261137bad1cc2e73"
+  },
+  {
+    "file": "Notes/Pharma/Serialisation.md",
+    "slug": "Notes/Pharma/Serialisation",
+    "sha256": "899df46253444f96a121f5e2e2357ab46b9a83490e2dae9da22ef3e43c823674"
+  },
+  {
+    "file": "Notes/Pharma/Steam Trap.md",
+    "slug": "Notes/Pharma/Steam-Trap",
+    "sha256": "89ba36c96172a2f3be49dc9478c52957fca93b824b1f1bff7941b149702af0f8"
+  },
+  {
+    "file": "Notes/Pharma/Steam.md",
+    "slug": "Notes/Pharma/Steam",
+    "sha256": "4670b142db2ee5dffe49f734bdfb96f1688d753b0c68f848dc7c11189175b2a4"
+  },
+  {
+    "file": "Notes/Pharma/Sterilisation In Place.md",
+    "slug": "Notes/Pharma/Sterilisation-In-Place",
+    "sha256": "c81b975335dff8673e55f12c699f9e173a0d4edffb11c73e07b02dfb341180d3"
+  },
+  {
+    "file": "Notes/Pharma/Sterilisation.md",
+    "slug": "Notes/Pharma/Sterilisation",
+    "sha256": "c883f75adba609faa39af567ddbd59c54793aa735069f4a281f715fc11ea11cd"
+  },
+  {
+    "file": "Notes/Pharma/Stopper.md",
+    "slug": "Notes/Pharma/Stopper",
+    "sha256": "462d5d6cee2f4ed8f837b374eb31616e8fde21268a275e3b5332c83ee215edb0"
+  },
+  {
+    "file": "Notes/Pharma/Superheated Steam.md",
+    "slug": "Notes/Pharma/Superheated-Steam",
+    "sha256": "a5cbe8c0570f0ab74563c68e244bf91144b42f47cbf87b7aae19628da93d7025"
+  },
+  {
+    "file": "Notes/Pharma/Syringes.md",
+    "slug": "Notes/Pharma/Syringes",
+    "sha256": "4b5d08ff94f546e18d76f4769a19c59cf67b52b098c59134689833b1e8cbb7ff"
+  },
+  {
+    "file": "Notes/Pharma/Tablet Pressing.md",
+    "slug": "Notes/Pharma/Tablet-Pressing",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "file": "Notes/Pharma/Tamper Evident Label.md",
+    "slug": "Notes/Pharma/Tamper-Evident-Label",
+    "sha256": "146c70ae32e9cd537186de471cc942e99aa2fc846f281b887a26df3101d5d9f6"
+  },
+  {
+    "file": "Notes/Pharma/Terminal Sterilisation.md",
+    "slug": "Notes/Pharma/Terminal-Sterilisation",
+    "sha256": "f6749c685f8de4562f965a6419cc4fbf5ac6d5ec1953987490c08f7a5f167dac"
+  },
+  {
+    "file": "Notes/Pharma/Thawing.md",
+    "slug": "Notes/Pharma/Thawing",
+    "sha256": "3d5fd7bd831413a3d17654af40466c97ae4362e5ecd109930ac3b8017cf1bc5f"
+  },
+  {
+    "file": "Notes/Pharma/Thermal Mapping.md",
+    "slug": "Notes/Pharma/Thermal-Mapping",
+    "sha256": "ab4012ac205f3f62d50210fe1d9c2ab77212318292ceb360e6918994e937b279"
+  },
+  {
+    "file": "Notes/Pharma/Tray Unloader.md",
+    "slug": "Notes/Pharma/Tray-Unloader",
+    "sha256": "63a4a6783830772a5b1d68d28b81208fc235364b4a210ecb25aaef1b65a6d8db"
+  },
+  {
+    "file": "Notes/Pharma/UDAF.md",
+    "slug": "Notes/Pharma/UDAF",
+    "sha256": "3760fddd741aa8662661dabfff10c886f6c1dbc00965629f2fb813a8948a1146"
+  },
+  {
+    "file": "Notes/Pharma/Unit Procedure.md",
+    "slug": "Notes/Pharma/Unit-Procedure",
+    "sha256": "7e70eb9e8928482c7ab34a0dac1c8c8c786af97f08d089884cc58852eb01a64e"
+  },
+  {
+    "file": "Notes/Pharma/Unit.md",
+    "slug": "Notes/Pharma/Unit",
+    "sha256": "20d77daa459992857b1ff8f5b726832f60a38182b3a3249e9c2ba68621c73caa"
+  },
+  {
+    "file": "Notes/Pharma/Validation.md",
+    "slug": "Notes/Pharma/Validation",
+    "sha256": "bf788e26dc562c2d0b12fcad37bcd0fe2d36fa2e400d3fd53966a5f43bc85cd5"
+  },
+  {
+    "file": "Notes/Pharma/Vials.md",
+    "slug": "Notes/Pharma/Vials",
+    "sha256": "47a1d1d19bf884c4a056ddc2c8eb73404e0de49c6530c6c0e229575266c7547b"
+  },
+  {
+    "file": "Notes/Pharma/Water For Injection.md",
+    "slug": "Notes/Pharma/Water-For-Injection",
+    "sha256": "90d46d229f3acc8d681241041986384f7693813aebe4ed23d5cec5782f9825cb"
+  },
+  {
+    "file": "Notes/Pharma/Website Drawings-2.jpg",
+    "slug": "Notes/Pharma/Website-Drawings-2.jpg",
+    "sha256": "f03390ea9302e633351e61c29fc4f4a386f8941f84b2d38369ecd1be3110f575"
+  },
+  {
+    "file": "Notes/Pharma/Website Drawings-3 1.jpg",
+    "slug": "Notes/Pharma/Website-Drawings-3-1.jpg",
+    "sha256": "45a3de7c05c8f78bbe250f591487dd77b3710c4523b8e028af6796c3c8afb700"
+  },
+  {
+    "file": "Notes/Pharma/Website Drawings-3.jpg",
+    "slug": "Notes/Pharma/Website-Drawings-3.jpg",
+    "sha256": "45a3de7c05c8f78bbe250f591487dd77b3710c4523b8e028af6796c3c8afb700"
+  },
+  {
+    "file": "Notes/Pharma/Website Drawings-7.jpg",
+    "slug": "Notes/Pharma/Website-Drawings-7.jpg",
+    "sha256": "fcea10dbefcf78effeaf8f532f4e4534c751fc599540044f3fb7a72ee0b919af"
+  },
+  {
+    "file": "Notes/Pharma/Wet Bead Mill.md",
+    "slug": "Notes/Pharma/Wet-Bead-Mill",
+    "sha256": "f7d367e8333d5f3277c47ebd39464764ee95014b9f473343b057c1fa97a8d00b"
+  },
+  {
+    "file": "Notes/Pharma/Wet Granulation.md",
+    "slug": "Notes/Pharma/Wet-Granulation",
+    "sha256": "913bc08773d8194afc69eab7695a90f3c297ef3dd8ed1a54c6779af4c3b2ce4f"
+  },
+  {
+    "file": "Notes/Pharma/Wet Steam.md",
+    "slug": "Notes/Pharma/Wet-Steam",
+    "sha256": "f2f828cd7aa3be0d0f8b7c6cff9a27ad2336cac9cc377aad299956016a0fef63"
+  },
+  {
+    "file": "Notes/Pharma/Ziegler-Nichols.md",
+    "slug": "Notes/Pharma/Ziegler-Nichols",
+    "sha256": "917673c237f8557c91702d75f30632de27515bacdbe1931679563ad74fa7cb2e"
+  },
+  {
+    "file": "Notes/Pharma/drainable.md",
+    "slug": "Notes/Pharma/drainable",
+    "sha256": "00d29054feef4a339d413cd8bc816ca8efed3bd5fa4a1479c1d7ad89dea87d79"
+  },
+  {
+    "file": "Notes/Pharma/intrathecal.md",
+    "slug": "Notes/Pharma/intrathecal",
+    "sha256": "647cfc289f6c352370720d362e06e177c57b1dd64a569e7b8c38115a68299fb0"
+  },
+  {
+    "file": "Notes/Pharma/lethality.md",
+    "slug": "Notes/Pharma/lethality",
+    "sha256": "5ccfd965b076784c9942aadac944ed700b8aca42e4f840b33198bc7e625b9c40"
+  },
+  {
+    "file": "Notes/Pharma/parental.md",
+    "slug": "Notes/Pharma/parental",
+    "sha256": "3ff4843f67ca3eb9e7fee3cd0ca7eaf2ef76b6fd8e68043aebce7e7e27647d0c"
+  },
+  {
+    "file": "Notes/Pharma/particle size.md",
+    "slug": "Notes/Pharma/particle-size",
+    "sha256": "b9c4b0366eb648aa38cded3c3502acd4b9a144005f5d0d9a5c6fad8c07aa1665"
+  },
+  {
+    "file": "Notes/Pharma/pyrogen free.md",
+    "slug": "Notes/Pharma/pyrogen-free",
+    "sha256": "e1c35ae6c3ad867fafb959682adeb3776831efcc0d155efe45ebd42891169dbe"
+  },
+  {
+    "file": "Notes/Pharma/pyrogens.md",
+    "slug": "Notes/Pharma/pyrogens",
+    "sha256": "684934a769e07254008ddfb864262eb411eede4853db72d0c7764271da12db03"
+  },
+  {
+    "file": "Notes/Pharma/worst case.md",
+    "slug": "Notes/Pharma/worst-case",
+    "sha256": "6db3086ba57a0a4771ed076073dd77b45ba40e5b281e05dcee8deb544aec2a0a"
+  },
+  {
+    "file": "Posts/Assets/IMG_3622.jpg",
+    "slug": "Posts/Assets/IMG_3622.jpg",
+    "sha256": "48b94ccb32785f548212895944632b1b80c7032c13a5e2a5d2e9b9fffa3e5ddd"
+  },
+  {
+    "file": "Posts/Assets/IMG_3628.jpg",
+    "slug": "Posts/Assets/IMG_3628.jpg",
+    "sha256": "db07106cf719ee4f995f70f1774327861526d980e9e2cac09e8c126adf17485d"
+  },
+  {
+    "file": "Posts/Assets/IMG_3629.jpg",
+    "slug": "Posts/Assets/IMG_3629.jpg",
+    "sha256": "a3a3da46fefb80873237326c3a05ae98f118c6053eb51b66fa36779bf98f3086"
+  },
+  {
+    "file": "Posts/Assets/IMG_3630.jpg",
+    "slug": "Posts/Assets/IMG_3630.jpg",
+    "sha256": "fe068b443770c1b27b83698144bc6f9124e7358806ccca6495d8f2724d6f212f"
+  },
+  {
+    "file": "Posts/Assets/Pasted image 20241217215746.png",
+    "slug": "Posts/Assets/Pasted-image-20241217215746.png",
+    "sha256": "061366cb5b151d5762a973e3c63b96ca920510732f6d38f41dbdd84c503d5179"
+  },
+  {
+    "file": "Posts/Assets/Pasted image 20250222124230.png",
+    "slug": "Posts/Assets/Pasted-image-20250222124230.png",
+    "sha256": "d73385279558606789ca6474854c52062ab33eff119404ef62a6e9ace09ffe74"
+  },
+  {
+    "file": "Posts/Assets/Pasted image 20250222124244.png",
+    "slug": "Posts/Assets/Pasted-image-20250222124244.png",
+    "sha256": "26bfc7c0a84079c4bd8aa3beb78ea7a1f8e1d89000e7fff2f031c855449902e6"
+  },
+  {
+    "file": "Posts/Assets/Pasted image 20250222124255.png",
+    "slug": "Posts/Assets/Pasted-image-20250222124255.png",
+    "sha256": "d198b4208c557552781beda8b8ce06608191b215c3f014fbcf129ca3904959b0"
+  },
+  {
+    "file": "Posts/Assets/Pasted image 20250222124303.png",
+    "slug": "Posts/Assets/Pasted-image-20250222124303.png",
+    "sha256": "9bb87509090a6ed4fe3413b7823431adf5edbce6a3d4e67cdb273f7958c6de70"
+  },
+  {
+    "file": "Posts/Assets/Pasted image 20250222124312.png",
+    "slug": "Posts/Assets/Pasted-image-20250222124312.png",
+    "sha256": "5c6f6d44aa9a0f48eef1d19f2a72c595b0ad8a36fc71b496c7d7ee3fa09e1da1"
+  },
+  {
+    "file": "Posts/Assets/Pasted image 20250222124319.png",
+    "slug": "Posts/Assets/Pasted-image-20250222124319.png",
+    "sha256": "2eef8fdb8887f228ecea2bb7d153d051149596876cec1dfcde4475c4db993436"
+  },
+  {
+    "file": "Posts/Assets/Pasted image 20250222124717.png",
+    "slug": "Posts/Assets/Pasted-image-20250222124717.png",
+    "sha256": "3afca89b76c2f31ab8e42690284a55f6daaf76f7d625ef5d00bc01e49e0a3e6b"
+  },
+  {
+    "file": "Posts/Assets/Pasted image 20250222124808.png",
+    "slug": "Posts/Assets/Pasted-image-20250222124808.png",
+    "sha256": "027e292504f19b90992e83c11ce8d64c327420bf63d8d3a869263ceb0be6751e"
+  },
+  {
+    "file": "Posts/Assets/Pasted image 20250222124820.png",
+    "slug": "Posts/Assets/Pasted-image-20250222124820.png",
+    "sha256": "f48af79ccf1a7a6f8048f4b00ad2a752c73149e5e0e07b391d4e780333ce017d"
+  },
+  {
+    "file": "Posts/Assets/Pasted image 20250223210849.png",
+    "slug": "Posts/Assets/Pasted-image-20250223210849.png",
+    "sha256": "f17832dee227d2f289d5e63ab89a22152835b1eee6b3580a9e60b34679664616"
+  },
+  {
+    "file": "Posts/Assets/Pasted image 20250226202747.png",
+    "slug": "Posts/Assets/Pasted-image-20250226202747.png",
+    "sha256": "9be294d0db7140f2a8b3f9a0c45a663d1738d950679db138bdfd79daf1008c7d"
+  },
+  {
+    "file": "Posts/Assets/Pasted image 20250226203425.png",
+    "slug": "Posts/Assets/Pasted-image-20250226203425.png",
+    "sha256": "11a6508a61938e144956b5bf626f1f1db63bb7c918d7daa8d668b8a75afeb85e"
+  },
+  {
+    "file": "Posts/Assets/Pasted image 20250226215122.png",
+    "slug": "Posts/Assets/Pasted-image-20250226215122.png",
+    "sha256": "3e0de1afdb372cf5b0b9d45ca629d0916af7d7cff61828434b431c63d41f7aa3"
+  },
+  {
+    "file": "Posts/Assets/Pasted image 20250305104309.png",
+    "slug": "Posts/Assets/Pasted-image-20250305104309.png",
+    "sha256": "d14ffc39aa105e7c81d38ff1238b45161b5bd97c16b83c40ce0f7a6b77054898"
+  },
+  {
+    "file": "Posts/Assets/Pasted image 20250324091631.png",
+    "slug": "Posts/Assets/Pasted-image-20250324091631.png",
+    "sha256": "96482b928bfb903dc51b251be5ad6499e08fddebf9f4b65953b57f83a16f089c"
+  },
+  {
+    "file": "Posts/Assets/Pasted image 20250324140806.png",
+    "slug": "Posts/Assets/Pasted-image-20250324140806.png",
+    "sha256": "fef691ec117826ac59aaacd6b3e5c496213165cb26633c3b1a5ef64aa6461a12"
+  },
+  {
+    "file": "Posts/Assets/Pasted image 20250324175336.png",
+    "slug": "Posts/Assets/Pasted-image-20250324175336.png",
+    "sha256": "b0945144441c6f6e713b686e834a3b2be8cd8f8f4fedd150aa93d304f9c72bd2"
+  },
+  {
+    "file": "Posts/Assets/Pasted image 20250324182729.png",
+    "slug": "Posts/Assets/Pasted-image-20250324182729.png",
+    "sha256": "d255a03bdfc45e906a1e5af9a82fb2ff7aa41dd274e4a3e1f1eb106ecd525536"
+  },
+  {
+    "file": "Posts/Assets/Pasted image 20250324183852.png",
+    "slug": "Posts/Assets/Pasted-image-20250324183852.png",
+    "sha256": "edd85fc699df8843e0fa72c619f3092f9cb7d5fbf3686fbf0a169c48db6c4c63"
+  },
+  {
+    "file": "Posts/Assets/Screenshot 2025-02-23 at 21.07.46.png",
+    "slug": "Posts/Assets/Screenshot-2025-02-23-at-21.07.46.png",
+    "sha256": "b82472603bf5f37e7c115bdcaae99419b1380eb63b6b644c1fc3e7a1ada355fb"
+  },
+  {
+    "file": "Posts/Assets/Screenshot 2025-02-23 at 21.07.56.png",
+    "slug": "Posts/Assets/Screenshot-2025-02-23-at-21.07.56.png",
+    "sha256": "fa50adfc9232cacf579b2a3d2761cc05eba774bf19170dc0aaa0abed588efb96"
+  },
+  {
+    "file": "Posts/Assets/newplot (1).png",
+    "slug": "Posts/Assets/newplot-(1).png",
+    "sha256": "88fc6cbb459a3e6a5cab74ad1c9f1d1c99e34b6a94139a05ca93830f07f7e31c"
+  },
+  {
+    "file": "Posts/Assets/newplot (2).png",
+    "slug": "Posts/Assets/newplot-(2).png",
+    "sha256": "ad09d1974605657a1f2a89d855dac4857a4dc063668c226bd25bd3bfd50d7d92"
+  },
+  {
+    "file": "Posts/Assets/newplot (3).png",
+    "slug": "Posts/Assets/newplot-(3).png",
+    "sha256": "0452bbc6a56533177297ddd3a4b677d83e6d345749c7cbf63a0f465d7181726b"
+  },
+  {
+    "file": "Posts/Assets/newplot (5).png",
+    "slug": "Posts/Assets/newplot-(5).png",
+    "sha256": "68a3f7a1b89c6b97bbb72777008d800bec481134c779b95e5f4c0ecbfe07aeff"
+  },
+  {
+    "file": "Posts/Assets/newplot.png",
+    "slug": "Posts/Assets/newplot.png",
+    "sha256": "a0c090568e0ab130c41b2120911a4d549dfde57de569d9088d5a0ed8d94d25dd"
+  },
+  {
+    "file": "Posts/Automation Focus - Autoclave.md",
+    "slug": "Posts/Automation-Focus---Autoclave",
+    "sha256": "210346197392488c89b06ac3c81d7274de39f5a12de1aa9732c81110a516777a"
+  },
+  {
+    "file": "Posts/Designing a Wet Bead Mill.md",
+    "slug": "Posts/Designing-a-Wet-Bead-Mill",
+    "sha256": "1c5a35b61a5eb8bf647e37e845ba3a376412b5957cc87ab5f21446191b8e6495"
+  },
+  {
+    "file": "Posts/F1 Strategy Analytics.md",
+    "slug": "Posts/F1-Strategy-Analytics",
+    "sha256": "a7cf8d041b9448279da4f7576f42224ebdcd7db63c12876cf6deff21674781b9"
+  },
+  {
+    "file": "Posts/How 3D Printing is Transforming Manufacturing Sites.md",
+    "slug": "Posts/How-3D-Printing-is-Transforming-Manufacturing-Sites",
+    "sha256": "1064a561ba8c8ef5454293dd464bf7513ac4dca48f90abb4eb04acad3c3fd0a3"
+  },
+  {
+    "file": "Posts/Kubernetes Overview.md",
+    "slug": "Posts/Kubernetes-Overview",
+    "sha256": "3e112ad3d73017f8216b75a4a8c360b551307379ee8296da7a3cc1180bace469"
+  },
+  {
+    "file": "Posts/Lego F1 car.md",
+    "slug": "Posts/Lego-F1-car",
+    "sha256": "78268a1ae7324765c0932ad176bf044466962d43a1c933b02d19c4b417dbcecb"
+  },
+  {
+    "file": "Posts/Pasted image 20250701131030.png",
+    "slug": "Posts/Pasted-image-20250701131030.png",
+    "sha256": "a7586616766b1a64d9b6c554e71146aa8d6d5d130db32923c0a6617d68c70387"
+  },
+  {
+    "file": "Posts/Pasted image 20250716114328.png",
+    "slug": "Posts/Pasted-image-20250716114328.png",
+    "sha256": "b982bb8e21d9cf3fe74e58bc5e45ccb5a944b83b55f0b2ccc43692012262ffaf"
+  },
+  {
+    "file": "Posts/Pasted image 20250716153751.png",
+    "slug": "Posts/Pasted-image-20250716153751.png",
+    "sha256": "95aa1fd8836b1d119cb807fcc6017ffeb376ddeb463710a7efcb73f6af04c42c"
+  },
+  {
+    "file": "Posts/Pharmaceutical Filling techniques.md",
+    "slug": "Posts/Pharmaceutical-Filling-techniques",
+    "sha256": "7469957f8a038dc84c504fd840d6e482bc18de57c75e7a6c72745e89b5895144"
+  },
+  {
+    "file": "Posts/Technology Focus - Fledge (FogLAMP).md",
+    "slug": "Posts/Technology-Focus---Fledge-(FogLAMP)",
+    "sha256": "97026640b2e766edb64695e65d02c95db62362c6692d1db1d2588b30a2e92b4c"
+  },
+  {
+    "file": "Posts/Why your factory should be deploying containers.md",
+    "slug": "Posts/Why-your-factory-should-be-deploying-containers",
+    "sha256": "5fbc172dd3f7c306054cb664af1d77de18e9fb4bb7eeecd43d8cbef572050bc8"
+  },
+  {
+    "file": "Recordings/Recordings.md",
+    "slug": "Recordings/Recordings",
+    "sha256": "582181d9b1ff5a52ca880a5b278d2d1b1e723ee632bc7fc316fe359a6ef62d79"
+  }
+]

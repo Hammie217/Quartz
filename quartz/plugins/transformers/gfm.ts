@@ -3,6 +3,7 @@ import smartypants from "remark-smartypants"
 import { QuartzTransformerPlugin } from "../types"
 import rehypeSlug from "rehype-slug"
 import rehypeAutolinkHeadings from "rehype-autolink-headings"
+import { Element } from "hast"
 
 export interface Options {
   enableSmartyPants: boolean
@@ -29,6 +30,8 @@ export const GitHubFlavoredMarkdown: QuartzTransformerPlugin<Partial<Options>> =
             rehypeAutolinkHeadings,
             {
               behavior: "append",
+              // Linked portfolio cards must not contain nested heading anchors.
+              test: (node: Element) => node.properties?.dataNoAnchor === undefined,
               properties: {
                 role: "anchor",
                 ariaHidden: true,

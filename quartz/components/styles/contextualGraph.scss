@@ -1,0 +1,19 @@
+.contextual-graph {
+  min-width: 0;
+  flex-shrink: 0;
+
+  .explore-graph {
+    margin-top: 0.75rem;
+  }
+}
+
+@media (max-width: 800px) {
+  body[data-layout="knowledge"] .page > #quartz-body .sidebar.right {
+    flex-direction: column;
+
+    > .contextual-graph {
+      width: 100%;
+      max-height: none;
+    }
+  }
+}
