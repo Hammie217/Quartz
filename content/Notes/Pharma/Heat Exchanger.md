@@ -1,3 +1,13 @@
+---
+type: knowledge-note
+title: Heat Exchanger
+topics:
+  - pharmaceutical-engineering
+category: Pharmaceutical Engineering
+tags: []
+draft: false
+publish: true
+---
 A heat exchanger is a component used throughout the process industry, a heat exchanger, as the name describes, is used to exchange heat(or cooling) between two systems.
 There are many types of heat exchanger that can be selected as per system requirements the three most common being:
 - Shell and tube

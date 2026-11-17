@@ -6,8 +6,8 @@ Professional portfolio and connected technical knowledge base, built with Quartz
 
 ## Structure
 
-- `content/_index.md`: homepage.
-- `content/work/`: career overview and unpublished case-study templates.
+- `content/index.md`: homepage.
+- `content/work/`: career overview and approved case studies.
 - `content/insights/`: article collection, including the existing `Posts/` archive.
 - `content/knowledge/`: topic guides and full interactive graph.
 - `content/about/`: biography and industry participation.
@@ -39,7 +39,7 @@ The first build downloads fonts for OpenGraph images. Subsequent builds reuse th
 
 The existing GitHub Actions workflow builds and deploys on pushes to `v4`. Only `public/` is uploaded to Pages. The production base URL is `hammie217.github.io/Quartz`.
 
-New documents require `publish: true`; `draft: true` prevents publication. Existing technical documents are listed in `quartz/publication-manifest.json`. Assets must also be explicitly listed there. See [publishing and maintenance](docs/portfolio-maintenance.md).
+New documents require `publish: true`; `draft: true` prevents publication. Existing technical documents are listed in `quartz/publication-manifest.json`. New public assets belong under content/assets and are copied when referenced by published content. See [Content Guide](CONTENT_GUIDE.md) for the current publishing workflow.
 
 Do not store confidential information in this repository, even in ignored-by-Quartz documents. A build filter does not make a public Git repository private. Avoid `quartz sync` when you only intend to preview; it can commit and push unrelated local files.
 

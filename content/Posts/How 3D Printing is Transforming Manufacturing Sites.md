@@ -1,3 +1,16 @@
+---
+type: article
+title: How 3D Printing is Transforming Manufacturing Sites
+topics: []
+category: Strategy
+tags: []
+draft: false
+publish: true
+description: Practical applications of additive manufacturing on the factory floor.
+featured: false
+date: '2025-02-26T21:52:06Z'
+archiveDate: true
+---
 #3DPrinting
 ## Introduction 
 Over the past few years, 3D printing has evolved from a futuristic concept to an accessible, everyday tool. What was once confined to research labs is now widely available, with cutting-edge printers costing less than £1,000 and software so intuitive that anyone with a computer and a mouse can use it. The barriers to entry have nearly vanished—making 3D printing a game-changer for manufacturing.

@@ -1,3 +1,12 @@
+---
+type: knowledge-note
+title: RabbitMQ
+topics: []
+category: Engineering Reference
+tags: []
+draft: false
+publish: true
+---
 Rabbit MQ is a [[Message Broker]] based around a [[Queue]] architecture. Unlike other brokers RabbitMQ ensures [[FIFO]] which can be especially critical for background service management unless Sharding is implemented.
 
 RabbitMQ uses [[AMQP]] which allows for both [[PubSub]] and server client architectures compared to [[MQTT]] based brokers.

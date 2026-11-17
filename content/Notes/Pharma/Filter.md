@@ -1,3 +1,13 @@
+---
+type: knowledge-note
+title: Filter
+topics:
+  - pharmaceutical-engineering
+category: Pharmaceutical Engineering
+tags: []
+draft: false
+publish: true
+---
 A filter is a device used to separate particles from a liquid or gas, for example in [[HVAC]] for graded environments a series of filters ([[Bag Filter]], [[HEPA]]) are used to remove particulates and microbes from the air.
 
 Filters are commonly used for sterilisation of services or product, for example a system that requires sterile nitrogen could use 

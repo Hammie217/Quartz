@@ -1,1 +1,11 @@
+---
+type: knowledge-note
+title: Ziegler-Nichols
+topics:
+  - pharmaceutical-engineering
+category: Pharmaceutical Engineering
+tags: []
+draft: false
+publish: true
+---
 Ziegler-Nichols method is a process for tuning a [[PID]] controller. In Ziegler-Nichols tuning you determine the ultimate gain and oscillation period of your system through pure proportional control and then based on these values identified you can determine the required [[PID]] constants to meet your system requirements, typically acceptable overshoot.

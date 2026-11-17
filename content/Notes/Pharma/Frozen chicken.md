@@ -1,1 +1,11 @@
+---
+type: knowledge-note
+title: Frozen chicken
+topics:
+  - pharmaceutical-engineering
+category: Pharmaceutical Engineering
+tags: []
+draft: false
+publish: true
+---
 To describe [[Thawing]] I commonly explain this like how someone may thaw a piece of chicken for dinner. If you have enough time you could leave the chicken out on a counter, this is like [[Passive Thaw]] otherwise if you were in a pinch and needed it soon you may choose to put it in a bath of warm water or on a metal plate to dissipate the heat quicker, this is similar to [[Forced Thaw]].

@@ -1,3 +1,13 @@
+---
+type: knowledge-note
+title: UDAF
+topics:
+  - pharmaceutical-engineering
+category: Pharmaceutical Engineering
+tags: []
+draft: false
+publish: true
+---
 Uni-Directional AirFlow (UDAF) is a specific form of airflow where air travels in a single direction in a laminar flow. UDAF is also used as a term for a specific piece of equipment that's sole purpose is to generate Uni-Directional Airflow. 
 
 UDAF is used to force clean air over a high risk location to reduce risk of contamination with [[Sanitary]] processes.

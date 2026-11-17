@@ -1,2 +1,12 @@
+---
+type: knowledge-note
+title: Bander
+topics:
+  - pharmaceutical-engineering
+category: Pharmaceutical Engineering
+tags: []
+draft: false
+publish: true
+---
 A bander is a piece of equipment sometimes used in the [[Secondary Manufacturing]] [[Packing]] process to band multiple [[Carton]]s together before being packed into a [[Case]]. 
 A bander most commonly applies a plastic film around cartons to band them together.

@@ -1,3 +1,16 @@
+---
+type: article
+title: Kubernetes Overview
+topics: []
+category: Guides
+tags: []
+draft: false
+publish: true
+description: A practical introduction to Kubernetes, its core components and how they work together.
+featured: false
+date: '2025-02-11T23:39:51Z'
+archiveDate: true
+---
 #### What is it
 [[Kubernetes]] (k8s) is a system for container orchestration. Kubernetes is not a [[Container Runtime]] such as [[Docker]]. Kubernetes sits above and manages those containers.
 

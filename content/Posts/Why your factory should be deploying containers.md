@@ -1,3 +1,17 @@
+---
+type: article
+title: Why your factory should be deploying containers
+topics: []
+category: Industrial Architecture
+tags: []
+draft: false
+publish: true
+description: Why containerisation matters for industrial software, and what it changes about deploying and maintaining manufacturing systems.
+featured: true
+featuredOrder: 1
+date: '2025-07-16T15:54:15+01:00'
+archiveDate: true
+---
 #TechnologyFocus
 ## Introduction (What are containers)
 A [[Container]] is a defined unit of software, the easiest and most common way to explain containers is through comparison to a Virtual Machine setup. With Virtual Machines, a full computer is simulated with the only shared resource being the bare metal hardware that these VMs run on, containers on the other hand run on a hosts kernel (Operating System) meaning they are much much faster to spin up and down. 

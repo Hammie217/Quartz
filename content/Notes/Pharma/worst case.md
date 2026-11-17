@@ -1,1 +1,11 @@
+---
+type: knowledge-note
+title: worst case
+topics:
+  - pharmaceutical-engineering
+category: Pharmaceutical Engineering
+tags: []
+draft: false
+publish: true
+---
 A worst case point is the point in a system that is in the worst possible circumstance, for example in a [[Cold Store]] the point in the room that is the hottest or in [[Sterilisation In Place]] the point that is the coldest.

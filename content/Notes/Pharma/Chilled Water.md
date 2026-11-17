@@ -1,3 +1,13 @@
+---
+type: knowledge-note
+title: Chilled Water
+topics:
+  - pharmaceutical-engineering
+category: Pharmaceutical Engineering
+tags: []
+draft: false
+publish: true
+---
 Chilled water, commonly abbreviated as CHW, is a water supply used as an industrial service typically in cooling systems such as a [[Heat Exchanger]].
 
 Chilled water is typically served in a closed loop (The same water is recirculated), simply being re-chilled rather than consumed and re-supplied.

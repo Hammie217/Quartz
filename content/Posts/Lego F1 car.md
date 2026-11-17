@@ -1,3 +1,15 @@
+---
+type: article
+title: Lego F1 car
+topics: []
+category: Guides
+tags: []
+draft: false
+publish: true
+featured: false
+date: '2024-12-17T22:12:00Z'
+archiveDate: true
+---
 #3DPrinting #F1
 
 For those that know me personally, it won't come as much of a shock that I've never been a huge supporter of any sport, although I enjoy taking part in most, I've not really taken the leap into watching or competitively supporting any sport or teams, even e-sports for games I play regularly never appealed. Apologies, I know this might sound like a ramble but I'm getting there. 

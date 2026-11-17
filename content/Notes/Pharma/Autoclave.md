@@ -1,3 +1,16 @@
+---
+type: knowledge-note
+title: Autoclave
+topics:
+  - pharmaceutical-engineering
+category: Pharmaceutical Engineering
+tags: []
+draft: false
+publish: true
+beginner: true
+featured: true
+featuredOrder: 1
+---
 An Autoclave is a piece of equipment that uses [[Moist heat sterilisation]] for [[Sterilisation]] used for many different cases such as [[Terminal Sterilisation]], preparation of [[Stopper]]s, [[Filling]] line setup etc...
 
 I have written a Post that dives deep into the functionality of an [[Autoclave]].

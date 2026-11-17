@@ -1,21 +1,44 @@
 import { QuartzTransformerPlugin } from "../types"
-import manifest from "../../publication-manifest.json"
-import { articleInfo, isArticle, isNote } from "../../util/publication"
+import { contentTypes, strings, text } from "../../util/publication"
 
 export const PublicationMetadata: QuartzTransformerPlugin = () => ({
   name: "PublicationMetadata",
   markdownPlugins() {
-    return [() => (_, file) => {
-      const fm = file.data.frontmatter!
-      if (isArticle(file.data)) {
-        const date = (manifest.articleDates as Record<string, string>)[file.data.relativePath!]
-        // First recorded repository date is a stable archive date, not today's build date.
-        if (!fm.published && date) { fm.published = date; fm.archiveDate = true }
-        fm.type ??= "article"
-        const info = articleInfo(file.data)
-        fm.category ??= info.category
-        if (!fm.description && info.description) fm.description = info.description
-      } else if (isNote(file.data)) fm.type ??= "knowledge"
-    }]
+    return [
+      () => (_, file) => {
+        const fm = file.data.frontmatter!
+        const legacy = fm.type as string | undefined
+        if (legacy === "knowledge") fm.type = "knowledge-note"
+        if (legacy === "event") {
+          fm.type = "activity"
+          fm.activityType ??= "Speaking"
+          fm.role ??= text(fm.participation)
+          fm.organisation ??= text(fm.organiser)
+          fm.eventDate ??= fm.date
+          fm.slidesUrl ??= fm.presentation
+          fm.recordingUrl ??= fm.recording
+        }
+        if (legacy === "graph") {
+          fm.type = "page"
+          fm.view = "graph"
+        }
+        fm.type ??= "page"
+        if (!contentTypes.includes(fm.type as (typeof contentTypes)[number]))
+          throw new Error(`${file.data.relativePath}: unsupported content type ${fm.type}`)
+        for (const field of ["related", "topics", "technologies"]) fm[field] = strings(fm[field])
+        fm.featured = fm.featured === true
+        if (fm.featuredOrder == null) delete fm.featuredOrder
+        if (fm.featuredOrder !== undefined) {
+          const order = Number(fm.featuredOrder)
+          if (!Number.isFinite(order))
+            throw new Error(`${file.data.relativePath}: featuredOrder must be numeric`)
+          fm.featuredOrder = order
+        }
+        for (const field of ["eventDate", "endDate"]) {
+          if (fm[field] && !Number.isFinite(new Date(String(fm[field])).getTime()))
+            throw new Error(`${file.data.relativePath}: invalid ${field}`)
+        }
+      },
+    ]
   },
 })

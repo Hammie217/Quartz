@@ -1,3 +1,13 @@
+---
+type: knowledge-note
+title: Ephemeral
+topics:
+  - software-infrastructure
+category: Software & Infrastructure
+tags: []
+draft: false
+publish: true
+---
 In [[Kubernetes]] the concept of an ephemeral [[Container]] is one that can run temporarily, aka it can spin up and spin down as required without needing any container specific memory.
 Ephemeral containers can still use [[Persistent Volume Claim]] but shared across [[Pods]] rather than specific to the individual [[Pods]].
 

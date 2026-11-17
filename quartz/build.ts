@@ -17,7 +17,6 @@ import { glob, toPosixPath } from "./util/glob"
 import { trace } from "./util/trace"
 import { options } from "./util/sourcemap"
 import { Mutex } from "async-mutex"
-import { getStaticResourcesFromPlugins } from "./plugins"
 import { randomIdNonSecure } from "./util/random"
 import { ChangeEvent } from "./plugins/types"
 import { minimatch } from "minimatch"
@@ -170,7 +169,7 @@ async function startWatching(
 
 async function rebuild(changes: ChangeEvent[], clientRefresh: () => void, buildData: BuildData) {
   const { ctx, contentMap, mut, changesSinceLastBuild } = buildData
-  const { argv, cfg } = ctx
+  const { argv } = ctx
 
   const buildId = randomIdNonSecure()
   ctx.buildId = buildId
@@ -193,7 +192,6 @@ async function rebuild(changes: ChangeEvent[], clientRefresh: () => void, buildD
     changesSinceLastBuild[change.path] = change.type
   }
 
-  const staticResources = getStaticResourcesFromPlugins(ctx)
   const pathsToParse: FilePath[] = []
   for (const [fp, type] of Object.entries(changesSinceLastBuild)) {
     if (type === "delete" || path.extname(fp) !== ".md") continue
@@ -227,24 +225,6 @@ async function rebuild(changes: ChangeEvent[], clientRefresh: () => void, buildD
     }
   }
 
-  const changeEvents: ChangeEvent[] = Object.entries(changesSinceLastBuild).map(([fp, type]) => {
-    const path = fp as FilePath
-    const processedContent = contentMap.get(path)
-    if (processedContent?.type === "markdown") {
-      const [_tree, file] = processedContent.content
-      return {
-        type,
-        path,
-        file,
-      }
-    }
-
-    return {
-      type,
-      path,
-    }
-  })
-
   // update allFiles and then allSlugs with the consistent view of content map
   ctx.allFiles = Array.from(contentMap.keys())
   ctx.allSlugs = ctx.allFiles.map((fp) => slugifyFilePath(fp as FilePath))
@@ -252,35 +232,14 @@ async function rebuild(changes: ChangeEvent[], clientRefresh: () => void, buildD
     .filter((file) => file.type === "markdown")
     .map((file) => file.content)
 
-  let emittedFiles = 0
-  for (const emitter of cfg.plugins.emitters) {
-    // Try to use partialEmit if available, otherwise assume the output is static
-    const emitFn = emitter.partialEmit ?? emitter.emit
-    const emitted = await emitFn(ctx, processedFiles, staticResources, changeEvents)
-    if (emitted === null) {
-      continue
-    }
+  // Metadata changes affect every collection, relationship and search entry.
+  // Reapply publication filters and clear stale output when content becomes private.
+  const published = filterContent(ctx, processedFiles)
+  await rimraf(argv.output)
+  await emitContent(ctx, published)
+  for (const key of Object.keys(changesSinceLastBuild))
+    delete changesSinceLastBuild[key as FilePath]
 
-    if (Symbol.asyncIterator in emitted) {
-      // Async generator case
-      for await (const file of emitted) {
-        emittedFiles++
-        if (ctx.argv.verbose) {
-          console.log(`[emit:${emitter.name}] ${file}`)
-        }
-      }
-    } else {
-      // Array case
-      emittedFiles += emitted.length
-      if (ctx.argv.verbose) {
-        for (const file of emitted) {
-          console.log(`[emit:${emitter.name}] ${file}`)
-        }
-      }
-    }
-  }
-
-  console.log(`Emitted ${emittedFiles} files to \`${argv.output}\` in ${perf.timeSince("rebuild")}`)
   console.log(chalk.green(`Done rebuilding in ${perf.timeSince()}`))
   changes.splice(0, numChangesInBuild)
   clientRefresh()

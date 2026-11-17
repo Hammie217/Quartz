@@ -1,1 +1,11 @@
+---
+type: knowledge-note
+title: Saturated Steam
+topics:
+  - pharmaceutical-engineering
+category: Pharmaceutical Engineering
+tags: []
+draft: false
+publish: true
+---
 Saturated steam is steam that is saturated with water droplets. Saturated steam is created by being on the edge of its liquid/gas equilibrium. For example commonly in an [[Autoclave]] 121C steam is used as this is the equilibrium point for water at 1 Bar.

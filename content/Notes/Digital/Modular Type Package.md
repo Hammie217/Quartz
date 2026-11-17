@@ -1,3 +1,12 @@
+---
+type: knowledge-note
+title: Modular Type Package
+topics: []
+category: Engineering Reference
+tags: []
+draft: false
+publish: true
+---
 Modular type package is a standard being introduced for Plug and Produce. MTP compliant systems have an [[OPC]] UA gateway that allows all data and bi-directional communication to take place, it will also be delivered with an MTP file that is an XML descriptor for the equipment containing things such as [[HMI]] elements, Services (Operations), and key system data. 
 
 The intent with MTP is to be able to integrate with a piece of equipment instantly just by installing the MTP file supplied. In an MTP world there is no need for integrators to understand equipment and build bespoke integration scripts and screens. With MTP the supplier will define in the MTP file everything specific to that equipment and as soon as that is ingested into a Process Orchastration Layer communication can start instantly and start working on the control recipe. 

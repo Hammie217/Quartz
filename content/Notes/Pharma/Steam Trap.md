@@ -1,3 +1,13 @@
+---
+type: knowledge-note
+title: Steam Trap
+topics:
+  - pharmaceutical-engineering
+category: Pharmaceutical Engineering
+tags: []
+draft: false
+publish: true
+---
 A steam trap is a type of automatic [[valve]] used to open and close based on the presence of steam.
 
 Steam traps are used to remove condensate out of a system by opening when in contact with water and closing when contacting steam.

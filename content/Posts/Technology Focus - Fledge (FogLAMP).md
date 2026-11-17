@@ -1,3 +1,16 @@
+---
+type: article
+title: Technology Focus - Fledge (FogLAMP)
+topics: []
+category: Industrial Architecture
+tags: []
+draft: false
+publish: true
+description: Exploring an open-source approach to collecting and integrating industrial data at the edge.
+featured: false
+date: '2025-03-25T18:34:36+01:00'
+archiveDate: true
+---
 #TechnologyFocus
 
 I've recently been introduced to a connectivity platform called FogLAMP (or Fledge) and to try and get my head around what it's doing, I've spent some time pulling together a dev environment, reading the documentation and getting a small working demo.

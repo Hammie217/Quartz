@@ -1,0 +1,92 @@
+.collection-item {
+  min-width: 0;
+  display: flex;
+}
+.collection-item > .publication-card {
+  width: 100%;
+}
+.publication-card .resource-links {
+  margin-top: 0.8rem;
+}
+.publication-card h3 a {
+  color: var(--dark);
+}
+.card-thumbnail {
+  width: 100%;
+  aspect-ratio: 16/9;
+  object-fit: cover;
+  border-radius: 3px;
+  margin: 0 0 1rem;
+}
+.project-hero-image {
+  width: 100%;
+  max-height: 480px;
+  object-fit: contain;
+}
+.status-label {
+  display: inline-block;
+  align-self: flex-start;
+  padding: 0.2rem 0.6rem;
+  margin-bottom: 0.7rem;
+  font-size: 0.76rem;
+  border: 1px solid var(--line);
+  border-radius: 3px;
+  color: var(--secondary);
+}
+.reading-kicker {
+  font-size: 0.8rem;
+  color: var(--secondary);
+}
+.reading-toc {
+  margin: 1.5rem 0 2rem;
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  padding: 1rem;
+}
+.reading-toc details {
+  display: block;
+}
+.reading-toc summary {
+  cursor: pointer;
+}
+.reading-toc summary h3 {
+  display: inline;
+  font-size: 1rem;
+}
+.reading-toc ul {
+  max-height: 320px;
+  overflow-y: auto;
+}
+.search .result-card .content-type-label {
+  display: block;
+  margin: 0 0 0.3rem;
+  font-size: 0.7rem;
+  color: var(--secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+.technologies {
+  font-size: 0.9rem;
+}
+.publication .heading-row {
+  margin-bottom: 1.5rem;
+}
+.publication .browse-all {
+  margin-top: 1.5rem;
+}
+@media (max-width: 1100px) {
+  .portfolio-nav .identity-subtitle {
+    display: none;
+  }
+  .portfolio-nav nav {
+    gap: 1rem;
+  }
+}
+@media (max-width: 600px) {
+  .reading-content .publication-grid.two {
+    grid-template-columns: 1fr;
+  }
+  .reading-content .resource-links {
+    gap: 0.75rem;
+  }
+}

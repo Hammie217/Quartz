@@ -1,3 +1,13 @@
+---
+type: knowledge-note
+title: Steam
+topics:
+  - pharmaceutical-engineering
+category: Pharmaceutical Engineering
+tags: []
+draft: false
+publish: true
+---
 Steam can be in many forms depending on the temperature and pressure it is subjected to.
 
 When moving from water to steam, there is a point where the water starts to become steam, this point where steam is on the edge of turning back into water is called [[Saturated Steam]]. 

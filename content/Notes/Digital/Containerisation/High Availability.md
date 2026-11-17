@@ -1,3 +1,13 @@
+---
+type: knowledge-note
+title: High Availability
+topics:
+  - software-infrastructure
+category: Software & Infrastructure
+tags: []
+draft: false
+publish: true
+---
 High availability (HA) is simply the characteristic of keeping a system in an up state as much as possible, usually to some defined service level agreement such as 99.99% uptime (Less than 1 hour down a year).
 
 To meet this HA requirement systems must:

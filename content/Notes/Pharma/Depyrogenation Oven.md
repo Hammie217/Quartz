@@ -1,3 +1,13 @@
+---
+type: knowledge-note
+title: Depyrogenation Oven
+topics:
+  - pharmaceutical-engineering
+category: Pharmaceutical Engineering
+tags: []
+draft: false
+publish: true
+---
 A depyrogenation oven is a piece of equipment used for [[Sterilisation]] which uses [[Dry Heat]]. A depyrogenation oven not only kills bacteria but also destroys [[pyrogens]]. A depyrogenation oven typically has a few operations:
 - ?Venting? - Start heating with vents open to remove moisture
 - Heating - Continue heating with vents closed to reach depyrogenation temperature

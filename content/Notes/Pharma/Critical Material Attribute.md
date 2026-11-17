@@ -1,2 +1,12 @@
+---
+type: knowledge-note
+title: Critical Material Attribute
+topics:
+  - pharmaceutical-engineering
+category: Pharmaceutical Engineering
+tags: []
+draft: false
+publish: true
+---
 A Critical Material Attribute (CMA), is an attribute of raw material supplied to a pharmaceutical [[Manufacturing]] process that effects the quality of product produced, for example pH of supplied [[Active Pharmaceutical Ingredient]].
 CMA's must be monitored through [[Continuous Process Verification]] to detect anomalies/trends.

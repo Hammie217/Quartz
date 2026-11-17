@@ -9,7 +9,6 @@ view: work
 eyebrow: Work / Experience & judgement
 aliases:
   - experience
-  - projects/index
   - projects/equipment-ontology
   - projects/factory-integration
   - projects/barnard-castle

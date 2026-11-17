@@ -1,3 +1,13 @@
+---
+type: knowledge-note
+title: OPC
+topics:
+  - industrial-connectivity
+category: Industrial Connectivity
+tags: []
+draft: false
+publish: true
+---
 OPC is short for Open Platform Communications, it is typically used as a bi-directional realtime continuous data stream for things like [[PLC]] data such as temperatures and pressures and writing down to datablocks, but is expanding to cover things such as alarms and events (OPC AE) as well as file transfer.  
 
 historically OPC Direct Access (DA) was used and more modernly OPC UA is used with DA being phased out due to windows dependencies and security concerns. 

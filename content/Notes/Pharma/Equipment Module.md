@@ -1,2 +1,12 @@
+---
+type: knowledge-note
+title: Equipment Module
+topics:
+  - pharmaceutical-engineering
+category: Pharmaceutical Engineering
+tags: []
+draft: false
+publish: true
+---
 A Process cell is an [[ISA88]] defined structure that belongs to a [[Unit]] and may contain [[Control Module]].
 An equipment module is typically a module of a line or a skid of equipment note for some equipment that could be a single module.

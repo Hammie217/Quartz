@@ -1,2 +1,12 @@
+---
+type: knowledge-note
+title: Bowie-Dick
+topics:
+  - pharmaceutical-engineering
+category: Pharmaceutical Engineering
+tags: []
+draft: false
+publish: true
+---
 The Bowie-Dick test is a test pack installed into an autoclave consisting of a chemical indicator sheet within a porous material to simulate penetrating a reasonable load.
 The Bowie-Dick test is used to prove sufficient air removal for steam penetration, if this is not achieved the chemical indicator will not have changed colour or consist of an uneven pattern.

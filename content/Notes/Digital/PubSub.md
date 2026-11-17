@@ -1,1 +1,14 @@
+---
+type: knowledge-note
+title: PubSub
+topics:
+  - industrial-connectivity
+category: Industrial Connectivity
+tags: []
+draft: false
+publish: true
+beginner: true
+featured: true
+featuredOrder: 1
+---
 Publish Subscribe is a common architecture for a [[Message Broker]] that decouples dataflow allowing a data server to publish data to the queue at any rate it likes and a data consumer to subscribe and read that data whenever it likes.

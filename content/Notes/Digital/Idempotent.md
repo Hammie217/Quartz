@@ -1,3 +1,13 @@
+---
+type: knowledge-note
+title: Idempotent
+topics:
+  - software-infrastructure
+category: Software & Infrastructure
+tags: []
+draft: false
+publish: true
+---
 An Idempotent function is one that can handle being called multiple times when the output is only required once.
 
 For example making a directory will return an error if that directory already exists. An idempotent version would either create the directory if not already created otherwise it will simply verify the existence of that directory.

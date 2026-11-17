@@ -1,3 +1,13 @@
+---
+type: knowledge-note
+title: Control Plane
+topics:
+  - software-infrastructure
+category: Software & Infrastructure
+tags: []
+draft: false
+publish: true
+---
 The control plane is the core component of [[Kubernetes]] that manages a cluster.
 
 By default it is made up of:

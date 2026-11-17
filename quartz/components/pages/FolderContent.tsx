@@ -33,9 +33,17 @@ export default ((opts?: Partial<FolderContentOptions>) => {
     const { tree, fileData, allFiles, cfg } = props
     if (
       fileData.frontmatter?.portfolio ||
-      ["article", "case-study", "knowledge", "event", "graph"].includes(
-        String(fileData.frontmatter?.type),
-      )
+      [
+        "article",
+        "project",
+        "case-study",
+        "knowledge-note",
+        "activity",
+        "knowledge",
+        "event",
+        "graph",
+      ].includes(String(fileData.frontmatter?.type)) ||
+      fileData.frontmatter?.view === "graph"
     )
       return <Content {...props} />
 

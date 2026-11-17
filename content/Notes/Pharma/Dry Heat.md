@@ -1,1 +1,11 @@
+---
+type: knowledge-note
+title: Dry Heat
+topics:
+  - pharmaceutical-engineering
+category: Pharmaceutical Engineering
+tags: []
+draft: false
+publish: true
+---
 Dry heat [[Sterilisation]] is the process of heating a system without the use of water like a typical home oven, this is commonly used for both [[Sterilisation]] and [[Depyrogenation]] in one.

@@ -1,3 +1,13 @@
+---
+type: knowledge-note
+title: Pressure Cascade
+topics:
+  - pharmaceutical-engineering
+category: Pharmaceutical Engineering
+tags: []
+draft: false
+publish: true
+---
 A pressure cascade is a design of clean room [[HVAC]] where areas with higher grades are kept at a higher pressure than lower graded areas. 
 
 This pressure difference ensures clean air flows into dirty areas instead of dirty air into clean areas preventing dust ingress.

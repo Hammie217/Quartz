@@ -1,3 +1,13 @@
+---
+type: knowledge-note
+title: MPPS
+topics:
+  - pharmaceutical-engineering
+category: Pharmaceutical Engineering
+tags: []
+draft: false
+publish: true
+---
 Most Penetrating Particle Size (MPPS) is a key metric used to determine a [[Filter]]'s efficiency, it defines the worst case size of a particle for that filter design. As filters make use of four main mechanisms:
 - [[Impaction]]
 - [[Interception]]

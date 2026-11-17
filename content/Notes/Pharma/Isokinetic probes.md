@@ -1,3 +1,13 @@
+---
+type: knowledge-note
+title: Isokinetic probes
+topics:
+  - pharmaceutical-engineering
+category: Pharmaceutical Engineering
+tags: []
+draft: false
+publish: true
+---
 An Isokinetic probe is a type of [[Particulate Monitoring]] probe which is used to measure the amount of particulates in a room that has continuous airflow.
 
 An isokinetic probe collects air at the same velocity as the room airflow to not impact the airflow or movement of particulates in the room.

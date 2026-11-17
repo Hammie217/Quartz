@@ -9,6 +9,8 @@ const output = path.resolve(process.argv[2] ?? "public")
 const pages = [
   "index.html",
   "work/index.html",
+  "projects/index.html",
+  "about/involvement.html",
   "about/index.html",
   "about/speaking/index.html",
   "insights/index.html",
@@ -160,7 +162,6 @@ for (const alias of [
   "contact",
   "insights",
   "experience",
-  "projects/index",
   "projects/factory-integration",
   "projects/barnard-castle",
   "projects/equipment-ontology",

@@ -1,3 +1,13 @@
+---
+type: knowledge-note
+title: Proxy
+topics:
+  - software-infrastructure
+category: Software & Infrastructure
+tags: []
+draft: false
+publish: true
+---
 A [[Proxy]] is installed on nodes to allow [[Kubernetes services]] to be implemented. This allows for exposing network points to [[Pods]] that require it.
 If this is not a requirement a proxy does not need to be installed.
 

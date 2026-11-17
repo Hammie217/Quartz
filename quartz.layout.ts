@@ -29,14 +29,8 @@ export const defaultContentPageLayout: PageLayout = {
     technical(Component.ContentMeta()),
     technical(Component.TagList()),
   ],
-  left: [
-    technical(Component.Explorer({ title: "Knowledge base" })),
-  ],
-  right: [
-    technical(ExploreGraph()),
-    technical(Component.DesktopOnly(Component.TableOfContents())),
-    technical(Component.Backlinks()),
-  ],
+  left: [technical(Component.Explorer({ title: "Knowledge base" }))],
+  right: [technical(ExploreGraph()), technical(Component.Backlinks())],
 }
 
 export const defaultListPageLayout: PageLayout = {

@@ -1,2 +1,12 @@
+---
+type: knowledge-note
+title: Pallet Wrapper
+topics:
+  - pharmaceutical-engineering
+category: Pharmaceutical Engineering
+tags: []
+draft: false
+publish: true
+---
 A pallet wrapper is a piece of equipment designed to wrap a loaded [[Pallet]]. 
 Pallet wrapping ensures loads stacked on pallets are held together in once piece as well as weakly fixing the load to the pallet.

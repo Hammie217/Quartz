@@ -1,2 +1,12 @@
+---
+type: knowledge-note
+title: Assembly
+topics:
+  - pharmaceutical-engineering
+category: Pharmaceutical Engineering
+tags: []
+draft: false
+publish: true
+---
 Assembly is the process of assembling a device, for injectable devices this this is commonly [[Autoinjectors]]. Assembly can be a very complex process due to many complex parts that can have no visual indication of correct installation.
 For example for many devices require monitoring of [[Force-Distance]] to check correct assembly which can be vary depending on the device tolerances.

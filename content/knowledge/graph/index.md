@@ -1,9 +1,10 @@
 ---
-type: graph
+type: page
 publish: true
 portfolio: false
 title: Explore the knowledge graph
 description: Explore connections between technical notes, articles and engineering concepts.
+view: graph
 ---
 
 The graph connects the technical library through its internal links. Drag to explore, scroll to zoom, and select a node to open a note. Use the expand control for a larger view; press Escape to close it.

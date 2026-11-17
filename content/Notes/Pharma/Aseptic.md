@@ -1,3 +1,13 @@
+---
+type: knowledge-note
+title: Aseptic
+topics:
+  - pharmaceutical-engineering
+category: Pharmaceutical Engineering
+tags: []
+draft: false
+publish: true
+---
 Aseptic is the property of a substance, system or process being free of microorganism contamination.
 
 The distinction between Aseptic and [[Sterilisation]] is Sterilisation removes all microorganisms whereas Aseptic processing prevents the introduction of contamination.

@@ -6,6 +6,7 @@ import Darkmode from "./Darkmode"
 
 const links = [
   ["Work", "work/"],
+  ["Projects", "projects/"],
   ["Insights", "insights/"],
   ["Knowledge", "knowledge/"],
   ["About", "about/"],
@@ -24,7 +25,16 @@ export default (() => {
         : pathToRoot(slug)
     const section = slug === "index" ? "" : slug.split("/")[0]
     const home = `${root.replace(/\/$/, "")}/`
-    const activeSection = section === "Posts" ? "insights" : ["Notes", "Recordings", "tags"].includes(section) ? "knowledge" : ["projects", "experience"].includes(section) ? "work" : section
+    const activeSection =
+      section === "Posts"
+        ? "insights"
+        : ["Notes", "Recordings", "tags"].includes(section)
+          ? "knowledge"
+          : section === "experience"
+            ? "work"
+            : section === "activities"
+              ? "about"
+              : section
 
     const navigation = () =>
       links.map(([label, target]) => (

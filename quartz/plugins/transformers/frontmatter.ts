@@ -144,12 +144,23 @@ declare module "vfile" {
         portfolio: boolean
         publish: boolean | string
         draft: boolean | string
-        type: "page" | "article" | "case-study" | "knowledge" | "event" | "graph"
+        type:
+          | "page"
+          | "article"
+          | "project"
+          | "case-study"
+          | "knowledge-note"
+          | "activity"
+          | "knowledge"
+          | "event"
+          | "graph"
         view: string
         heading: string
         eyebrow: string
         category: string
         featured: boolean
+        featuredOrder: number
+        related: string[]
         topics: string[]
         role: string
         organisation: string

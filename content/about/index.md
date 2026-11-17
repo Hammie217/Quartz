@@ -45,7 +45,7 @@ My current focus is global OT data integration, industrial connectivity standard
 
 ## Beyond the day-to-day
 
-I participate in ISPE Industry 4.0 activities and am interested in mentoring, technical presentations and discussions. [More about speaking and industry involvement](about/speaking/index).
+[Explore speaking and industry involvement](about/speaking/index) or [browse professional contributions](about/involvement).
 
 Making and building things remains part of how I learn. My [technical knowledge base](../knowledge/) collects the explanations, experiments and references I return to.
 

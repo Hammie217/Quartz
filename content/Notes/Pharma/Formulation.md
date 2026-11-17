@@ -1,1 +1,11 @@
+---
+type: knowledge-note
+title: Formulation
+topics:
+  - pharmaceutical-engineering
+category: Pharmaceutical Engineering
+tags: []
+draft: false
+publish: true
+---
 Formulation is the process in which [[Buffer]] is added during [[Manufacturing]], this is usually done to ensure the product meets its requirements such as pH for stability.

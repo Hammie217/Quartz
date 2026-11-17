@@ -1,3 +1,13 @@
+---
+type: knowledge-note
+title: PID
+topics:
+  - pharmaceutical-engineering
+category: Pharmaceutical Engineering
+tags: []
+draft: false
+publish: true
+---
 Proportional, Integral, Derivative (PID) is a [[Closed Loop]] control methodology which uses three different calculations to determine the output control signal:
 - Proportional - The difference between the input value and feedback value
 - Integral - The integral of the error between input and feedback value

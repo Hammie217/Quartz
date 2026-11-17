@@ -24,13 +24,16 @@ export default ((opts?: Partial<ContentMetaOptions>) => {
   const options: ContentMetaOptions = { ...defaultOptions, ...opts }
 
   function ContentMetadata({ cfg, fileData, displayClass }: QuartzComponentProps) {
+    if (fileData.frontmatter?.type === "activity") return null
     const text = fileData.text
 
     if (text) {
       const segments: (string | JSX.Element)[] = []
 
       if (fileData.dates) {
-        segments.push(`${fileData.frontmatter?.archiveDate ? "Archive: " : ""}${formatDate(getDate(cfg, fileData)!, cfg.locale)}`)
+        segments.push(
+          `${fileData.frontmatter?.archiveDate ? "Archive: " : ""}${formatDate(getDate(cfg, fileData)!, cfg.locale)}`,
+        )
       }
 
       // Display reading time if enabled

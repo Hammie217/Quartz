@@ -1,1 +1,11 @@
+---
+type: knowledge-note
+title: kubelet
+topics:
+  - software-infrastructure
+category: Software & Infrastructure
+tags: []
+draft: false
+publish: true
+---
 Kubelet is the default [[Kubernetes]] Node agent that sits on all worker [[Nodes]] supervising all activity on the node and feeding status information back to the [[Control Plane]].

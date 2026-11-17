@@ -1,3 +1,15 @@
+---
+type: article
+title: Designing a Wet Bead Mill
+topics: []
+category: Automation
+tags: []
+draft: false
+publish: true
+featured: false
+date: '2025-02-22T15:26:18+01:00'
+archiveDate: true
+---
 Hopefully you have come to this page as you are interested in finding more out about Wet Bead Milling in the [[Pharmaceutical Manufacture]] domain. In this post I will cover the basics all the way through to designing a fully automated milling platform. For those of you who have heard the term but aren't familiar with the process, a bead mill at its core agitates beads in a chamber filled with product to reduce the particulate size. In the pharmaceutical world, milling is commonly used on products that agglomerate meaning that these products naturally form clumps which in turn reduces the effectiveness of medication, the intent of [[Milling]] is to break down these particles into smaller, useable particles. Active Pharmaceutical Ingredients (APIs) that agglomerate typically do so quicker the warmer they are, in turn driving a requirement to reduce the amount of temperature time the product is subjected to.
 
 This in turn drives our requirements for a milling platform that we will design as below:

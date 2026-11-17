@@ -1,3 +1,16 @@
+---
+type: article
+title: Automation Focus - Autoclave
+topics:
+  - manufacturing-systems
+category: Automation
+tags: []
+draft: false
+publish: true
+featured: false
+date: '2025-04-13T21:41:01+01:00'
+archiveDate: true
+---
 #AutomationFocus
 #  What are they and what do they do
 

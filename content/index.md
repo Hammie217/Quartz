@@ -20,8 +20,3 @@ aliases:
 <a href="knowledge/strategy-governance/" class="expertise-item"><span>04</span><h3 data-no-anchor>Technology Strategy &amp; Leadership</h3><p>Developing people, standards and capabilities that last beyond a project.</p></a>
 </div>
 </section>
-<section class="publication-section industry-section">
-<p class="eyebrow">Knowledge grows when shared</p><h2>Contributing to the industry</h2>
-<p>Alongside my engineering work, I participate in ISPE Industry 4.0 activities. I'm interested in sharing manufacturing digitalisation knowledge, mentoring and creating space for practical technical discussions.</p>
-<a class="text-link" href="about/speaking/">Speaking &amp; industry involvement ↗</a>
-</section>

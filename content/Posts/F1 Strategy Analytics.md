@@ -1,3 +1,16 @@
+---
+type: article
+title: F1 Strategy Analytics
+topics:
+  - data-analytics
+category: Guides
+tags: []
+draft: false
+publish: true
+featured: false
+date: '2025-01-12T22:07:15Z'
+archiveDate: true
+---
 #F1 
 Having recently stumbled across the [Open F1 API](https://openf1.org/]) I've been intrigued as to what could be done with the data, given my background in data analytics I was keen to take a look into what's available and could be done with it.
 

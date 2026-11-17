@@ -1,3 +1,13 @@
+---
+type: knowledge-note
+title: Labeller
+topics:
+  - pharmaceutical-engineering
+category: Pharmaceutical Engineering
+tags: []
+draft: false
+publish: true
+---
 A  labeller is a piece of equipment used to apply a label to something.
 There are many subtypes of labellers that all do the same task they just operate in different ways:
 - Vial Labeller - Apply a label to a [[Vials]]

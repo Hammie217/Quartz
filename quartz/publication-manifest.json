@@ -219,8 +219,7 @@
     "Posts/Lego F1 car.md",
     "Posts/Pharmaceutical Filling techniques.md",
     "Posts/Technology Focus - Fledge (FogLAMP).md",
-    "Posts/Why your factory should be deploying containers.md",
-    "Recordings/Recordings.md"
+    "Posts/Why your factory should be deploying containers.md"
   ],
   "assets": [
     "Notes/Digital/Containerisation/Website Drawings-4.jpg",
@@ -269,16 +268,5 @@
     "F124Architecture.png",
     "Pasted image 20250223212004.png",
     "Ignition.excalidraw"
-  ],
-  "articleDates": {
-    "Posts/Automation Focus - Autoclave.md": "2025-04-13T21:41:01+01:00",
-    "Posts/Designing a Wet Bead Mill.md": "2025-02-22T15:26:18+01:00",
-    "Posts/F1 Strategy Analytics.md": "2025-01-12T22:07:15Z",
-    "Posts/How 3D Printing is Transforming Manufacturing Sites.md": "2025-02-26T21:52:06Z",
-    "Posts/Kubernetes Overview.md": "2025-02-11T23:39:51Z",
-    "Posts/Lego F1 car.md": "2024-12-17T22:12:00Z",
-    "Posts/Pharmaceutical Filling techniques.md": "2025-02-22T15:26:18+01:00",
-    "Posts/Technology Focus - Fledge (FogLAMP).md": "2025-03-25T18:34:36+01:00",
-    "Posts/Why your factory should be deploying containers.md": "2025-07-16T15:54:15+01:00"
-  }
+  ]
 }

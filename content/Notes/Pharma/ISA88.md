@@ -1,3 +1,17 @@
+---
+type: knowledge-note
+title: ISA88
+topics:
+  - pharmaceutical-engineering
+  - strategy-governance
+category: Pharmaceutical Engineering
+tags: []
+draft: false
+publish: true
+beginner: true
+featured: true
+featuredOrder: 1
+---
 ISA88 is a standard for batch control and standardises many terms and structures. ISA88 was released in 1995 and is in widespread use throughout industry as the batch control standard.
 ISA88 defines both a Physical Model and a Procedural Model.
 

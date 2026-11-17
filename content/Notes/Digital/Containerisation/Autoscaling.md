@@ -1,3 +1,13 @@
+---
+type: knowledge-note
+title: Autoscaling
+topics:
+  - software-infrastructure
+category: Software & Infrastructure
+tags: []
+draft: false
+publish: true
+---
 Autoscaling is a process in [[Kubernetes]] that allows [[Pods]] and [[Nodes]] to be automatically scaled to manage changing demand. [[Pods]] autoscaling is managed in the [[kube-controller-manager]] where resources are monitored on loop to detect if thresholds are met and need scaling.
 [[Nodes]] Autoscaling is managed in another component called "Cluster Autoscaling".
 Autoscaling is managed in the [[Control Plane]]

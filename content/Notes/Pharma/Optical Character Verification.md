@@ -1,3 +1,13 @@
+---
+type: knowledge-note
+title: Optical Character Verification
+topics:
+  - pharmaceutical-engineering
+category: Pharmaceutical Engineering
+tags: []
+draft: false
+publish: true
+---
 Optical Character Verification is a process where printed text and codes are read by a vision system and compared to what is expected.
 
 OCV is most commonly implemented as part of [[Serialisation]].

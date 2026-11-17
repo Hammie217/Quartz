@@ -9,12 +9,6 @@ view: speaking
 eyebrow: About / Speaking & industry
 ---
 
-## Industry involvement
-
-I participate in ISPE Industry 4.0 activities, with an interest in sharing practical manufacturing digitalisation knowledge and learning from others working through similar challenges.
-
-Mentoring, technical presentations and open discussion are ways I hope to contribute. Confirmed events and approved resources will be added here as they become available.
-
 ## Topics for conversation
 
 - Industrial connectivity and integration

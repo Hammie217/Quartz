@@ -1,3 +1,13 @@
+---
+type: knowledge-note
+title: RTLS
+topics:
+  - pharmaceutical-engineering
+category: Pharmaceutical Engineering
+tags: []
+draft: false
+publish: true
+---
 Real Time Location System is a technology that makes use of fixed RF transmitters to triangulate the position of tags.
 
 Depending on the technology used RFID can be accurate to millimetres or meters.

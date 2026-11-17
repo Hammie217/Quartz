@@ -1,3 +1,13 @@
+---
+type: knowledge-note
+title: Application Programming Interface
+topics:
+  - industrial-connectivity
+category: Industrial Connectivity
+tags: []
+draft: false
+publish: true
+---
 An Application Programming Interface or API is an interface layer presented by a system to allow other systems to communicate easily.
 
 An API allows systems to be integrated easily through a standard interface whilst allowing the API host to maintain ownership under the hood of how requests are processed.

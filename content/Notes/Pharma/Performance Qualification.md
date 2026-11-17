@@ -1,3 +1,14 @@
+---
+type: knowledge-note
+title: Performance Qualification
+topics:
+  - pharmaceutical-engineering
+  - strategy-governance
+category: Pharmaceutical Engineering
+tags: []
+draft: false
+publish: true
+---
 Performance Qualification or PQ, is the process where a system introduced is confirmed to be performing as per requirements as part of a [[Validation]] process.
 
 Performance Qualification is typically a deeper version of [[Operational Qualification]] where real-world situations are tested with defined recipes and multiple cycles to ensure consistency of operation.

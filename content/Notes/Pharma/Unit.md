@@ -1,2 +1,12 @@
+---
+type: knowledge-note
+title: Unit
+topics:
+  - pharmaceutical-engineering
+category: Pharmaceutical Engineering
+tags: []
+draft: false
+publish: true
+---
 A Unit is a structure defined in [[ISA88]] that represents a piece of equipment. A Unit runs a [[Unit Procedure]].
 As per ISA88, units must belong to a [[Process Cell]] and may be made up of [[Equipment Module]]s.
