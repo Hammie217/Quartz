@@ -62,7 +62,7 @@ async function _navigate(url: URL, isBack: boolean = false) {
   isNavigating = true
   startLoading()
   p = p || new DOMParser()
-  const contents = await fetchCanonical(url)
+  const contents = await fetchCanonical(url, { cache: "no-cache" })
     .then((res) => {
       const contentType = res.headers.get("content-type")
       if (contentType?.startsWith("text/html")) {
@@ -77,6 +77,14 @@ async function _navigate(url: URL, isBack: boolean = false) {
 
   if (!contents) return
 
+  const html = p.parseFromString(contents, "text/html")
+  const currentBuild = document.querySelector<HTMLMetaElement>('meta[name="quartz-build"]')?.content
+  const nextBuild = html.querySelector<HTMLMetaElement>('meta[name="quartz-build"]')?.content
+  if (currentBuild !== nextBuild) {
+    window.location.assign(url)
+    return
+  }
+
   // notify about to nav
   const event: CustomEventMap["prenav"] = new CustomEvent("prenav", { detail: {} })
   document.dispatchEvent(event)
@@ -85,7 +93,6 @@ async function _navigate(url: URL, isBack: boolean = false) {
   cleanupFns.forEach((fn) => fn())
   cleanupFns.clear()
 
-  const html = p.parseFromString(contents, "text/html")
   normalizeRelativeURLs(html, url)
 
   let title = html.querySelector("title")?.textContent

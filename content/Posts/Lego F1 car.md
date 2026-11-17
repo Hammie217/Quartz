@@ -1,4 +1,5 @@
 ---
+description: A personal engineering build exploring a LEGO Formula 1 car.
 type: article
 title: Lego F1 car
 topics: []

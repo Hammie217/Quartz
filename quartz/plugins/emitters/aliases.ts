@@ -25,6 +25,7 @@ async function* processFile(ctx: BuildCtx, file: VFile) {
         <title>${ogSlug}</title>
         <link rel="canonical" href="${redirUrl}">
         <meta name="robots" content="noindex">
+        <meta name="quartz-build" content="${ctx.buildId}">
         <meta charset="utf-8">
         <meta http-equiv="refresh" content="0; url=${redirUrl}">
         </head>

@@ -30,9 +30,10 @@ draft: false
 featured: true
 featuredOrder: -100
 date: "2026-01-01"
-category: Test category
+category: Guides
 tags: [fixture]
 topics: [fixture]
+employmentId: global-ot-integration
 activityType: Speaking
 eventDate: "2099-01-01"
 thumbnail: assets/fixture.svg
@@ -91,3 +92,24 @@ console.log(
   "Fixture build passed: automatic collections, activity reuse, related content, TOC, wikilinks, typed search and draft/asset exclusion.",
 )
 console.log("Fixture output: " + output)
+
+// Professional records must not inherit knowledge sidebars or activity recommendations.
+for (const [type, folder] of [
+  ["activity", "activities"],
+  ["project", "projects"],
+  ["case-study", "work/case-studies"],
+]) {
+  const page = html(folder + "/fixture-" + type)
+  assert(page.includes('data-layout="portfolio"'))
+  assert(!page.includes('class="contextual-graph"'))
+  assert(!page.includes('class="backlinks"'))
+  assert(page.includes(type + "-content"))
+}
+assert(!html("activities/fixture-activity").includes('aria-label="Related content"'))
+assert(html("work/index").includes('aria-label="Case studies for this role"'))
+assert(html("index").includes("Fixture case-study"))
+assert(html("insights/index").includes("Filter by category"))
+assert(!html("insights/index").includes("Filter by topic"))
+execFileSync(process.execPath, ["scripts/check-build-consistency.mjs", output], {
+  stdio: "inherit",
+})

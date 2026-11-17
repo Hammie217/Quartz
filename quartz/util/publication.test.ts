@@ -1,6 +1,16 @@
 import { test } from "node:test"
 import assert from "node:assert/strict"
-import { activityGroup, collection, featuredItems, relatedContent, topicNotes } from "./publication"
+import {
+  activityGroup,
+  collection,
+  featuredItems,
+  relatedContent,
+  topicNotes,
+  recommendedReading,
+  caseStudiesForRole,
+  usesKnowledgeLayout,
+  contentSection,
+} from "./publication"
 import { QuartzPluginData } from "../plugins/vfile"
 
 const doc = (slug: string, metadata: Record<string, unknown> = {}) =>
@@ -39,7 +49,7 @@ test("featured order wins, ties and fallback are deterministic", () => {
   )
   assert.deepEqual(featuredItems([doc("none")], 3, false), [])
 })
-test("related prioritises explicit references, tags, then category without filler", () => {
+test("related prioritises explicit references and specific tags without category filler", () => {
   const current = doc("self", { related: ["[[explicit.md]]"], tags: ["mqtt"], category: "Data" })
   const files = [
     current,
@@ -51,7 +61,7 @@ test("related prioritises explicit references, tags, then category without fille
   ]
   assert.deepEqual(
     relatedContent(current, files).map((f) => f.slug),
-    ["explicit", "tag", "category"],
+    ["explicit", "tag"],
   )
   assert.deepEqual(relatedContent(doc("isolated"), files), [])
 })
@@ -73,4 +83,62 @@ test("activities group by dates and status", () => {
     "Past speaking",
   )
   assert.equal(activityGroup(doc("c", { status: "Ongoing" }), now), "Ongoing involvement")
+})
+
+test("professional records use a quiet layout and content-aware sections", () => {
+  for (const type of ["project", "activity", "case-study"])
+    assert.equal(usesKnowledgeLayout(doc("elsewhere", { type })), false)
+  assert.equal(usesKnowledgeLayout(doc("article")), true)
+  assert.equal(contentSection(doc("unusual/path", { type: "case-study" }))?.slug, "work/index")
+})
+test("activity relationships are explicit only; broad topics and categories do not fill", () => {
+  const files = [
+    doc("note", { tags: ["mqtt"], category: "Strategy" }),
+    doc("event", { type: "activity", tags: ["mqtt"] }),
+  ]
+  assert.deepEqual(relatedContent(doc("current", { type: "activity", tags: ["mqtt"] }), files), [])
+  assert.deepEqual(
+    relatedContent(doc("current", { type: "activity", related: ["note"] }), files).map(
+      (f) => f.slug,
+    ),
+    ["note"],
+  )
+  assert.deepEqual(
+    relatedContent(
+      doc("current", { category: "Strategy", topics: ["strategy-governance"] }),
+      files,
+    ),
+    [],
+  )
+  assert.deepEqual(relatedContent(doc("current", { tags: ["mqtt"] }), [files[1]]), [])
+})
+test("curated reading respects order, aliases, public visibility and deduplication", () => {
+  const files = [
+    doc("b", { type: "knowledge-note", topics: ["new"], aliases: ["old-b"] }),
+    doc("a", { type: "knowledge-note", topics: ["new"] }),
+    doc("private", { private: true }),
+  ]
+  assert.deepEqual(
+    recommendedReading(
+      doc("topic", { recommended: ["old-b", "a", "b", "private", "missing"] }),
+      files,
+    ).map((f) => f.slug),
+    ["b", "a"],
+  )
+  assert.deepEqual(
+    recommendedReading(doc("topic", { topic: "new" }), files).map((f) => f.slug),
+    ["a", "b"],
+  )
+})
+test("employment associations include only matching published case studies", () => {
+  const files = [
+    doc("case", { type: "case-study", employmentId: "role-a" }),
+    doc("draft", { type: "case-study", employmentId: "role-a", draft: true }),
+    doc("article", { employmentId: "role-a" }),
+  ]
+  assert.deepEqual(
+    caseStudiesForRole(files, "role-a").map((f) => f.slug),
+    ["case"],
+  )
+  assert.deepEqual(caseStudiesForRole(files, ""), [])
 })

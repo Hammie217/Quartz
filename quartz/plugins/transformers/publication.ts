@@ -1,5 +1,5 @@
 import { QuartzTransformerPlugin } from "../types"
-import { contentTypes, strings, text } from "../../util/publication"
+import { contentTypes, strings, text, editorialCategories } from "../../util/publication"
 
 export const PublicationMetadata: QuartzTransformerPlugin = () => ({
   name: "PublicationMetadata",
@@ -25,7 +25,19 @@ export const PublicationMetadata: QuartzTransformerPlugin = () => ({
         fm.type ??= "page"
         if (!contentTypes.includes(fm.type as (typeof contentTypes)[number]))
           throw new Error(`${file.data.relativePath}: unsupported content type ${fm.type}`)
-        for (const field of ["related", "topics", "technologies"]) fm[field] = strings(fm[field])
+        for (const field of ["related", "topics", "technologies", "recommended"])
+          fm[field] = strings(fm[field])
+        if (fm.type === "article") {
+          const category = text(fm.category).trim() || "Guides"
+          const canonical = editorialCategories.find(
+            (value) => value.toLowerCase() === category.toLowerCase(),
+          )
+          if (!canonical)
+            throw new Error(
+              String(file.data.relativePath) + ": invalid editorial category: " + category,
+            )
+          fm.category = canonical
+        }
         fm.featured = fm.featured === true
         if (fm.featuredOrder == null) delete fm.featuredOrder
         if (fm.featuredOrder !== undefined) {

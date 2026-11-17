@@ -3,6 +3,8 @@ import { QuartzComponentProps } from "./types"
 import { QuartzPluginData } from "../plugins/vfile"
 import {
   articles,
+  recommendedReading,
+  caseStudiesForRole,
   belongsToTopic,
   collection,
   featuredItems,
@@ -121,21 +123,18 @@ function Knowledge(props: QuartzComponentProps) {
 function Topic(props: QuartzComponentProps) {
   const id = text(props.fileData.frontmatter?.topic)
   const notes = topicNotes(props.allFiles, id)
-  const beginners = notes.filter((f) => f.frontmatter?.beginner === true)
+  const recommended = recommendedReading(props.fileData, props.allFiles)
+  const remaining = notes.filter((file) => !recommended.some((item) => item.slug === file.slug))
   const relevant = [...articles(props.allFiles), ...collection(props.allFiles, "project")].filter(
     (f) => belongsToTopic(f, id),
   )
   return (
     <>
-      <FeaturedContent
-        props={props}
-        title="Start here"
-        files={featuredItems(beginners.length ? beginners : notes, 3)}
-      />
+      <FeaturedContent props={props} title="Start here" files={recommended} />
       <section class="publication-section">
-        <h2>All notes</h2>
+        <h2>More notes</h2>
         <ul class="note-directory">
-          {notes.map((file) => (
+          {remaining.map((file) => (
             <li>
               <a href={link(props, file.slug!)}>
                 {file.frontmatter?.title}
@@ -233,7 +232,7 @@ export default function Publication(props: Props) {
           <FeaturedContent
             props={props}
             title="Selected work"
-            files={featuredItems(cases)}
+            files={featuredItems(cases, 3, false)}
             target="work/index"
           />
           <FeaturedContent
@@ -261,7 +260,7 @@ export default function Publication(props: Props) {
           />
           <section class="publication-section">
             <h2>All insights</h2>
-            <CollectionList files={writing} props={props} id="insights" filter="topics" />
+            <CollectionList files={writing} props={props} id="insights" filter="category" />
           </section>
           {props.body}
         </>
@@ -280,7 +279,12 @@ export default function Publication(props: Props) {
             <h2>Experience</h2>
             <ol class="experience-timeline">
               {(Array.isArray(fm.experience)
-                ? (fm.experience as { role: string; period: string; description: string }[])
+                ? (fm.experience as {
+                    id?: string
+                    role: string
+                    period: string
+                    description: string
+                  }[])
                 : []
               ).map((item) => (
                 <li>
@@ -288,6 +292,15 @@ export default function Publication(props: Props) {
                   <div>
                     <h3>{item.role}</h3>
                     <p>{item.description}</p>
+                    {caseStudiesForRole(props.allFiles, item.id ?? "").length > 0 && (
+                      <ul aria-label="Case studies for this role">
+                        {caseStudiesForRole(props.allFiles, item.id ?? "").map((file) => (
+                          <li>
+                            <a href={link(props, file.slug!)}>{file.frontmatter?.title}</a>
+                          </li>
+                        ))}
+                      </ul>
+                    )}
                   </div>
                 </li>
               ))}

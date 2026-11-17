@@ -13,16 +13,20 @@ aliases:
   - projects/factory-integration
   - projects/barnard-castle
 experience:
-  - role: Global OT Data Integration Engineer
+  - id: global-ot-integration
+    role: Global OT Data Integration Engineer
     period: January 2025–present
     description: Global OT integration, industrial connectivity standards, architecture collaboration and data standardisation. Exploring modern approaches to industrial software deployment.
-  - role: Digital, Data & Analytics Manager
+  - id: digital-data-analytics
+    role: Digital, Data & Analytics Manager
     period: August 2023–December 2024
     description: Site digital strategy, leading a digital team, project portfolio prioritisation, delivery governance and capability development.
-  - role: Digitalisation Lead
+  - id: digitalisation-lead
+    role: Digitalisation Lead
     period: December 2022–August 2023
     description: Manufacturing digital transformation, industrial systems, operational process improvement and digital technology implementation.
-  - role: Earlier automation project engineering experience
+  - id: automation-engineering
+    role: Earlier automation project engineering experience
     period: Engineering foundation
     description: Automation engineering and capital project involvement, supplier and contractor management, technical implementation and delivery.
 ---

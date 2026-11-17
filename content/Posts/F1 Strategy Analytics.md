@@ -1,4 +1,5 @@
 ---
+description: Exploring Formula 1 race strategy through data analysis and visualisation.
 type: article
 title: F1 Strategy Analytics
 topics:

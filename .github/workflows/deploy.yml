@@ -28,6 +28,12 @@ jobs:
         run: npm ci
       - name: Build Quartz
         run: npx quartz build
+      - name: Validate generated site
+        run: |
+          npx tsc --noEmit
+          node --import tsx --test quartz/util/*.test.ts
+          node scripts/check-build-consistency.mjs
+          node scripts/check-portfolio.mjs
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:

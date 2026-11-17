@@ -1,6 +1,7 @@
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
 import breadcrumbsStyle from "./styles/breadcrumbs.scss"
 import { FullSlug, SimpleSlug, resolveRelative, simplifySlug } from "../util/path"
+import { contentSection } from "../util/publication"
 import { classNames } from "../util/lang"
 import { trieFromAllFiles } from "../util/ctx"
 
@@ -36,8 +37,6 @@ const defaultOptions: BreadcrumbOptions = {
 }
 
 function formatCrumb(displayName: string, baseSlug: FullSlug, currentSlug: SimpleSlug): CrumbData {
-  
-  
   return {
     displayName: displayName.replaceAll("-", " "),
     path: resolveRelative(baseSlug, currentSlug),
@@ -52,6 +51,17 @@ export default ((opts?: Partial<BreadcrumbOptions>) => {
     displayClass,
     ctx,
   }: QuartzComponentProps) => {
+    const section = contentSection(fileData)
+    if (section)
+      return (
+        <nav class="breadcrumb-container" aria-label="breadcrumbs">
+          <a href={resolveRelative(fileData.slug!, "index" as FullSlug)}>Home</a>
+          <span> / </span>
+          <a href={resolveRelative(fileData.slug!, section.slug as FullSlug)}>{section.title}</a>
+          <span> / </span>
+          <span aria-current="page">{fileData.frontmatter?.title}</span>
+        </nav>
+      )
     const trie = (ctx.trie ??= trieFromAllFiles(allFiles))
     const slugParts = fileData.slug!.split("/")
     const pathNodes = trie.ancestryChain(slugParts)

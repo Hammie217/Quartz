@@ -14,6 +14,14 @@ export default function CollectionList({
   id: string
   filter?: "category" | "topics"
 }) {
+  if (!files.length)
+    return (
+      <p class="collection-empty">
+        {id === "projects"
+          ? "No public projects are listed yet."
+          : "No published items in this collection yet."}
+      </p>
+    )
   const values = (file: QuartzPluginData) =>
     filter === "topics"
       ? strings(file.frontmatter?.topics)

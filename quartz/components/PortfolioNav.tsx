@@ -1,6 +1,7 @@
 import { QuartzComponent, QuartzComponentConstructor } from "./types"
 import { FullSlug, joinSegments, pathToRoot } from "../util/path"
 import { concatenateResources } from "../util/resources"
+import { contentSection } from "../util/publication"
 import Search from "./Search"
 import Darkmode from "./Darkmode"
 
@@ -23,7 +24,9 @@ export default (() => {
       slug === "404"
         ? new URL(`https://${props.cfg.baseUrl ?? "example.com"}/`).pathname
         : pathToRoot(slug)
-    const section = slug === "index" ? "" : slug.split("/")[0]
+    const section =
+      contentSection(props.fileData)?.slug.split("/")[0] ??
+      (slug === "index" ? "" : slug.split("/")[0])
     const home = `${root.replace(/\/$/, "")}/`
     const activeSection =
       section === "Posts"

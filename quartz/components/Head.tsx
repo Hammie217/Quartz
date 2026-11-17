@@ -39,22 +39,35 @@ export default (() => {
     )
     const ogImageDefaultPath = `https://${cfg.baseUrl}/static/og-image.png`
     const person = {
-      "@type": "Person", "@id": `${url.toString()}/#hamish-sams`, name: "Hamish Sams",
-      url: `${url.toString()}/`, sameAs: ["https://www.linkedin.com/in/hamish-sams-2ba767153/", "https://github.com/Hammie217"],
+      "@type": "Person",
+      "@id": `${url.toString()}/#hamish-sams`,
+      name: "Hamish Sams",
+      url: `${url.toString()}/`,
+      sameAs: [
+        "https://www.linkedin.com/in/hamish-sams-2ba767153/",
+        "https://github.com/Hammie217",
+      ],
       knowsAbout: ["Industrial Automation", "Manufacturing Digitalisation", "OT Data Integration"],
     }
     const schema: object[] = [person]
-    if (isArticle(fileData)) schema.push({
-      "@type": "Article", headline: fileData.frontmatter?.title, description,
-      mainEntityOfPage: socialUrl, author: { "@id": person["@id"] },
-      datePublished: fileData.dates?.published.toISOString(), dateModified: fileData.dates?.modified.toISOString(),
-    })
-    if (fileData.slug !== "index") schema.push({
-      "@type": "BreadcrumbList", itemListElement: [
-        { "@type": "ListItem", position: 1, name: "Home", item: `${url.toString()}/` },
-        { "@type": "ListItem", position: 2, name: fileData.frontmatter?.title, item: socialUrl },
-      ],
-    })
+    if (isArticle(fileData))
+      schema.push({
+        "@type": "Article",
+        headline: fileData.frontmatter?.title,
+        description,
+        mainEntityOfPage: socialUrl,
+        author: { "@id": person["@id"] },
+        datePublished: fileData.dates?.published.toISOString(),
+        dateModified: fileData.dates?.modified.toISOString(),
+      })
+    if (fileData.slug !== "index")
+      schema.push({
+        "@type": "BreadcrumbList",
+        itemListElement: [
+          { "@type": "ListItem", position: 1, name: "Home", item: `${url.toString()}/` },
+          { "@type": "ListItem", position: 2, name: fileData.frontmatter?.title, item: socialUrl },
+        ],
+      })
 
     return (
       <head>
@@ -74,10 +87,7 @@ export default (() => {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
         <meta property="og:site_name" content={cfg.pageTitle} />
-        <meta
-          property="og:type"
-          content={fileData.frontmatter?.portfolio ? "website" : "article"}
-        />
+        <meta property="og:type" content={isArticle(fileData) ? "article" : "website"} />
         <meta name="twitter:card" content="summary_large_image" />
         <meta property="og:title" content={title} />
         <meta property="og:description" content={description} />
@@ -107,7 +117,16 @@ export default (() => {
         <link rel="icon" href={iconPath} />
         <meta name="description" content={description} />
         <meta name="generator" content="Quartz" />
-        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ "@context": "https://schema.org", "@graph": schema }).replace(/</g, "\\u003c") }} />
+        <meta name="quartz-build" content={ctx.buildId} />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({ "@context": "https://schema.org", "@graph": schema }).replace(
+              /</g,
+              "\\u003c",
+            ),
+          }}
+        />
 
         {css.map((resource) => CSSResourceToStyleElement(resource, true))}
         {js

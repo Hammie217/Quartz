@@ -8,6 +8,7 @@ import { clone } from "../util/clone"
 import { visit } from "unist-util-visit"
 import { Root, Element, ElementContent } from "hast"
 import { GlobalConfiguration } from "../cfg"
+import { usesKnowledgeLayout, contentType } from "../util/publication"
 import { i18n } from "../i18n"
 
 interface RenderComponents {
@@ -25,20 +26,21 @@ const headerRegex = new RegExp(/h[1-6]/)
 export function pageResources(
   baseDir: FullSlug | RelativeURL,
   staticResources: StaticResources,
+  buildId: string,
 ): StaticResources {
-  const contentIndexPath = joinSegments(baseDir, "static/contentIndex.json")
+  const contentIndexPath = joinSegments(baseDir, "static/contentIndex.json") + "?v=" + buildId
   const contentIndexScript = `const fetchData = fetch("${contentIndexPath}").then(data => data.json())`
 
   const resources: StaticResources = {
     css: [
       {
-        content: joinSegments(baseDir, "index.css"),
+        content: joinSegments(baseDir, "index.css") + "?v=" + buildId,
       },
       ...staticResources.css,
     ],
     js: [
       {
-        src: joinSegments(baseDir, "prescript.js"),
+        src: joinSegments(baseDir, "prescript.js") + "?v=" + buildId,
         loadTime: "beforeDOMReady",
         contentType: "external",
       },
@@ -54,7 +56,7 @@ export function pageResources(
   }
 
   resources.js.push({
-    src: joinSegments(baseDir, "postscript.js"),
+    src: joinSegments(baseDir, "postscript.js") + "?v=" + buildId,
     loadTime: "afterDOMReady",
     moduleType: "module",
     contentType: "external",
@@ -236,7 +238,8 @@ export function renderPage(
       <Head {...componentData} />
       <body
         data-slug={slug}
-        data-layout={componentData.fileData.frontmatter?.portfolio ? "portfolio" : "knowledge"}
+        data-layout={usesKnowledgeLayout(componentData.fileData) ? "knowledge" : "portfolio"}
+        data-content-type={contentType(componentData.fileData)}
       >
         <Header {...componentData}>
           {header.map((HeaderComponent) => (

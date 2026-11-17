@@ -38,6 +38,35 @@ export function contentType(file: QuartzPluginData): ContentType {
 }
 export const isArticle = (file: QuartzPluginData) => contentType(file) === "article"
 export const isNote = (file: QuartzPluginData) => contentType(file) === "knowledge-note"
+export const editorialCategories = [
+  "Strategy",
+  "Industrial Architecture",
+  "Automation",
+  "Leadership",
+  "Guides",
+] as const
+export const isProfessional = (file: QuartzPluginData) =>
+  ["activity", "project", "case-study"].includes(contentType(file))
+export const usesKnowledgeLayout = (file: QuartzPluginData) =>
+  file.frontmatter?.portfolio !== true && !isProfessional(file)
+export function contentSection(file: QuartzPluginData) {
+  switch (contentType(file)) {
+    case "activity":
+      return { title: "Speaking & involvement", slug: "about/speaking/index" }
+    case "project":
+      return { title: "Projects", slug: "projects/index" }
+    case "case-study":
+      return { title: "Work", slug: "work/index" }
+    case "article":
+      return { title: "Insights", slug: "insights/index" }
+    case "knowledge-note":
+      return { title: "Knowledge", slug: "knowledge/index" }
+    default:
+      return undefined
+  }
+}
+export const caseStudiesForRole = (files: QuartzPluginData[], id: string) =>
+  id ? collection(files, "case-study").filter((file) => file.frontmatter?.employmentId === id) : []
 export function isPublic(file: QuartzPluginData) {
   const fm = file.frontmatter
   return (
@@ -170,6 +199,7 @@ export function relatedContent(current: QuartzPluginData, files: QuartzPluginDat
     )
     if (matches.length === 1) add(matches[0])
   }
+  if (contentType(current) === "activity") return result.slice(0, limit)
   const generic = new Set([
     "engineering",
     "technology",
@@ -177,20 +207,49 @@ export function relatedContent(current: QuartzPluginData, files: QuartzPluginDat
     "article",
     "project",
     "knowledge-note",
+    "pharma-4-0",
+    "industry-4-0",
+    "manufacturing-systems",
+    "industrial-connectivity",
+    "software-infrastructure",
+    "data-analytics",
+    "pharmaceutical-engineering",
+    "strategy-governance",
   ])
+  for (const file of files.filter((file) => file.frontmatter?.view === "topic")) {
+    generic.add(key(text(file.frontmatter?.topic)))
+  }
   const tags = topicKeys(current).filter((tag) => !generic.has(tag))
   const score = (f: QuartzPluginData) => topicKeys(f).filter((t) => tags.includes(t)).length
   candidates
-    .filter((f) => score(f) > 0)
+    .filter((f) => contentType(f) !== "activity" && score(f) > 0)
     .sort((a, b) => score(b) - score(a) || byRecent(a, b))
     .forEach(add)
-  const category = key(text(current.frontmatter?.category))
-  if (category)
-    candidates
-      .filter((f) => key(text(f.frontmatter?.category)) === category)
-      .sort(byRecent)
-      .forEach(add)
   return result.slice(0, limit)
+}
+export function recommendedReading(topic: QuartzPluginData, files: QuartzPluginData[]) {
+  const refs = strings(topic.frontmatter?.recommended)
+  if (refs.length) {
+    const eligible = files.filter(
+      (file) =>
+        isPublic(file) &&
+        ["knowledge-note", "article", "project", "case-study"].includes(contentType(file)),
+    )
+    const result: QuartzPluginData[] = []
+    for (const ref of refs) {
+      const matches = eligible.filter(
+        (file) =>
+          canonical(file.slug!) === canonical(ref) ||
+          strings(file.frontmatter?.aliases).some((alias) => canonical(alias) === canonical(ref)),
+      )
+      if (matches.length === 1 && !result.some((file) => file.slug === matches[0].slug))
+        result.push(matches[0])
+    }
+    return result
+  }
+  const notes = topicNotes(files, text(topic.frontmatter?.topic))
+  const beginner = notes.filter((file) => file.frontmatter?.beginner === true)
+  return (beginner.length ? beginner : notes).slice(0, 3)
 }
 export function activityGroup(file: QuartzPluginData, now = new Date()) {
   const fm = file.frontmatter

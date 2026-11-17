@@ -11,6 +11,7 @@ featuredOrder: null
 draft: true
 publish: true
 related: []
+employmentId: ''
 role: ''
 organisation: ''
 period: ''

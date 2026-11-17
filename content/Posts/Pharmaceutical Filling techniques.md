@@ -1,4 +1,5 @@
 ---
+description: An overview of filling techniques used in pharmaceutical manufacturing.
 type: article
 title: Pharmaceutical Filling techniques
 topics: []

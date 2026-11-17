@@ -1,4 +1,5 @@
 ---
+description: An engineering introduction to wet bead milling and the principles behind particle-size reduction.
 type: article
 title: Designing a Wet Bead Mill
 topics: []

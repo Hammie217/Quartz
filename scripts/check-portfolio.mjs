@@ -11,6 +11,7 @@ const pages = [
   "work/index.html",
   "projects/index.html",
   "about/involvement.html",
+  "activities/ispe-industry-4.html",
   "about/index.html",
   "about/speaking/index.html",
   "insights/index.html",

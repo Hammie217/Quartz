@@ -1,4 +1,5 @@
 ---
+description: How autoclaves use steam, temperature and pressure to sterilise pharmaceutical equipment and materials.
 type: article
 title: Automation Focus - Autoclave
 topics:

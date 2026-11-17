@@ -227,6 +227,16 @@ export const ComponentResources: QuartzEmitterPlugin = () => {
   return {
     name: "ComponentResources",
     async *emit(ctx, _content, _resources) {
+      yield write({
+        ctx,
+        slug: "build-info" as FullSlug,
+        ext: ".json",
+        content: JSON.stringify({
+          buildId: ctx.buildId,
+          commit: process.env.GITHUB_SHA ?? null,
+          generatedAt: new Date().toISOString(),
+        }),
+      })
       const cfg = ctx.cfg.configuration
       // component specific scripts and styles
       const componentResources = getComponentResources(ctx)
