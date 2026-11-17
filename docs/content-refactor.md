@@ -1,6 +1,6 @@
 # Content Refactor Report
 
-Branch: `codex/content-architecture-refactor`. Local-only work; no commit, push or deployment.
+Initially developed on `codex/content-architecture-refactor`. The user subsequently requested promotion to `v4` for live deployment.
 
 ## Structure
 
@@ -14,7 +14,7 @@ The migration ledger `docs/refactor-migration.json` records all 220 retained tec
 
 The homepage is now `content/index.md` instead of `content/_index.md`, with the same URL. Projects no longer redirects to Work. Historical employer-project URLs still redirect to the public Work overview.
 
-The user-confirmed deletion of `content/Recordings/Recordings.md` is preserved. Excluded drafts, local duplicate pages and unapproved project material were backed up outside the repository at `/Users/hammie217/Desktop/Quartz-private/content-refactor-TNjwLj`. Starter templates now live in root `templates/`, outside the build input. Previously tracked private files remain in Git history; no history rewrite was attempted.
+The user-confirmed deletion of `content/Recordings/Recordings.md` is preserved. Excluded drafts, local duplicate pages and unapproved project material were backed up outside the repository at `/Users/hammie217/Desktop/Quartz-private/content-refactor-TNjwLj`. After review, the original non-sensitive `Draft/` folder was restored unchanged to the Obsidian vault at `content/Draft/`. It is versioned in Git but excluded from website builds; the external backup remains intact. Unapproved employer/project material stays outside the repository. Starter templates now live in root `templates/`, outside the build input. Previously tracked private files remain in Git history; no history rewrite was attempted.
 
 No invented projects, results or speaking events were added. Empty homepage collections are hidden. Projects honestly has no published entries until an approved project is added. ISPE participation uses one canonical activity based on existing public copy.
 
@@ -36,4 +36,4 @@ Preview rebuilds now rerun publication filters and regenerate dependent pages fr
 
 See `CONTENT_GUIDE.md` for templates, publishing, featuring and related links. No new dependencies or CMS were introduced. GitHub Pages configuration still deploys only the v4 branch. CI on Node 22 was inspected but not executed remotely; local checks used installed Node 20.
 
-The existing local server at http://localhost:8081 serves the rebuilt public output. No new hosted preview or production deployment was created.
+The existing local server at http://localhost:8081 serves the rebuilt public output. The initial refactor did not deploy; a subsequent user-approved push to `v4` triggers the existing GitHub Pages workflow.

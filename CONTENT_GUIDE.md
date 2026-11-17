@@ -31,7 +31,9 @@ Topic pages are ordinary Markdown with `view: topic` and a `topic` matching cont
 
 Sensitive employer material must stay outside this repository and `content/`, even while drafting. Draft flags prevent rendering, not disclosure through Git. Non-sensitive drafts may use `draft: true`. Never commit private attachments. Previously committed private files remain in Git history: removing working files does not erase history.
 
-The refactor preserved excluded sources in a separate local `Quartz-private` backup. The intentional Recordings deletion remains deleted. Templates contain no employer detail.
+Non-sensitive work in progress belongs in `content/Draft/`, which remains inside the Obsidian vault but is excluded from Quartz builds by `ignorePatterns`. These files are versioned in the public Git repository, so this is not a place for confidential material. Drafts elsewhere must use `draft: true`.
+
+The original personal drafts have been restored unchanged from the separate local `Quartz-private` backup; that backup is retained. Unapproved employer/project material remains outside the repository. The intentional Recordings deletion remains deleted. Templates contain no employer detail.
 
 ## Preview And Validate
 
